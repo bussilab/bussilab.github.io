@@ -70,8 +70,20 @@ title: People
     width: 90%;
   }
 }
+
+.group-picture {
+  display: block;
+  max-width: 600px; /* Set a reasonable max width */
+  width: 80%; /* Allow responsiveness but prevent it from being too large */
+  height: auto;
+  margin: 20px auto; /* Center the image */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
 </style>
 
+<img src="images/group-pic.jpg" alt="Group Picture" class="group-picture">
 
 <div class="tabs-container">
   <button class="tab-button active" data-tab="current" onclick="filterPeople('current')">Current</button>
