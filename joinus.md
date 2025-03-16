@@ -19,13 +19,6 @@ We welcome applications from post-doctoral researchers. Our group is happy to su
 - **Previous Fellowships**: We hosted MSCA and EMBO fellowships, and we are open to supporting these or other options. 
 - **Internal Funding**: We routinely open positions funded by internal grants. Check [the news section](./news?query=%23joinus%7Cjoin+us) for open calls.
 
-###  <a name="postdoc2025"></a>Opening in Molecular and Statistical Biophysics (Jan 2025)
-Currently, there is an open call in the [Molecular and Statistical Biophysics](https://msb.sissa.it) group.
-This is an unusual position: the reference PI should be from the indicated list (Giovanni Bussi, Cristian Micheletti, and Angelo Rosa) but it's not predetermined.
-For this reason, there is no a priori project attached to this position, but the projects proposed by the applicants will be evaluated
-and compared. Collaborative projects between the listed groups are also welcome.
-Please find more information at [this link](https://msb.sissa.it/join-us/#postdoc2025a) (Postdoc position in Molecular and Statistical Biophysics).
-
 ---
 
 ## Undergraduate Projects
