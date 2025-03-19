@@ -4,12 +4,6 @@
   tags: '#preprint'
   title: All atom molecular dynamics simulations enable ensemble refinement of flexible
     and mismodelled cryo-EM derived RNA structures
-- arxiv: '2410.16064'
-  authors: Silva, Bussi
-  citation: arXiv:2410.16064
-  tags: '#preprint'
-  title: "Characterizing RNA oligomers using Stochastic Titration Constant-pH\n  Metadynamics\
-    \ simulations"
 - authors: Boccalini, Berezovska, Bussi, Paloni, Barducci
   biorxiv: 10.1101/2024.09.13.612876
   citation: biorxiv:10.1101/2024.09.13.612876
@@ -48,6 +42,13 @@
   handle: 20.500.11767/145610
   title: "All-Atom Simulations Elucidate the Molecular Mechanism Underlying RNA\u2013\
     Membrane Interactions"
+- arxiv: '2410.16064'
+  authors: Silva, Bussi
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING (2025)
+  doi: 10.1021/acs.jcim.4c02185
+  handle: 20.500.11767/145710
+  title: Characterizing RNA Oligomers Using Stochastic Titration Constant-pH Metadynamics
+    Simulations
 - authors: "Jane\u010Dek, K\xFChrov\xE1, Ml\xFDnsk\xFD, Stadlbauer, Otyepka, Bussi,\
     \ \u0160poner, Ban\xE1\u0161"
   citation: JOURNAL OF COMPUTATIONAL CHEMISTRY 46, e27535 (2025)
