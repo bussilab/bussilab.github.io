@@ -24,9 +24,9 @@ Principal Investigator, Full Professor
 <ul class="tight-list">
 <li><i class="fab fa-github"></i> Explore our software on <a target="_blank" href="https://github.com/bussilab">GitHub</a>. Highlights:
   <ul>
-    <li><a target="_blank" href="https://github.com/bussilab/MDRefine">MDRefine</a>, a package to perform refinement of molecular dynamics simulation trajectories.</li>
-    <li><a target="_blank" href="https://github.com/bussilab/py-bussilab">py-bussilab</a>, a collection of Python tools.</li>
-    <li><a target="_blank" href="https://github.com/GiovanniBussi/simplemd">SimpleMD</a>, an educational Lennard-Jones molecular dynamics code.</li>
+    <li><a target="_blank" href="https://github.com/bussilab/MDRefine">MDRefine</a>, a package to perform refinement of molecular dynamics simulation trajectories</li>
+    <li><a target="_blank" href="https://github.com/bussilab/py-bussilab">py-bussilab</a>, a collection of Python tools</li>
+    <li><a target="_blank" href="https://github.com/GiovanniBussi/simplemd">SimpleMD</a>, an educational Lennard-Jones molecular dynamics code</li>
   </ul>
 </li>
   <li><i class="fa-solid fa-temperature-half"></i> Thermostats/barostats:
