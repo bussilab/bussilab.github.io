@@ -1,4 +1,4 @@
-name: Update Posts
+name: Update Posts and Publications
 
 on:
   schedule:
