@@ -8,7 +8,7 @@ title: Publications
 <!-- Posts List -->
 <!-- Posts List -->
 <div id="posts-container" style="display: none;">
-  {% for post in site.data.biblio_preformatted %}
+  {% for post in site.data.publications %}
     <div class="post-data" data-text="{{ post.authors | escape }} {{ post.title | escape }} {{ post.citation | escape }} {{ post.doi }} {{ post.handle }} {{ post.tags | escape }}">
       <!-- Authors, Title, and Citation -->
       <p class="publication-details">

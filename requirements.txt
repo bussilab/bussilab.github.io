@@ -1,3 +1,5 @@
 PyYAML
 requests
 markdown
+beautifulsoup4
+tqdm
