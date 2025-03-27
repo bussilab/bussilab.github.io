@@ -2,7 +2,7 @@ name: Update Posts
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every hour
+    - cron: "0 6,18 * * *"  # Runs at 06:00 and 18:00 UTC → 07:00/19:00 in winter, 08:00/20:00 in summer
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -26,8 +26,12 @@ jobs:
         run: pip install -r requirements.txt
 
       # Run your update script
-      - name: Run update script
+      - name: Run update_posts script
         run: python3 update_posts.py
+
+      # Run your update script
+      - name: Run update_publications script
+        run: python3 update_publications.py
 
       # Configure Git for commit
       - name: Configure Git
@@ -59,6 +63,8 @@ jobs:
           # Stage, commit, and push changes
           git add _data/posts.yml
           git add _data/posts_preformatted_text.yml
+          git add _data/publications.yml
+
           if ! git diff --cached --quiet; then
             git commit -m "[skip update] Automated update: $(date)"
             git push origin master
