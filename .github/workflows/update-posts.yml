@@ -27,7 +27,7 @@ jobs:
 
       # Run your update script
       - name: Run update script
-        run: python3 update.py _data/posts.yml
+        run: python3 update_posts.py
 
       # Configure Git for commit
       - name: Configure Git

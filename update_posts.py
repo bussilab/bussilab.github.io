@@ -259,7 +259,7 @@ def process_posts(posts_file, formatted_file):
 
 
 if __name__ == "__main__":
-    posts_file=sys.argv[1]
+    posts_file="_data/posts.yml"
 
     labfeed=fetch_authorfeed(profile_handle)
 
