@@ -66,6 +66,10 @@ jobs:
           git add _data/publications.yml
 
           if ! git diff --cached --quiet; then
+            if test -n "$BUSSILAB_NOTIFY_TOKEN" && test -n "$BUSSILAB_NOTIFY_CHANNEL" ; then
+              git diff --cached --quiet origin/master _data/publications.yml ||
+              bussilab notify -c $BUSSILAB_NOTIFY_CHANNEL --token $BUSSILAB_NOTIFY_TOKEN --screenlog <(git diff origin/master  _data/publications.yml) -m "Publications updated"
+            fi
             # [skip ci] used here in case later we add a on: push for this job
             git commit -m "[skip ci] Automated update: $(date)"
             git push origin master
@@ -74,15 +78,5 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Notify changes to bibliography
-        run: |
-          if test -n "$BUSSILAB_NOTIFY_TOKEN" && test -n "$BUSSILAB_NOTIFY_CHANNEL" ; then
-            git diff --quiet origin/master  _data/publications.yml ||
-            bussilab notify -c $BUSSILAB_NOTIFY_CHANNEL --token $BUSSILAB_NOTIFY_TOKEN --screenlog <(git diff origin/master  _data/publications.yml) -m "Publications updated"
-          fi
-        env:
           BUSSILAB_NOTIFY_TOKEN: ${{ secrets.BUSSILAB_NOTIFY_TOKEN }}
           BUSSILAB_NOTIFY_CHANNEL: ${{ secrets.BUSSILAB_NOTIFY_CHANNEL }}
-
-
-
