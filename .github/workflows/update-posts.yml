@@ -77,7 +77,7 @@ jobs:
       - name: Notify changes to bibliography
         run: |
           if test -n "$BUSSILAB_NOTIFY_TOKEN" && test -n "$BUSSILAB_NOTIFY_CHANNEL" ; then
-            git diff --quiet origin/master  _Data/publications.yml ||
+            git diff --quiet origin/master  _data/publications.yml ||
             bussilab notify -c $BUSSILAB_NOTIFY_CHANNEL --token $BUSSILAB_NOTIFY_TOKEN --screenlog <(git diff origin/master  _data/publications.yml) -m "Publications updated"
           fi
         env:
