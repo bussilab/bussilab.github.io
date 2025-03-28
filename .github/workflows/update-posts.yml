@@ -74,4 +74,13 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Notify changes to bibliography
+        run: |
+          git diff --quiet origin/master  _Data/publications.yml ||
+          bussilab notify -c $BUSSILAB_NOTIFY_CHANNEL --token $BUSSILAB_NOTIFY_TOKEN --screenlog <(git diff origin/master  _data/publications.yml) -m "Publications updated"
+        env: |
+          BUSSILAB_NOTIFY_TOKEN: ${{ secrets.BUSSILAB_NOTIFY_TOKEN }}
+          BUSSILAB_NOTIFY_CHANNEL: ${{ secrets.BUSSILAB_NOTIFY_CHANNEL }}
+
+
 
