@@ -1,3 +1,10 @@
+- date: '2025-04-02'
+  text: 'Our research presented at an @ebi.embl.org workshop on Computational approaches
+    to predict small-molecule/RNA interaction! Today @bussigio.bsky.social will show
+    our #CASP16 results on predicting Mg binding sites and our attempts to model chemical
+    probing experiments'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3llsrktpz4c2o
+  url: https://bsky.app/profile/bussilab.org/post/3llsrktpz4c2o
 - date: '2025-03-18'
   text: 'Constant pH #metadynamics simulation of #RNA oligomers now published on @acs.org
     JCIM! Work done by @tf-silva.bsky.social with some help from @bussigio.bsky.social
