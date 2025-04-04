@@ -29,9 +29,9 @@
     \ Ondrechen, Onuchic, Onufriev, Osuna, Panchenko, Pantano, Parish, Parrinello,\
     \ Perez, Perez-Acle, Perilla, Pettitt, Pietropalo, Piquemal, Poma, Praprotnik,\
     \ Ramos, Ren, Reuter, Roitberg, Rosta, Rovira, Roux, R\xF6thlisberger, Sanbonmatsu,\
-    \ Schlick, Shaytan, Simmerling, Smith, Sugita, \u015Awiderek, Taiji, Tao, Tikhonova,\
-    \ Tirado-Rives, Tun\xF3n, Kamp, Spoel, Velankar, Voth, Wade, Warshel, Welborn,\
-    \ Wetmore, Wong, Yang, Zacharias, Orozco"
+    \ Schlick, Shaytan, Simmerling, Smith, Sugita, \u015Awiderek, Taiji, Tao, Tieleman,\
+    \ Tikhonova, Tirado-Rives, Tun\xF3n, Kamp, Spoel, Velankar, Voth, Wade, Warshel,\
+    \ Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias, Orozco"
   citation: arXiv:2407.16584
   tags: '#preprint'
   title: The need to implement FAIR principles in biomolecular simulations
