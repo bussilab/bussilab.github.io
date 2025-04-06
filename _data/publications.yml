@@ -16,25 +16,6 @@
   tags: '#preprint'
   title: "MDRefine: a Python package for refining Molecular Dynamics trajectories\n\
     \  with experimental data"
-- arxiv: '2407.16584'
-  authors: "Amaro, \xC5qvist, Bahar, Battistini, Bellaiche, Beltran, Biggin, Bonomi,\
-    \ Bowman, Bryce, Bussi, Carloni, Case, Cavalli, Chang, III, Cheung, Chipot, Chong,\
-    \ Choudhary, Cisneros, Clementi, Collepardo-Guevara, Coveney, Covino, Crawford,\
-    \ Peraro, Groot, Delemotte, Vivo, Essex, Fraternali, Gao, Gelp\xED, Gervasio,\
-    \ Gonzalez-Nilo, Grubm\xFCller, Guenza, Guzman, Harris, Head-Gordon, Hernandez,\
-    \ Hospital, Huang, Huang, Hummer, Iglesias-Fern\xE1ndez, Jensen, Jha, Jiao, Jorgensen,\
-    \ Kamerlin, Khalid, Laughton, Levitt, Limongelli, Lindahl, Lindorff-Larsen, Loverde,\
-    \ Lundborg, Luo, Luque, Lynch, MacKerell, Magistrato, Marrink, Martin, McCammon,\
-    \ Merz, Moliner, Mulholland, Murad, Naganathan, Nangia, Noe, Noy, Ol\xE1h, O'Mara,\
-    \ Ondrechen, Onuchic, Onufriev, Osuna, Panchenko, Pantano, Parish, Parrinello,\
-    \ Perez, Perez-Acle, Perilla, Pettitt, Pietropalo, Piquemal, Poma, Praprotnik,\
-    \ Ramos, Ren, Reuter, Roitberg, Rosta, Rovira, Roux, R\xF6thlisberger, Sanbonmatsu,\
-    \ Schlick, Shaytan, Simmerling, Smith, Sugita, \u015Awiderek, Taiji, Tao, Tieleman,\
-    \ Tikhonova, Tirado-Rives, Tun\xF3n, Kamp, Spoel, Velankar, Voth, Wade, Warshel,\
-    \ Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias, Orozco"
-  citation: arXiv:2407.16584
-  tags: '#preprint'
-  title: The need to implement FAIR principles in biomolecular simulations
 - authors: "Di Marco, Aupi\u010D, Bussi, Magistrato"
   biorxiv: 10.1101/2024.11.01.618995
   citation: NANO LETTERS 25, 4628 (2025)
@@ -69,6 +50,27 @@
   doi: 10.1063/5.0251501
   handle: 20.500.11767/145470
   title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
+- arxiv: '2407.16584'
+  authors: "Amaro, \xC5qvist, Bahar, Battistini, Bellaiche, Beltran, Biggin, Bonomi,\
+    \ Bowman, Bryce, Bussi, Carloni, Case, Cavalli, Chang, Cheatham, Cheung, Chipot,\
+    \ Chong, Choudhary, Cisneros, Clementi, Collepardo-Guevara, Coveney, Covino, Crawford,\
+    \ Dal Peraro, de Groot, Delemotte, De Vivo, Essex, Fraternali, Gao, Gelp\xED,\
+    \ Gervasio, Gonz\xE1lez-Nilo, Grubm\xFCller, Guenza, Guzman, Harris, Head-Gordon,\
+    \ Hernandez, Hospital, Huang, Huang, Hummer, Iglesias-Fern\xE1ndez, Jensen, Jha,\
+    \ Jiao, Jorgensen, Kamerlin, Khalid, Laughton, Levitt, Limongelli, Lindahl, Lindorff-Larsen,\
+    \ Loverde, Lundborg, Luo, Luque, Lynch, MacKerell, Magistrato, Marrink, Martin,\
+    \ McCammon, Merz, Moliner, Mulholland, Murad, Naganathan, Nangia, Noe, Noy, Ol\xE1\
+    h, O'Mara, Ondrechen, Onuchic, Onufriev, Osuna, Palermo, Panchenko, Pantano, Parish,\
+    \ Parrinello, Perez, Perez-Acle, Perilla, Pettitt, Pietropaolo, Piquemal, Poma,\
+    \ Praprotnik, Ramos, Ren, Reuter, Roitberg, Rosta, Rovira, Roux, Rothlisberger,\
+    \ Sanbonmatsu, Schlick, Shaytan, Simmerling, Smith, Sugita, \u015Awiderek, Taiji,\
+    \ Tao, Tieleman, Tikhonova, Tirado-Rives, Tu\xF1\xF3n, van der Kamp, van der Spoel,\
+    \ Velankar, Voth, Wade, Warshel, Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias,\
+    \ Orozco"
+  citation: NATURE METHODS (2025)
+  doi: 10.1038/s41592-025-02635-0
+  handle: 20.500.11767/145810
+  title: The need to implement FAIR principles in biomolecular simulations
 - arxiv: '2311.13532'
   authors: "Gilardoni, Fr\xF6hlking, Bussi"
   citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 15, 1204 (2024)
