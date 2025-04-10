@@ -4,12 +4,6 @@
   tags: '#preprint'
   title: All atom molecular dynamics simulations enable ensemble refinement of flexible
     and mismodelled cryo-EM derived RNA structures
-- authors: Boccalini, Berezovska, Bussi, Paloni, Barducci
-  biorxiv: 10.1101/2024.09.13.612876
-  citation: biorxiv:10.1101/2024.09.13.612876
-  tags: '#preprint'
-  title: Exploring RNA destabilization mechanisms in biomolecular condensates through
-    atomistic Simulations
 - arxiv: '2411.07798'
   authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
   citation: arXiv:2411.07798
@@ -38,6 +32,14 @@
   handle: 20.500.11767/144070
   title: 'Computer Folding of Parallel DNA G-Quadruplex: Hitchhiker''s Guide to the
     Conformational Space'
+- authors: Boccalini, Berezovska, Bussi, Paloni, Barducci
+  biorxiv: 10.1101/2024.09.13.612876
+  citation: PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
+    AMERICA 122, e2425261122 (2025)
+  doi: 10.1073/pnas.2425261122
+  handle: 20.500.11767/145890
+  title: Exploring RNA destabilization mechanisms in biomolecular condensates through
+    atomistic simulations
 - arxiv: '2412.03595'
   authors: "Tribello, Bonomi, Bussi, Camilloni, Armstrong, Arsiccio, Aureli, Ballabio,\
     \ Bernetti, Bonati, Brookes, Brotzakis, Capelli, Ceriotti, Chan, Cossio, Dasetty,\
