@@ -68,7 +68,7 @@
     \ Tao, Tieleman, Tikhonova, Tirado-Rives, Tu\xF1\xF3n, van der Kamp, van der Spoel,\
     \ Velankar, Voth, Wade, Warshel, Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias,\
     \ Orozco"
-  citation: NATURE METHODS https://doi.org/:10.1038/s41592-025-02635-0 (2025)
+  citation: NATURE METHODS 22, 641 (2025)
   doi: 10.1038/s41592-025-02635-0
   handle: 20.500.11767/145810
   title: The need to implement FAIR principles in biomolecular simulations
