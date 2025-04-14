@@ -85,6 +85,10 @@ title: People
 
 <img src="images/group-pic.jpg" alt="Group Picture" class="group-picture">
 
+<p class="group-caption">
+  From left to right: Ivan Gilardoni, Giuseppe Sacco, Giovanni Bussi, Olivier Languin-Cattoën, Elisa Posani, Salvatore Di Marco, Tomas Silva.
+</p>
+
 <div class="tabs-container">
   <button class="tab-button active" data-tab="current" onclick="filterPeople('current')">Current</button>
   <button class="tab-button" data-tab="guest" onclick="filterPeople('guest')">Guests</button>
@@ -209,6 +213,17 @@ document.addEventListener('DOMContentLoaded', () => {
   border-color: #1e6bb8; /* Match the background color */
 }
 
+.group-caption {
+  font-size: 0.85rem; /* Smaller than normal */
+  color: #666;        /* Subtle gray text */
+  text-align: center;
+  margin-top: -10px;  /* Slightly closer to the image */
+  margin-bottom: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic; /* Optional: adds a soft visual tone */
+}
 </style>
 
 
