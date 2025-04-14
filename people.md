@@ -86,7 +86,7 @@ title: People
 <img src="images/group-pic.jpg" alt="Group Picture" class="group-picture">
 
 <p class="group-caption">
-  From left to right: Ivan Gilardoni, Giuseppe Sacco, Giovanni Bussi, Olivier Languin-Cattoën, Elisa Posani, Salvatore Di Marco, Tomas Silva.
+  From left to right: Ivan Gilardoni, Giuseppe Sacco, Giovanni Bussi, Olivier Languin-Cattoën, Elisa Posani, Salvatore Di Marco, Tomás F. D. Silva.
 </p>
 
 <div class="tabs-container">
