@@ -112,11 +112,14 @@ title: People
     <div class="person-info">
       <h3>{{ person.name }}</h3>
       <p class="person-role">{% if person.previously %}Previous Member{% if person.role %}, {% endif %}{% endif %}{{ person.role }}</p>
-      {% if person.funds %}
-      <p class="person-funds">Funded by: {{ person.funds }}</p>
-      {% elsif person.previously%}
-      {% else %}
-      <p class="person-funds">Funded by: SISSA</p>
+      {% if person.previously == nil %}
+        {% if person.funds %}
+          {% unless person.funds == "None" %}
+            <p class="person-funds">Funded by: {{ person.funds }}</p>
+          {% endunless %}
+        {% else %}
+          <p class="person-funds">Funded by: SISSA</p>
+        {% endif %}
       {% endif %}
       <p class="person-research">
         {% if person.previously %}<p>{{ person.previously | markdownify }}</p> {% endif %}
