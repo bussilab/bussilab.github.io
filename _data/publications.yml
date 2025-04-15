@@ -19,8 +19,7 @@
     Interactions
 - arxiv: '2410.16064'
   authors: Silva, Bussi
-  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING https://doi.org/:10.1021/acs.jcim.4c02185
-    (2025)
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 65, 3568 (2025)
   doi: 10.1021/acs.jcim.4c02185
   handle: 20.500.11767/145710
   title: Characterizing RNA Oligomers Using Stochastic Titration Constant-pH Metadynamics
@@ -70,7 +69,7 @@
     \ Tao, Tieleman, Tikhonova, Tirado-Rives, Tu\xF1\xF3n, van der Kamp, van der Spoel,\
     \ Velankar, Voth, Wade, Warshel, Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias,\
     \ Orozco"
-  citation: NATURE METHODS 22, 268 (2025)
+  citation: NATURE METHODS 22, 641 (2025)
   doi: 10.1038/s41592-025-02635-0
   handle: 20.500.11767/145810
   title: The need to implement FAIR principles in biomolecular simulations
@@ -653,7 +652,7 @@
   handle: 20.500.11767/13481
   title: "Colored-noise thermostats \xE0la Carte"
 - authors: Martin-Samos, Bussi, Ruini, Molinari, Caldas
-  citation: PHYSICAL REVIEW B 81, 081202 (2010)
+  citation: PHYSICAL REVIEW B 81, 081202(R) (2010)
   doi: 10.1103/PhysRevB.81.081202
   handle: 20.500.11767/16167
   title: Unraveling effects of disorder on the electronic structure of SiO2 from first
@@ -795,7 +794,7 @@
     harvesting in PPV'
 - arxiv: cond-mat/0408583
   authors: "Bussi, Men\xE9ndez, Ren, Canonico, Molinari"
-  citation: PHYSICAL REVIEW B 71, 041404 (2005)
+  citation: PHYSICAL REVIEW B 71, 041404(R) (2005)
   doi: 10.1103/PhysRevB.71.041404
   handle: 20.500.11767/14223
   title: Quantum interferences in the Raman cross section for the radial breathing
@@ -806,7 +805,7 @@
   handle: 20.500.11767/16455
   title: Ab initio study of transport parameters in polymer crystals
 - authors: Bussi
-  citation: PHYSICA SCRIPTA T109, 141 (2004)
+  citation: PHYSICA SCRIPTA 2004, 141 (2004)
   doi: 10.1238/Physica.Topical.109a00141
   handle: 20.500.11767/17032
   title: 'Effects of the electron-hole interaction on the optical properties of materials:

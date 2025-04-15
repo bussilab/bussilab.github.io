@@ -71,17 +71,17 @@ def parse_raw_iris_data(raw_data):
 
     
     volume=extract_scalar(raw_data,[
-        "scopus.relation.volume",
-        "dc.relation.volume"
+        "dc.relation.volume",
+        "scopus.relation.volume"
     ])
     if volume:
         record["volume"]=volume
     
     page=extract_scalar(raw_data,[
-        "scopus.relation.article",
-        "scopus.relation.firstpage",
         "dc.relation.articlenumber",
-        "dc.relation.firstpage"
+        "dc.relation.firstpage",
+        "scopus.relation.article",
+        "scopus.relation.firstpage"
     ])
     if page:
         record["page"]=page
