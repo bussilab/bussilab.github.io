@@ -52,7 +52,7 @@
   orcid: "0009-0008-5365-9446"
   scholar: https://scholar.google.com/citations?hl=en&user=5twQfMUAAAAJ
   research: >
-    Simulation of RNA-membrane interactions.
+    Simulation of RNA-membrane interactions and enhanced sampling of RNA.
     Co-supervision with [Alessandra Magistrato (CNR)](https://www.iom.cnr.it/phonebook/alessandra-magistrato/).
 
 - name: Giuseppe Sacco
@@ -61,6 +61,11 @@
   research: >
     Combination of chemical probing data and secondary structure prediction.
     Co-supervision with [Guido Sanguinetti (SISSA)](https://orcid.org/0000-0002-6663-8336).
+
+- name: Maurizio Gilioli
+  role: PhD Student
+  research: >
+    Integration of cryo-EM data and MD simulations to study the dynamics of viral nucleoproteins.
 
 - name: Davide Di Vora
   role: Undergraduate Student, University of Trieste (2025)
