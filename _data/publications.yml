@@ -1,13 +1,15 @@
 - authors: Posani, Janos, Haack, Toor, Bonomi, Magistrato, Bussi
   biorxiv: 10.1101/2024.07.24.604258
   citation: biorxiv:10.1101/2024.07.24.604258
-  tags: '#preprint'
+  tags:
+  - '#preprint'
   title: All atom molecular dynamics simulations enable ensemble refinement of flexible
     and mismodelled cryo-EM derived RNA structures
 - arxiv: '2411.07798'
   authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
   citation: arXiv:2411.07798
-  tags: '#preprint'
+  tags:
+  - '#preprint'
   title: "MDRefine: a Python package for refining Molecular Dynamics trajectories\n\
     \  with experimental data"
 - authors: "Di Marco, Aupi\u010D, Bussi, Magistrato"
@@ -15,7 +17,8 @@
   citation: NANO LETTERS 25, 4628 (2025)
   doi: 10.1021/acs.nanolett.5c01254
   handle: 20.500.11767/145610
-  tags: '#pnrr2022'
+  tags:
+  - '#pnrr2022'
   title: All-Atom Simulations Elucidate the Molecular Mechanism Underlying RNA-Membrane
     Interactions
 - arxiv: '2410.16064'
@@ -23,7 +26,9 @@
   citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 65, 3568 (2025)
   doi: 10.1021/acs.jcim.4c02185
   handle: 20.500.11767/145710
-  tags: '#pnrr2022 #embo2022'
+  tags:
+  - '#pnrr2022'
+  - '#embo2022'
   title: Characterizing RNA Oligomers Using Stochastic Titration Constant-pH Metadynamics
     Simulations
 - authors: "Jane\u010Dek, K\xFChrov\xE1, Ml\xFDnsk\xFD, Stadlbauer, Otyepka, Bussi,\
@@ -39,7 +44,8 @@
     AMERICA 122, e2425261122 (2025)
   doi: 10.1073/pnas.2425261122
   handle: 20.500.11767/145890
-  tags: '#pnrr2022'
+  tags:
+  - '#pnrr2022'
   title: Exploring RNA destabilization mechanisms in biomolecular condensates through
     atomistic simulations
 - arxiv: '2412.03595'
@@ -54,7 +60,10 @@
   citation: JOURNAL OF CHEMICAL PHYSICS 162, 092501 (2025)
   doi: 10.1063/5.0251501
   handle: 20.500.11767/145470
-  tags: '#prin2022 #pnrr2022 #embo2022'
+  tags:
+  - '#prin2022'
+  - '#pnrr2022'
+  - '#embo2022'
   title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
 - arxiv: '2407.16584'
   authors: "Amaro, \xC5qvist, Bahar, Battistini, Bellaiche, Beltran, Biggin, Bonomi,\
@@ -110,7 +119,8 @@
   citation: STRUCTURE 32, 1281 (2024)
   doi: 10.1016/j.str.2024.07.019
   handle: 20.500.11767/140610
-  tags: '#review'
+  tags:
+  - '#review'
   title: RNA dynamics from experimental and computational approaches
 - authors: Thiel, Bussi, Poblete, Hofacker
   citation: NUCLEIC ACIDS RESEARCH 52, e73 (2024)
@@ -137,7 +147,8 @@
   citation: CURRENT OPINION IN STRUCTURAL BIOLOGY 78, 102503 (2023)
   doi: 10.1016/j.sbi.2022.102503
   handle: 20.500.11767/130351
-  tags: '#review'
+  tags:
+  - '#review'
   title: Integrating experimental data with molecular simulations to investigate RNA
     structural dynamics
 - arxiv: '2211.13657'
@@ -145,7 +156,8 @@
   citation: RNA Structure and Function. RNA Technologies 14, 595 (2023)
   doi: 10.1007/978-3-031-36390-0_26
   handle: 20.500.11767/134910
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: "Molecular Dynamics Simulations of\_Chemically Modified Ribonucleotides"
 - arxiv: '2209.12640'
   authors: Calonaci, Bernetti, Jones, Sattler, Bussi
@@ -173,7 +185,8 @@
   citation: COMPUTATIONAL AND STRUCTURAL BIOTECHNOLOGY JOURNAL 20, 6120 (2022)
   doi: 10.1016/j.csbj.2022.11.007
   handle: 20.500.11767/130110
-  tags: '#review'
+  tags:
+  - '#review'
   title: 'Biomotors, viral assembly, and RNA nanobiotechnology: Current achievements
     and future directions'
 - authors: Grothaus, Bussi, Colombi Ciacchi
@@ -267,7 +280,8 @@
   citation: Handbook of Materials Modeling 565 (2020)
   doi: 10.1007/978-3-319-44677-6_49
   handle: 20.500.11767/110357
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: 'Metadynamics: A Unified Framework for Accelerating Rare Events and Sampling
     Thermodynamics and Kinetics'
 - arxiv: '2006.09250'
@@ -285,14 +299,16 @@
   citation: NATURE REVIEWS PHYSICS 2, 200 (2020)
   doi: 10.1038/s42254-020-0153-0
   handle: 20.500.11767/110289
-  tags: '#review'
+  tags:
+  - '#review'
   title: Using metadynamics to explore complex free-energy landscapes
 - arxiv: '1812.08213'
   authors: Bussi, Tribello
   citation: 'BIOMOLECULAR SIMULATIONS: METHODS AND PROTOCOLS 2022, 529 (2019)'
   doi: 10.1007/978-1-4939-9608-7_21
   handle: 20.500.11767/102399
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: Analyzing and Biasing Simulations with PLUMED
 - authors: Colizzi, Perez-Gonzalez, Fritzen, Levy, White, Carlos Penedo, Bussi
   citation: PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
@@ -385,7 +401,8 @@
   citation: CURRENT OPINION IN STRUCTURAL BIOLOGY 49, 63 (2018)
   doi: 10.1016/j.sbi.2018.01.004
   handle: 20.500.11767/65204
-  tags: '#review'
+  tags:
+  - '#review'
   title: Exploring RNA structure and dynamics through enhanced sampling simulations
 - authors: "Ml\xFDnsk\xFD, Bussi"
   citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 9, 313 (2018)
@@ -398,7 +415,8 @@
   citation: CHEMICAL REVIEWS 118, 4177 (2018)
   doi: 10.1021/acs.chemrev.7b00427
   handle: 20.500.11767/67900
-  tags: '#review'
+  tags:
+  - '#review'
   title: 'RNA structural dynamics as captured by molecular simulations: A comprehensive
     overview'
 - authors: "Podbev\u0161ek, Fasolo, Bon, Cimatti, Rei\xDFer, Carninci, Bussi, Zucchelli,\
@@ -413,7 +431,8 @@
   citation: COMPUTATION 6, 15 (2018)
   doi: 10.3390/computation6010015
   handle: 20.500.11767/65948
-  tags: '#review'
+  tags:
+  - '#review'
   title: Using the maximum entropy principle to combine simulations and solution experiments
 - authors: "Islam, Stadlbauer, Gil-Ley, P\xE9rez-Hern\xE1ndez, Haider, Neidle, Bussi,\
     \ Banas, Otyepka, Sponer"
@@ -517,7 +536,8 @@
   citation: REVIEWS IN COMPUTATIONAL CHEMISTRY, VOL 28 28, 1 (2015)
   doi: 10.1002/9781118889886.ch1
   handle: 20.500.11767/15176
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: 'Free-energy calculations with metadynamics: Theory and practice'
 - arxiv: '1509.06511'
   authors: "Stadlbauer, K\xFChrov\xE1, Ban\xE1\u0161, Ko\u010Da, Bussi, Trant\xED\
@@ -544,7 +564,8 @@
   citation: COMPUTATIONAL METHODS FOR UNDERSTANDING RIBOSWITCHES 553, 139 (2015)
   doi: 10.1016/bs.mie.2014.10.055
   handle: 20.500.11767/15196
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: Using reweighted pulling simulations to characterize conformational changes
     in riboswitches
 - authors: "Jaafar, Pignedoli, Bussi, A\xEFt-Mansour, Groening, Amaya, Hirao, Fasel,\
@@ -576,7 +597,8 @@
   citation: METHODS IN MOLECULAR BIOLOGY 1103, 141 (2014)
   doi: 10.1007/978-1-62703-730-3_11
   handle: 20.500.11767/15102
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: Probing riboswitch binding sites with molecular docking, focused libraries,
     and in-line probing assays
 - arxiv: '1410.1271'
@@ -770,13 +792,15 @@
 - authors: Bussi, Gervasio, Laio, Parrinello
   citation: High Performance Computing in Science and Engineering, 587 (2006)
   handle: 20.500.11767/15218
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: Protein folding with combined parallel tempering and metadynamics
 - authors: Bussi, Chang, Ruini, Molinari
   citation: PHYSICS OF SEMICONDUCTORS, PTS A AND B 772, 1025 (2005)
   doi: 10.1063/1.1994460
   handle: 20.500.11767/15206
-  tags: '#proceedings'
+  tags:
+  - '#proceedings'
   title: A symmetrized-basis approach to excitons in carbon nanotubes
 - authors: Hummer, Ambrosch-Draxl, Bussi, Ruini, Caldas, Molinari, Laskowski, Christensen
   citation: PHYSICA STATUS SOLIDI B-BASIC SOLID STATE PHYSICS 242, 1754 (2005)
@@ -793,7 +817,8 @@
   citation: PHYSICS OF SEMICONDUCTORS, PTS A AND B 772, 1085 (2005)
   doi: 10.1063/1.1994489
   handle: 20.500.11767/15152
-  tags: '#proceedings'
+  tags:
+  - '#proceedings'
   title: 'Light-emitting polymers: A first-principles analysis of singlet-exciton
     harvesting in PPV'
 - arxiv: cond-mat/0408583
@@ -836,7 +861,8 @@
   citation: ADVANCES IN SOLID STATE PHYSICS 43 43, 313 (2003)
   doi: 10.1007/978-3-540-44838-9_22
   handle: 20.500.11767/15177
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: 'Optics and transport in conjugated polymer crystals: Interchain interaction
     effects'
 - authors: Bussi, Ruini, Molinari, Caldas, Puschnig, Ambrosch-Draxl
@@ -848,7 +874,8 @@
 - authors: Ruini, Caldas, Bussi, Ferretti, Silva, Goldoni, Molinari
   citation: Radiation-Matter interaction in confined systems 155 (2002)
   handle: 20.500.11767/15080
-  tags: '#bookchapter'
+  tags:
+  - '#bookchapter'
   title: 'Optical properties of organic materials: from single molecules to solid
     state'
 - arxiv: cond-mat/0203471

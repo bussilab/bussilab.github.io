@@ -323,7 +323,7 @@ def citation_to_yaml(record):
         output["handle"]=record["handle"]
         
     if tags:
-        output["tags"]=" ".join(tags)
+        output["tags"]=tags
         
     return output
 
