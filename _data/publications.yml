@@ -15,6 +15,7 @@
   citation: NANO LETTERS 25, 4628 (2025)
   doi: 10.1021/acs.nanolett.5c01254
   handle: 20.500.11767/145610
+  tags: '#pnrr2022'
   title: All-Atom Simulations Elucidate the Molecular Mechanism Underlying RNA-Membrane
     Interactions
 - arxiv: '2410.16064'
@@ -22,6 +23,7 @@
   citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 65, 3568 (2025)
   doi: 10.1021/acs.jcim.4c02185
   handle: 20.500.11767/145710
+  tags: '#pnrr2022 #embo2022'
   title: Characterizing RNA Oligomers Using Stochastic Titration Constant-pH Metadynamics
     Simulations
 - authors: "Jane\u010Dek, K\xFChrov\xE1, Ml\xFDnsk\xFD, Stadlbauer, Otyepka, Bussi,\
@@ -37,6 +39,7 @@
     AMERICA 122, e2425261122 (2025)
   doi: 10.1073/pnas.2425261122
   handle: 20.500.11767/145890
+  tags: '#pnrr2022'
   title: Exploring RNA destabilization mechanisms in biomolecular condensates through
     atomistic simulations
 - arxiv: '2412.03595'
@@ -51,6 +54,7 @@
   citation: JOURNAL OF CHEMICAL PHYSICS 162, 092501 (2025)
   doi: 10.1063/5.0251501
   handle: 20.500.11767/145470
+  tags: '#prin2022 #pnrr2022 #embo2022'
   title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
 - arxiv: '2407.16584'
   authors: "Amaro, \xC5qvist, Bahar, Battistini, Bellaiche, Beltran, Biggin, Bonomi,\

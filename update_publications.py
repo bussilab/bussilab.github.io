@@ -31,10 +31,13 @@ def extract_scalar(raw_data,names):
             return fields[0]
     return ""
 
-def parse_raw_iris_data(raw_data):
+def parse_raw_iris_data(raw_data,grants=None):
     """Parse IRIS raw data, returning a canonical dictionary."""
 
     record={}
+
+    if grants is None:
+        grants = []
 
     doi=extract_scalar(raw_data,[
         "dc.identifier.doi"
@@ -108,6 +111,18 @@ def parse_raw_iris_data(raw_data):
         if match:
             record["arxiv"] = match.group(1).replace(".pdf", "")  # Remove .pdf if present
 
+    dc_description_note	= extract_scalar(raw_data,[
+        "dc.description.note"
+    ])
+
+    record["grants"]=[]
+    for grant in grants:
+      if "strings" in grant:
+          for regex in grant["strings"]:
+             if regex in dc_description_note:
+                 record["grants"].append(grant["tag"])
+                 break
+
     ## not sure this is ok, this prefix might be not unique to biorxiv
     #lista=[item for item in raw_data if item[0]=="dc.identifier.url" and "doi.org/10.1101/" in item[1]]
     #if len(lista)>0:
@@ -125,12 +140,14 @@ def parse_raw_iris_data(raw_data):
 
     return record
     
-def iris_get(handle,*,base_url="https://iris.sissa.it/handle/",raw=False,parsed=True):
+def iris_get(handle,*,base_url="https://iris.sissa.it/handle/",raw=False,parsed=True,grants=None):
     response=requests.get(f"{base_url}{handle}?mode=full")
     # Check the response status
     if response.status_code != 200:
         raise RuntimeError(response.status_code)
         
+    if grants is None:
+        grants=[]
     soup = BeautifulSoup(response.text,"html.parser")
     # Extract data
     raw_data = []
@@ -150,7 +167,7 @@ def iris_get(handle,*,base_url="https://iris.sissa.it/handle/",raw=False,parsed=
             raw_data.append((key,value))
     record={}
     if parsed:
-        record=parse_raw_iris_data(raw_data)
+        record=parse_raw_iris_data(raw_data,grants)
     if raw:
         record["iris_raw"]=raw_data
     record["handle"]=handle
@@ -296,6 +313,10 @@ def citation_to_yaml(record):
     if "is_conference_proceedings" in record and record["is_conference_proceedings"]:
         tags.append("#proceedings")
 
+    if "grants" in record:
+        for grant in record["grants"]:
+            tags.append("#"+grant)
+
     if "doi" in record:
         output["doi"]=record["doi"]
     if "handle" in record:
@@ -331,10 +352,12 @@ if __name__ == "__main__":
 
     # here we could manually add handles
     # handles.append("xxxx/xxx")
+    with open("_data/grants.yml") as f:
+        grants=yaml.safe_load(f)
     
     database=[]
     for handle in tqdm.tqdm(handles):
-        database.append(iris_get(handle,raw=True))
+        database.append(iris_get(handle,raw=True,grants=grants))
 
     with open("_data/preprints.yml") as f:
         preprints=yaml.safe_load(f)
