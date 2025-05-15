@@ -48,6 +48,14 @@
   - '#pnrr2022'
   title: Exploring RNA destabilization mechanisms in biomolecular condensates through
     atomistic simulations
+- authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
+  citation: THE JOURNAL OF CHEMICAL PHYSICS 162, 192501 (2025)
+  doi: 10.1063/5.0256841
+  handle: 20.500.11767/146150
+  tags:
+  - '#pnrr2022'
+  title: 'MDRefine: A Python package for refining molecular dynamics trajectories
+    with experimental data'
 - arxiv: '2412.03595'
   authors: "Tribello, Bonomi, Bussi, Camilloni, Armstrong, Arsiccio, Aureli, Ballabio,\
     \ Bernetti, Bonati, Brookes, Brotzakis, Capelli, Ceriotti, Chan, Cossio, Dasetty,\
