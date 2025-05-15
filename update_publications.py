@@ -6,6 +6,7 @@ import re
 import tqdm
 from bs4 import BeautifulSoup
 from xml.etree import ElementTree
+from dateutil import parser
 
 
 def extract_authors(raw_data):
@@ -57,6 +58,12 @@ def parse_raw_iris_data(raw_data,grants=None):
     if title:
         record["title"]=title
         
+    submission_date=extract_scalar(raw_data,[
+        "dc.date.firstsubmission"
+        ])
+    if submission_date:
+        record["submission_date"]=submission_date
+
     year=extract_scalar(raw_data,[
         "scopus.date.issued",
         "dc.date.issued"
@@ -332,14 +339,26 @@ def sort_database(biblio_list):
     Sort bibliography entries:
     1. Items without 'year' come first.
     2. Items with 'year' are sorted in decreasing year order.
-    3. Within each group, items are sorted alphabetically by 'title'.
+    3. Within each group, items are sorted by most recent submission_date.
+    4. Finally, items are sorted alphabetically by 'title'
     """
 
     def sort_key(item):
         # Check if 'year' exists; if not, assign a default high value (e.g., None comes before any year)
         year = item.get("year")
         title = item.get("title", "")
-        return (year is not None, -int(year) if year else 0, title.lower())
+        submission_date = item.get("submission_date", "").strip()
+
+        try:
+            date_obj = parser.parse(submission_date)
+            timestamp = -date_obj.timestamp()
+        except Exception:
+            timestamp = float('inf')
+
+        return (year is not None,
+                -int(year) if year else 0,
+                timestamp,
+                title.lower())
 
     # Sort using the custom key
     return sorted(biblio_list, key=sort_key)
