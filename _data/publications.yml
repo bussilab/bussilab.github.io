@@ -5,13 +5,6 @@
   - '#preprint'
   title: All atom molecular dynamics simulations enable ensemble refinement of flexible
     and mismodelled cryo-EM derived RNA structures
-- arxiv: '2411.07798'
-  authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
-  citation: arXiv:2411.07798
-  tags:
-  - '#preprint'
-  title: "MDRefine: a Python package for refining Molecular Dynamics trajectories\n\
-    \  with experimental data"
 - authors: "Di Marco, Aupi\u010D, Bussi, Magistrato"
   biorxiv: 10.1101/2024.11.01.618995
   citation: NANO LETTERS 25, 4628 (2025)
@@ -48,7 +41,8 @@
   - '#pnrr2022'
   title: Exploring RNA destabilization mechanisms in biomolecular condensates through
     atomistic simulations
-- authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
+- arxiv: '2411.07798'
+  authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
   citation: THE JOURNAL OF CHEMICAL PHYSICS 162, 192501 (2025)
   doi: 10.1063/5.0256841
   handle: 20.500.11767/146150
