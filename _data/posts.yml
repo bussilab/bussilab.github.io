@@ -1,3 +1,11 @@
+- date: '2025-05-16'
+  text: "Our integrative approach using #MD and #cryoEM data to construct structural\
+    \ ensembles of #RNA just published on @natcomms.bsky.social <a href=\"https://doi.org/10.1038/s41467-025-59769-0\"\
+    \ target=\"_blank\">doi.org/10.1038/s414...</a> Lead by Elisa Posani, with @magistratolab.bsky.social\
+    \ @bonomimax.bsky.social @pjanos.bsky.social @navtejtoor.bsky.social and Daniel\
+    \ Haack \U0001F389"
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3lpboyz4sxs2e
+  url: https://bsky.app/profile/bussilab.org/post/3lpboyz4sxs2e
 - date: '2025-05-15'
   text: 'The manuscript describing MDRefine, our #python package for integrating experimental
     data and #moleculardynamics trajectories using reweighting methods, has been published
