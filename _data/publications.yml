@@ -1,10 +1,12 @@
-- authors: Posani, Janos, Haack, Toor, Bonomi, Magistrato, Bussi
+- authors: "Posani, Jano\u0161, Haack, Toor, Bonomi, Magistrato, Bussi"
   biorxiv: 10.1101/2024.07.24.604258
-  citation: biorxiv:10.1101/2024.07.24.604258
+  citation: NATURE COMMUNICATIONS 16, 4549 (2025)
+  doi: 10.1038/s41467-025-59769-0
+  handle: 20.500.11767/146190
   tags:
-  - '#preprint'
-  title: All atom molecular dynamics simulations enable ensemble refinement of flexible
-    and mismodelled cryo-EM derived RNA structures
+  - '#prin2022'
+  - '#pnrr2022'
+  title: Ensemble refinement of mismodeled cryo-EM RNA structures using all-atom simulations
 - arxiv: '2411.07798'
   authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
   citation: THE JOURNAL OF CHEMICAL PHYSICS 162, 192501 (2025)
