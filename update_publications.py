@@ -296,7 +296,7 @@ def citation_to_yaml(record):
         if "page" in record:
             citation+=" "+record["page"]
         elif "doi" in record:
-            citation+=" https://doi.org/:"+record["doi"]
+            citation+=" https://doi.org/"+record["doi"]
         if "year" in record:
             citation+=" (" + record["year"] + ")"
         output["citation"]=citation
