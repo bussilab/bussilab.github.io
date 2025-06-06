@@ -8,3 +8,6 @@
   strings:
     - "ALTF 399/2022"
     - "ALTF-399/2022"
+- tag: eurohpc2024
+  strings:
+    - "2023R03-136"
