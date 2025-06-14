@@ -1,69 +1,899 @@
-- authors: Posani, Janos, Haack, Toor, Bonomi, Magistrato, Bussi
+- authors: "Mizrahi, Corley, Feldman, Fr\xF6hlking, Sun, Ziesel, Antczak, Bernetti,\
+    \ Elhajjajy, Huang, Nguyen, Park, Perez Martell, Trinity, Xu, Zok, Bussi, Jabbari,\
+    \ Orenstein, Aviran, Meyer, Yeo"
+  citation: RNA https://doi.org/10.1261/rna.080215.124 (2025)
+  doi: 10.1261/rna.080215.124
+  handle: 20.500.11767/146310
+  title: Evaluation of novel computational methods to identify RNA-binding protein
+    footprints from structural data
+- authors: "Posani, Jano\u0161, Haack, Toor, Bonomi, Magistrato, Bussi"
   biorxiv: 10.1101/2024.07.24.604258
-  citation: biorxiv:10.1101/2024.07.24.604258
+  citation: NATURE COMMUNICATIONS 16, 4549 (2025)
+  doi: 10.1038/s41467-025-59769-0
+  handle: 20.500.11767/146190
   tags:
-  - '#preprint'
-  title: All atom molecular dynamics simulations enable ensemble refinement of flexible
-    and mismodelled cryo-EM derived RNA structures
-- authors: Di Marco, Aupic, Bussi, Magistrato
-  biorxiv: 10.1101/2024.11.01.618995
-  citation: biorxiv:10.1101/2024.11.01.618995
-  tags:
-  - '#preprint'
-  title: All-atom simulations elucidate the molecular mechanismunderlying RNA-membrane
-    interactions
-- arxiv: '2410.16064'
-  authors: Silva, Bussi
-  citation: arXiv:2410.16064
-  tags:
-  - '#preprint'
-  title: "Characterizing RNA oligomers using Stochastic Titration Constant-pH\n  Metadynamics\
-    \ simulations"
-- authors: Boccalini, Berezovska, Bussi, Paloni, Barducci
-  biorxiv: 10.1101/2024.09.13.612876
-  citation: biorxiv:10.1101/2024.09.13.612876
-  tags:
-  - '#preprint'
-  title: Exploring RNA destabilization mechanisms in biomolecular condensates through
-    atomistic Simulations
+  - '#prin2022'
+  - '#pnrr2022'
+  - '#eurohpc2024'
+  title: Ensemble refinement of mismodeled cryo-EM RNA structures using all-atom simulations
 - arxiv: '2411.07798'
   authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
-  citation: arXiv:2411.07798
+  citation: THE JOURNAL OF CHEMICAL PHYSICS 162, 192501 (2025)
+  doi: 10.1063/5.0256841
+  handle: 20.500.11767/146150
   tags:
-  - '#preprint'
-  title: "MDRefine: a Python package for refining Molecular Dynamics trajectories\n\
-    \  with experimental data"
+  - '#pnrr2022'
+  title: 'MDRefine: A Python package for refining molecular dynamics trajectories
+    with experimental data'
+- authors: Boccalini, Berezovska, Bussi, Paloni, Barducci
+  biorxiv: 10.1101/2024.09.13.612876
+  citation: PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
+    AMERICA 122, e2425261122 (2025)
+  doi: 10.1073/pnas.2425261122
+  handle: 20.500.11767/145890
+  tags:
+  - '#pnrr2022'
+  title: Exploring RNA destabilization mechanisms in biomolecular condensates through
+    atomistic simulations
+- arxiv: '2407.16584'
+  authors: "Amaro, \xC5qvist, Bahar, Battistini, Bellaiche, Beltran, Biggin, Bonomi,\
+    \ Bowman, Bryce, Bussi, Carloni, Case, Cavalli, Chang, Cheatham, Cheung, Chipot,\
+    \ Chong, Choudhary, Cisneros, Clementi, Collepardo-Guevara, Coveney, Covino, Crawford,\
+    \ Dal Peraro, de Groot, Delemotte, De Vivo, Essex, Fraternali, Gao, Gelp\xED,\
+    \ Gervasio, Gonz\xE1lez-Nilo, Grubm\xFCller, Guenza, Guzman, Harris, Head-Gordon,\
+    \ Hernandez, Hospital, Huang, Huang, Hummer, Iglesias-Fern\xE1ndez, Jensen, Jha,\
+    \ Jiao, Jorgensen, Kamerlin, Khalid, Laughton, Levitt, Limongelli, Lindahl, Lindorff-Larsen,\
+    \ Loverde, Lundborg, Luo, Luque, Lynch, MacKerell, Magistrato, Marrink, Martin,\
+    \ McCammon, Merz, Moliner, Mulholland, Murad, Naganathan, Nangia, Noe, Noy, Ol\xE1\
+    h, O'Mara, Ondrechen, Onuchic, Onufriev, Osuna, Palermo, Panchenko, Pantano, Parish,\
+    \ Parrinello, Perez, Perez-Acle, Perilla, Pettitt, Pietropaolo, Piquemal, Poma,\
+    \ Praprotnik, Ramos, Ren, Reuter, Roitberg, Rosta, Rovira, Roux, Rothlisberger,\
+    \ Sanbonmatsu, Schlick, Shaytan, Simmerling, Smith, Sugita, \u015Awiderek, Taiji,\
+    \ Tao, Tieleman, Tikhonova, Tirado-Rives, Tu\xF1\xF3n, van der Kamp, van der Spoel,\
+    \ Velankar, Voth, Wade, Warshel, Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias,\
+    \ Orozco"
+  citation: NATURE METHODS 22, 268 (2025)
+  doi: 10.1038/s41592-025-02635-0
+  handle: 20.500.11767/145810
+  title: The need to implement FAIR principles in biomolecular simulations
+- arxiv: '2410.16064'
+  authors: Silva, Bussi
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 65, 3568 (2025)
+  doi: 10.1021/acs.jcim.4c02185
+  handle: 20.500.11767/145710
+  tags:
+  - '#pnrr2022'
+  - '#embo2022'
+  title: Characterizing RNA Oligomers Using Stochastic Titration Constant-pH Metadynamics
+    Simulations
+- authors: "Di Marco, Aupi\u010D, Bussi, Magistrato"
+  biorxiv: 10.1101/2024.11.01.618995
+  citation: NANO LETTERS 25, 4628 (2025)
+  doi: 10.1021/acs.nanolett.5c01254
+  handle: 20.500.11767/145610
+  tags:
+  - '#pnrr2022'
+  title: All-Atom Simulations Elucidate the Molecular Mechanism Underlying RNA-Membrane
+    Interactions
 - arxiv: '2412.03595'
   authors: "Tribello, Bonomi, Bussi, Camilloni, Armstrong, Arsiccio, Aureli, Ballabio,\
     \ Bernetti, Bonati, Brookes, Brotzakis, Capelli, Ceriotti, Chan, Cossio, Dasetty,\
     \ Donadio, Ensing, Ferguson, Fraux, Gale, Gervasio, Giorgino, Herringer, Hocky,\
-    \ Hoff, Invernizzi, Languin-Catt\xF6en, Leone, Limongelli, Lopez-Acevedo, Marinelli,\
-    \ Martinez, Masetti, Mehdi, Michaelides, Murtada, Parrinello, Piaggi, Pietropaolo,\
+    \ Hoff, Invernizzi, Languin-Catto\xEBn, Leone, Limongelli, Lopez-Acevedo, Marinelli,\
+    \ Febrer Martinez, Masetti, Mehdi, Michaelides, Murtada, Parrinello, Piaggi, Pietropaolo,\
     \ Pietrucci, Pipolo, Pritchard, Raiteri, Raniolo, Rapetti, Rizzi, Rydzewski, Salvalaglio,\
-    \ Schran, Seal, Zadeh, Silva, Spiwok, Stirnemann, Sucerquia, Tiwary, Valsson,\
-    \ Vendruscolo, Voth, White, Wu"
-  citation: arXiv:2412.03595
+    \ Schran, Seal, Shayesteh Zadeh, Silva, Spiwok, Stirnemann, Sucerquia, Tiwary,\
+    \ Valsson, Vendruscolo, Voth, White, Wu"
+  citation: JOURNAL OF CHEMICAL PHYSICS 162, 092501 (2025)
+  doi: 10.1063/5.0251501
+  handle: 20.500.11767/145470
   tags:
-  - '#preprint'
-  title: 'PLUMED Tutorials: a collaborative, community-driven learning ecosystem'
-- arxiv: '2407.16584'
-  authors: "Amaro, \xC5qvist, Bahar, Battistini, Bellaiche, Beltran, Biggin, Bonomi,\
-    \ Bowman, Bryce, Bussi, Carloni, Case, Cavalli, Chang, III, Cheung, Chipot, Chong,\
-    \ Choudhary, Cisneros, Clementi, Collepardo-Guevara, Coveney, Covino, Crawford,\
-    \ Peraro, Groot, Delemotte, Vivo, Essex, Fraternali, Gao, Gelp\xED, Gervasio,\
-    \ Gonzalez-Nilo, Grubm\xFCller, Guenza, Guzman, Harris, Head-Gordon, Hernandez,\
-    \ Hospital, Huang, Huang, Hummer, Iglesias-Fern\xE1ndez, Jensen, Jha, Jiao, Jorgensen,\
-    \ Kamerlin, Khalid, Laughton, Levitt, Limongelli, Lindahl, Lindorff-Larsen, Loverde,\
-    \ Lundborg, Luo, Luque, Lynch, MacKerell, Magistrato, Marrink, Martin, McCammon,\
-    \ Merz, Moliner, Mulholland, Murad, Naganathan, Nangia, Noe, Noy, Ol\xE1h, O'Mara,\
-    \ Ondrechen, Onuchic, Onufriev, Osuna, Panchenko, Pantano, Parish, Parrinello,\
-    \ Perez, Perez-Acle, Perilla, Pettitt, Pietropalo, Piquemal, Poma, Praprotnik,\
-    \ Ramos, Ren, Reuter, Roitberg, Rosta, Rovira, Roux, R\xF6thlisberger, Sanbonmatsu,\
-    \ Schlick, Shaytan, Simmerling, Smith, Sugita, \u015Awiderek, Taiji, Tao, Tieleman,\
-    \ Tikhonova, Tirado-Rives, Tun\xF3n, Kamp, Spoel, Velankar, Voth, Wade, Warshel,\
-    \ Welborn, Wetmore, Wheeler, Wong, Yang, Zacharias, Orozco"
-  citation: arXiv:2407.16584
+  - '#prin2022'
+  - '#pnrr2022'
+  - '#embo2022'
+  title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
+- authors: "Jane\u010Dek, K\xFChrov\xE1, Ml\xFDnsk\xFD, Stadlbauer, Otyepka, Bussi,\
+    \ \u0160poner, Ban\xE1\u0161"
+  citation: JOURNAL OF COMPUTATIONAL CHEMISTRY 46, e27535 (2025)
+  doi: 10.1002/jcc.27535
+  handle: 20.500.11767/144070
+  title: 'Computer Folding of Parallel DNA G-Quadruplex: Hitchhiker''s Guide to the
+    Conformational Space'
+- arxiv: '2404.14821'
+  authors: Piomponi, Krepl, Sponer, Bussi
+  citation: JOURNAL OF PHYSICAL CHEMISTRY B 128, 8896 (2024)
+  doi: 10.1021/acs.jpcb.4c03397
+  handle: 20.500.11767/140611
+  title: 'Molecular Simulations to Investigate the Impact of N6-Methylation in RNA
+    Recognition: Improving Accuracy and Precision of Binding Free Energy Prediction'
+- arxiv: '2404.02789'
+  authors: Bussi, Bonomi, Gkeka, Sattler, Al-Hashimi, Auffinger, Duca, Foricher, Incarnato,
+    Jones, Kirmizialtin, Krepl, Orozco, Palermo, Pasquali, Salmon, Schwalbe, Westhof,
+    Zacharias
+  citation: STRUCTURE 32, 1281 (2024)
+  doi: 10.1016/j.str.2024.07.019
+  handle: 20.500.11767/140610
   tags:
-  - '#preprint'
-  title: The need to implement FAIR principles in biomolecular simulations
+  - '#review'
+  title: RNA dynamics from experimental and computational approaches
+- authors: "Mykuliak, Rahikainen, Ball, Bussi, Goult, Hyt\xF6nen"
+  citation: PLOS COMPUTATIONAL BIOLOGY 20, e1012341 (2024)
+  doi: 10.1371/journal.pcbi.1012341
+  handle: 20.500.11767/140551
+  title: Molecular dynamics simulations reveal how vinculin refolds partially unfolded
+    talin rod helices to stabilize them against mechanical force
+- authors: Thiel, Bussi, Poblete, Hofacker
+  citation: NUCLEIC ACIDS RESEARCH 52, e73 (2024)
+  doi: 10.1093/nar/gkae602
+  handle: 20.500.11767/140550
+  title: Sampling globally and locally correct RNA 3D structures using Ernwin, SPQR
+    and experimental SAXS data
+- authors: "Pokorn\xE1, Ml\xFDnsk\xFD, Bussi, \u0160poner, Stadlbauer"
+  citation: INTERNATIONAL JOURNAL OF BIOLOGICAL MACROMOLECULES 261, 129712 (2024)
+  doi: 10.1016/j.ijbiomac.2024.129712
+  handle: 20.500.11767/137290
+  title: Molecular dynamics simulations reveal the parallel stranded d(GGGA)3GGG DNA
+    quadruplex folds via multiple paths from a coil-like ensemble
+- arxiv: '2311.13532'
+  authors: "Gilardoni, Fr\xF6hlking, Bussi"
+  citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 15, 1204 (2024)
+  doi: 10.1021/acs.jpclett.3c03423
+  handle: 20.500.11767/136390
+  title: 'Boosting Ensemble Refinement with Transferable Force-Field Corrections:
+    Synergistic Optimization for Molecular Simulations'
+- arxiv: '2211.13657'
+  authors: Piomponi, Bernetti, Bussi
+  citation: RNA Structure and Function. RNA Technologies 14, 595 (2023)
+  doi: 10.1007/978-3-031-36390-0_26
+  handle: 20.500.11767/134910
+  tags:
+  - '#bookchapter'
+  title: "Molecular Dynamics Simulations of\_Chemically Modified Ribonucleotides"
+- arxiv: '2209.12640'
+  authors: Calonaci, Bernetti, Jones, Sattler, Bussi
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 19, 3672 (2023)
+  doi: 10.1021/acs.jctc.3c00084
+  handle: 20.500.11767/132690
+  title: Molecular Dynamics Simulations with Grand-Canonical Reweighting Suggest Cooperativity
+    Effects in RNA Structure Probing Experiments
+- authors: "Fr\xF6hlking, Bernetti, Bussi"
+  citation: JOURNAL OF CHEMICAL PHYSICS 158, 214120 (2023)
+  doi: 10.1063/5.0151163
+  handle: 20.500.11767/132590
+  title: Simultaneous refinement of molecular dynamics ensembles and forward models
+    using experimental data
+- authors: "Zhang, \u0160poner, Bussi, Ml\xFDnsk\xFD, \u0160ulc, Simmons, Stephanopoulos,\
+    \ Krepl"
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 63, 2794 (2023)
+  doi: 10.1021/acs.jcim.3c00358
+  handle: 20.500.11767/131910
+  title: Atomistic Picture of Opening-Closing Dynamics of DNA Holliday Junction Obtained
+    by Molecular Simulations
+- arxiv: '2206.01329'
+  authors: Hsu, Piomponi, Merz, Bussi, Shirts
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 19, 1805 (2023)
+  doi: 10.1021/acs.jctc.2c01258
+  handle: 20.500.11767/131150
+  title: 'Alchemical Metadynamics: Adding Alchemical Variables to Metadynamics to
+    Enhance Sampling in Free Energy Calculations'
+- arxiv: '2207.08622'
+  authors: Bernetti, Bussi
+  citation: CURRENT OPINION IN STRUCTURAL BIOLOGY 78, 102503 (2023)
+  doi: 10.1016/j.sbi.2022.102503
+  handle: 20.500.11767/130351
+  tags:
+  - '#review'
+  title: Integrating experimental data with molecular simulations to investigate RNA
+    structural dynamics
+- authors: Dutta, Tapio, Suma, Mostafa, Kanehira, Carnevale, Bussi, Bald
+  citation: NANOSCALE 14, 16467 (2022)
+  doi: 10.1039/d2nr03664a
+  handle: 20.500.11767/130112
+  title: Molecular states and spin crossover of hemin studied by DNA origami enabled
+    single-molecule surface-enhanced Raman scattering
+- authors: Grothaus, Bussi, Colombi Ciacchi
+  biorxiv: 10.1101/2022.06.17.496605
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 62, 4992 (2022)
+  doi: 10.1021/acs.jcim.2c01049
+  handle: 20.500.11767/130111
+  title: Exploration, Representation, and Rationalization of the Conformational Phase
+    Space of N-Glycans
+- authors: "Rolband, Beasock, Wang, Shu, Dinman, Schlick, Zhou, Kieft, Chen, Bussi,\
+    \ Oukhaled, Gao, \u0160ulc, Binzel, Bhullar, Liang, Guo, Afonin"
+  citation: COMPUTATIONAL AND STRUCTURAL BIOTECHNOLOGY JOURNAL 20, 6120 (2022)
+  doi: 10.1016/j.csbj.2022.11.007
+  handle: 20.500.11767/130110
+  tags:
+  - '#review'
+  title: 'Biomotors, viral assembly, and RNA nanobiotechnology: Current achievements
+    and future directions'
+- authors: "Piomponi, Fr\xF6hlking, Bernetti, Bussi"
+  citation: ACS CENTRAL SCIENCE 8, 1218 (2022)
+  doi: 10.1021/acscentsci.2c00565
+  handle: 20.500.11767/129310
+  title: Molecular Simulations Matching Denaturation Experiments for N6-Methyladenosine
+- arxiv: '2201.04078'
+  authors: "Fr\xF6hlking, Ml\xFDnsk\xFD, Jane\u010Dek, K\xFChrov\xE1, Krepl, Ban\xE1\
+    \u0161, \u0160poner, Bussi"
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 18, 4490 (2022)
+  doi: 10.1021/acs.jctc.2c00200
+  handle: 20.500.11767/129230
+  title: Automatic Learning of Hydrogen-Bond Fixes in the AMBER RNA Force Field
+- authors: "Ml\xFDnsk\xFD, Jane\u010Dek, K\xFChrov\xE1, Fr\xF6hlking, Otyepka, Bussi,\
+    \ Ban\xE1\u0161, \u0160poner"
+  biorxiv: 10.1101/2021.11.30.470631
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 18, 2642 (2022)
+  doi: 10.1021/acs.jctc.1c01222
+  handle: 20.500.11767/128029
+  title: 'Toward Convergence in Folding Simulations of RNA Tetraloops: Comparison
+    of Enhanced Sampling Techniques and Effects of Force Field Modifications'
+- authors: Del Tatto, Raiteri, Bernetti, Bussi
+  citation: APPLIED SCIENCES-BASEL 12, 1139 (2022)
+  doi: 10.3390/app12031139
+  handle: 20.500.11767/126131
+  title: Molecular Dynamics of Solids at Constant Pressure and Stress Using Anisotropic
+    Stochastic Cell Rescaling
+- authors: Bernetti, Bussi
+  citation: EUROPEAN PHYSICAL JOURNAL B 94, 180 (2021)
+  doi: 10.1140/epjb/s10051-021-00186-9
+  handle: 20.500.11767/126129
+  title: Comparing state-of-the-art approaches to back-calculate SAXS spectra from
+    atomistic molecular dynamics simulations
+- arxiv: '2103.04964'
+  authors: Bernetti, Hall, Bussi
+  citation: NUCLEIC ACIDS RESEARCH 49, e84 (2021)
+  doi: 10.1093/nar/gkab459
+  handle: 20.500.11767/123473
+  title: Reweighting of molecular simulations with explicit-solvent SAXS restraints
+    elucidates ion-dependent RNA ensembles
+- authors: Paloni, Bussi, Barducci
+  biorxiv: 10.1101/2021.04.22.440959
+  citation: PROTEIN SCIENCE 30, 1418 (2021)
+  doi: 10.1002/pro.4109
+  handle: 20.500.11767/123470
+  title: Arginine multivalency stabilizes protein/RNA condensates
+- authors: Bottaro, Bussi, Lindorff-Larsen
+  citation: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY 143, 8333 (2021)
+  doi: 10.1021/jacs.1c01094
+  handle: 20.500.11767/123468
+  title: Conformational Ensembles of Noncoding Elements in the SARS-CoV-2 Genome from
+    Molecular Dynamics Simulations
+- authors: Suma, Coronel, Bussi, Micheletti
+  biorxiv: 10.1101/2020.06.17.157297
+  citation: NATURE COMMUNICATIONS 11, 3749 (2020)
+  doi: 10.1038/s41467-020-17508-7
+  handle: 20.500.11767/116391
+  title: Directional translocation resistance of Zika xrRNA
+- authors: Calonaci, Jones, Cuturello, Sattler, Bussi
+  citation: NAR GENOMICS AND BIOINFORMATICS 2, lqaa090 (2020)
+  doi: 10.1093/nargab/lqaa090
+  handle: 20.500.11767/115849
+  title: Machine learning a model for RNA structure prediction
+- arxiv: '2006.09250'
+  authors: Bernetti, Bussi
+  citation: JOURNAL OF CHEMICAL PHYSICS 153, 114107 (2020)
+  doi: 10.1063/5.0020514
+  handle: 20.500.11767/114289
+  title: Pressure control using stochastic cell rescaling
+- arxiv: '2004.01630'
+  authors: "Fr\xF6hlking, Bernetti, Calonaci, Bussi"
+  citation: JOURNAL OF CHEMICAL PHYSICS 152, 230902 (2020)
+  doi: 10.1063/5.0011346
+  handle: 20.500.11767/112969
+  title: Toward empirical force fields that match experimental observables
+- authors: "Mlynsky, K\xFChrov\xE1, K\xFChr, Otyepka, Bussi, Ban\xE1\u0161, \u0160\
+    poner"
+  biorxiv: 10.1101/2020.03.08.982538
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 16, 3936 (2020)
+  doi: 10.1021/acs.jctc.0c00228
+  handle: 20.500.11767/112577
+  title: Fine-tuning of the AMBER RNA force field with a new term adjusting interactions
+    of terminal nucleotides
+- authors: Cuturello, Tiana, Bussi
+  citation: RNA 26, 637 (2020)
+  doi: 10.1261/rna.074179.119
+  handle: 20.500.11767/110422
+  title: Assessing the accuracy of direct-coupling analysis for RNA contact prediction
+- authors: Bussi, Laio, Tiwary
+  citation: Handbook of Materials Modeling 565 (2020)
+  doi: 10.1007/978-3-319-44677-6_49
+  handle: 20.500.11767/110357
+  tags:
+  - '#bookchapter'
+  title: 'Metadynamics: A Unified Framework for Accelerating Rare Events and Sampling
+    Thermodynamics and Kinetics'
+- authors: Bussi, Laio
+  citation: NATURE REVIEWS PHYSICS 2, 200 (2020)
+  doi: 10.1038/s42254-020-0153-0
+  handle: 20.500.11767/110289
+  tags:
+  - '#review'
+  title: Using metadynamics to explore complex free-energy landscapes
+- authors: "Rei\xDFer, Zucchelli, Gustincich, Bussi"
+  citation: NUCLEIC ACIDS RESEARCH 48, 1164 (2020)
+  doi: 10.1093/nar/gkz1184
+  handle: 20.500.11767/108474
+  title: Conformational ensembles of an RNA hairpin using molecular dynamics and sparse
+    NMR data
+- authors: Colizzi, Perez-Gonzalez, Fritzen, Levy, White, Carlos Penedo, Bussi
+  citation: PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
+    AMERICA 116, 22471 (2019)
+  doi: 10.1073/pnas.1901086116
+  handle: 20.500.11767/104314
+  title: Asymmetric base-pair opening drives helicase unwinding dynamics
+- arxiv: '1812.08213'
+  authors: Bussi, Tribello
+  citation: 'BIOMOLECULAR SIMULATIONS: METHODS AND PROTOCOLS 2022, 529 (2019)'
+  doi: 10.1007/978-1-4939-9608-7_21
+  handle: 20.500.11767/102399
+  tags:
+  - '#bookchapter'
+  title: Analyzing and Biasing Simulations with PLUMED
+- authors: Bonomi M., Bussi G., Camilloni C., Tribello G. A., Banas P., Barducci A.,
+    Bernetti, Bolhuis P. G., Bottaro S., Branduardi D., Capelli R., Carloni P., Ceriotti
+    M., Cesari A., Chen H., Chen W., Colizzi F., De S., De La Pierre M., Donadio D.,
+    Drobot V., Ensing B., Ferguson A. L., Filizola M., Fraser J. S., Fu H., Gasparotto
+    P., Gervasio F. L., Giberti F., Gil-Ley A., Giorgino T., Heller G. T., Hocky G.
+    M., Iannuzzi M., Invernizzi M., Jelfs K. E., Jussupow A., Kirilin E., Laio A.,
+    Limongelli V., Lindorff-Larsen K., Lohr T., Marinelli F., Martin-Samos L., Masetti
+    M., Meyer R., Michaelides A., Molteni C., Morishita T., Nava M., Paissoni C.,
+    Papaleo E., Parrinello M., Pfaendtner J., Piaggi P., Piccini G. M., Pietropaolo
+    A., Pietrucci F., Pipolo S., Provasi D., Quigley D., Raiteri P., Raniolo S., Rydzewski
+    J., Salvalaglio M., Sosso G. C., Spiwok V., Sponer J., Swenson D. W. H., Tiwary
+    P., Valsson O., Vendruscolo M., Voth G. A., White A.
+  citation: NATURE METHODS 16, 670 (2019)
+  doi: 10.1038/s41592-019-0506-8
+  handle: 20.500.11767/100676
+  title: Promoting transparency and reproducibility in enhanced molecular simulations
+- arxiv: '1902.01155'
+  authors: Franco, Cagiada, Bussi, Tiana
+  citation: PHYSICAL BIOLOGY 16, 046007 (2019)
+  doi: 10.1088/1478-3975/ab1c15
+  handle: 20.500.11767/95976
+  title: Statistical mechanical properties of sequence space determine the efficiency
+    of the various algorithms to predict interaction energies and native contacts
+    from protein coevolution
+- authors: "Cesari, Bottaro, Lindorff-Larsen, Ban\xE1\u0161, \u0160poner, Bussi"
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 15, 3425 (2019)
+  doi: 10.1021/acs.jctc.9b00206
+  handle: 20.500.11767/95974
+  title: Fitting Corrections to an RNA Force Field Using Experimental Data
+- authors: "K\xFChrov\xE1, Ml\xFDnsk\xFD, Zgarbov\xE1, Krepl, Bussi, Best, Otyepka,\
+    \ \u0160poner, Ban\xE1\u0161"
+  biorxiv: 10.1101/410993
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 15, 3288 (2019)
+  doi: 10.1021/acs.jctc.8b00955
+  handle: 20.500.11767/92640
+  title: Improving the Performance of the Amber RNA Force Field by Tuning the Hydrogen-Bonding
+    Interactions
+- arxiv: '1811.12144'
+  authors: Pinamonti, Paul, Noe, Rodriguez, Bussi
+  citation: JOURNAL OF CHEMICAL PHYSICS 150, 154123 (2019)
+  doi: 10.1063/1.5083227
+  handle: 20.500.11767/89934
+  title: 'The mechanism of RNA base fraying: Molecular dynamics simulations analyzed
+    with core-set Markov state models'
+- authors: Bottaro, Bussi, Pinamonti, Reiber, Boomsma, Lindorff-Larsen
+  citation: RNA 25, 219 (2019)
+  doi: 10.1261/rna.067678.118
+  handle: 20.500.11767/86543
+  title: 'Barnaba: software for analysis of nucleic acid structures and trajectories'
+- authors: Rangan, Bonomi, Heller, Cesari, Bussi, Vendruscolo
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 14, 6632 (2018)
+  doi: 10.1021/acs.jctc.8b00738
+  handle: 20.500.11767/86016
+  title: 'Determination of Structural Ensembles of Proteins: Restraining vs Reweighting'
+- authors: "Hildebrand, Michaelis, Wurzler, Li, Hirst, Micsonai, Kardos, Gil-Ley,\
+    \ Bussi, K\xF6ppen, Piane, Ciacchi"
+  citation: ACS BIOMATERIALS SCIENCE & ENGINEERING 4, 4036 (2018)
+  doi: 10.1021/acsbiomaterials.8b00819
+  handle: 20.500.11767/86014
+  title: Atomistic Details of Chymotrypsin Conformational Changes upon Adsorption
+    on Silica
+- authors: Bottaro, Bussi, Kennedy, Turner, Lindorff-Larsen
+  citation: SCIENCE ADVANCES 4, eaar8521 (2018)
+  doi: 10.1126/sciadv.aar8521
+  handle: 20.500.11767/84994
+  title: Conformational ensembles of RNA oligonucleotides from integrating NMR and
+    molecular simulations
+- arxiv: '1709.08691'
+  authors: Poblete, Bottaro, Bussi
+  citation: BIOCHEMICAL AND BIOPHYSICAL RESEARCH COMMUNICATIONS 498, 352 (2018)
+  doi: 10.1016/j.bbrc.2017.12.057
+  handle: 20.500.11767/68116
+  title: Effects and limitations of a nucleobase-driven backmapping procedure for
+    nucleic acids using steered molecular dynamics
+- authors: Poblete, Bottaro, Bussi
+  citation: NUCLEIC ACIDS RESEARCH 46, 1674 (2018)
+  doi: 10.1093/nar/gkx1269
+  handle: 20.500.11767/68111
+  title: A nucleobase-centered coarse-grained representation for structure prediction
+    of RNA motifs
+- authors: "Sponer, Bussi, Krepl, Banas, Bottaro, Cunha, Gil-Ley, Pinamonti, Poblete,\
+    \ Jure\u010Dka, Walter, Otyepka"
+  citation: CHEMICAL REVIEWS 118, 4177 (2018)
+  doi: 10.1021/acs.chemrev.7b00427
+  handle: 20.500.11767/67900
+  tags:
+  - '#review'
+  title: 'RNA structural dynamics as captured by molecular simulations: A comprehensive
+    overview'
+- authors: "Podbev\u0161ek, Fasolo, Bon, Cimatti, Rei\xDFer, Carninci, Bussi, Zucchelli,\
+    \ Plavec, Gustincich"
+  citation: SCIENTIFIC REPORTS 8, 3189 (2018)
+  doi: 10.1038/s41598-017-14908-6
+  handle: 20.500.11767/67664
+  title: Structural determinants of the SINE B2 element embedded in the long non-coding
+    RNA activator of translation AS Uchl1
+- arxiv: '1801.05247'
+  authors: "Cesari, Rei\xDFer, Bussi"
+  citation: COMPUTATION 6, 15 (2018)
+  doi: 10.3390/computation6010015
+  handle: 20.500.11767/65948
+  tags:
+  - '#review'
+  title: Using the maximum entropy principle to combine simulations and solution experiments
+- arxiv: '1709.02342'
+  authors: "Ml\xFDnsk\xFD, Bussi"
+  citation: CURRENT OPINION IN STRUCTURAL BIOLOGY 49, 63 (2018)
+  doi: 10.1016/j.sbi.2018.01.004
+  handle: 20.500.11767/65204
+  tags:
+  - '#review'
+  title: Exploring RNA structure and dynamics through enhanced sampling simulations
+- authors: "Ml\xFDnsk\xFD, Bussi"
+  citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 9, 313 (2018)
+  doi: 10.1021/acs.jpclett.7b02921
+  handle: 20.500.11767/63625
+  title: Molecular Dynamics Simulations Reveal an Interplay between SHAPE Reagent
+    Binding and RNA Flexibility
+- authors: "Islam, Stadlbauer, Gil-Ley, P\xE9rez-Hern\xE1ndez, Haider, Neidle, Bussi,\
+    \ Banas, Otyepka, Sponer"
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 13, 2458 (2017)
+  doi: 10.1021/acs.jctc.7b00226
+  handle: 20.500.11767/53697
+  title: Exploring the Dynamics of Propeller Loops in Human Telomeric DNA Quadruplexes
+    Using Atomistic Simulations
+- arxiv: 1702.01072v1
+  authors: "Ml\xFDnsk\xFD, Bussi"
+  citation: RNA 23, 712 (2017)
+  doi: 10.1261/rna.060442.116
+  handle: 20.500.11767/43707
+  title: Understanding in-line probing experiments by modeling cleavage of nonreactive
+    RNA nucleotides
+- authors: Bellucci, Bussi, Di Felice, Corni
+  citation: NANOSCALE 9, 2279 (2017)
+  doi: 10.1039/C6NR06010B
+  handle: 20.500.11767/11943
+  title: "Fibrillation-prone conformations of the amyloid-\u03B2-42 peptide at the\
+    \ gold/water interface"
+- arxiv: '1612.05882'
+  authors: "\u0160poner, Bussi, Stadlbauer, K\xFChrov\xE1, Ban\xE1\u0161, Islam, Haider,\
+    \ Neidle, Otyepka"
+  citation: BIOCHIMICA ET BIOPHYSICA ACTA-GENERAL SUBJECTS 1861, 1246 (2017)
+  doi: 10.1016/j.bbagen.2016.12.008
+  handle: 20.500.11767/14883
+  title: "Folding of guanine quadruplex molecules\u2013funnel-like mechanism or kinetic\
+    \ partitioning? An overview from MD simulation studies"
+- arxiv: '1612.07470'
+  authors: "Pinamonti, Zhao, Condon, Paul, No\xE8, Turner, Bussi"
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 13, 926 (2017)
+  doi: 10.1021/acs.jctc.6b00982
+  handle: 20.500.11767/17423
+  title: Predicting the Kinetics of RNA Oligonucleotides Using Markov State Models
+- arxiv: '1612.08550'
+  authors: Cunha, Bussi
+  citation: RNA 23, 628 (2017)
+  doi: 10.1261/rna.060079.116
+  handle: 20.500.11767/11944
+  title: Unraveling Mg2+-RNA binding with atomistic molecular dynamics
+- arxiv: '1611.06156'
+  authors: Cesari, Gil-Ley, Bussi
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 12, 6192 (2016)
+  doi: 10.1021/acs.jctc.6b00944
+  handle: 20.500.11767/17367
+  title: Combining Simulations and Solution Experiments as a Paradigm for RNA Force
+    Field Refinement
+- arxiv: '1609.08276'
+  authors: "K\xFChrov\xE1, Best, Bottaro, Bussi, \u0160poner, Otyepka, Ban\xE1\u0161"
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 12, 4534 (2016)
+  doi: 10.1021/acs.jctc.6b00300
+  handle: 20.500.11767/15904
+  title: 'Computer Folding of RNA Tetraloops: Identification of Key Force Field Deficiencies'
+- arxiv: '1605.00934'
+  authors: Gil-Ley, Bottaro, Bussi
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 12, 2790 (2016)
+  doi: 10.1021/acs.jctc.6b00299
+  handle: 20.500.11767/11774
+  title: Empirical Corrections to the Amber RNA Force Field with Target Metadynamics
+- arxiv: '1609.07898'
+  authors: "Bottaro, Ban\xE1\u0161, \u0160poner, Bussi"
+  citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 7, 4032 (2016)
+  doi: 10.1021/acs.jpclett.6b01905
+  handle: 20.500.11767/15962
+  title: Free Energy Landscape of GAGA and UUCG RNA Tetraloops
+- arxiv: '1603.08952'
+  authors: Bottaro, Gil-Ley, Bussi
+  citation: NUCLEIC ACIDS RESEARCH 44, 5883 (2016)
+  doi: 10.1093/nar/gkw239
+  handle: 20.500.11767/11768
+  title: RNA folding pathways in stop motion
+- arxiv: '1412.3916'
+  authors: "Ferrarotti, Bottaro, P\xE9rez-Villa, Bussi"
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 11, 139 (2015)
+  doi: 10.1021/ct5007086
+  handle: 20.500.11767/11876
+  title: Accurate multiple time step in biased molecular simulations
+- arxiv: '1508.05199'
+  authors: "P\xE9rez-Villa, Darvas, Bussi"
+  citation: NUCLEIC ACIDS RESEARCH 43, 8725 (2015)
+  doi: 10.1093/nar/gkv872
+  handle: 20.500.11767/14395
+  title: 'ATP dependent NS3 helicase interaction with RNA: Insights from molecular
+    simulations'
+- arxiv: '1506.09178'
+  authors: Pinamonti, Bottaro, Micheletti, Bussi
+  citation: NUCLEIC ACIDS RESEARCH 43, 7260 (2015)
+  doi: 10.1093/nar/gkv708
+  handle: 20.500.11767/12537
+  title: 'Elastic network models for RNA: A comparative assessment with molecular
+    dynamics and SHAPE experiments'
+- arxiv: '1502.02115'
+  authors: Gil-Ley, Bussi
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 11, 1077 (2015)
+  doi: 10.1021/ct5009087
+  handle: 20.500.11767/16966
+  title: Enhanced conformational sampling using replica exchange with collective-variable
+    tempering
+- authors: Bussi, Branduardi
+  citation: REVIEWS IN COMPUTATIONAL CHEMISTRY, VOL 28 28, 1 (2015)
+  doi: 10.1002/9781118889886.ch1
+  handle: 20.500.11767/15176
+  tags:
+  - '#bookchapter'
+  title: 'Free-energy calculations with metadynamics: Theory and practice'
+- arxiv: '1509.06511'
+  authors: "Stadlbauer, K\xFChrov\xE1, Ban\xE1\u0161, Ko\u010Da, Bussi, Trant\xED\
+    rek, Otyepka, \u0160poner"
+  citation: NUCLEIC ACIDS RESEARCH 43, 9626 (2015)
+  doi: 10.1093/nar/gkv994
+  handle: 20.500.11767/12540
+  title: Hairpins participating in folding of human telomeric sequence quadruplexes
+    studied by standard and T-REMD simulations
+- arxiv: '1504.07392'
+  authors: Di Palma, Bottaro, Bussi
+  citation: BMC BIOINFORMATICS 16, S6 (2015)
+  doi: 10.1186/1471-2105-16-S9-S6
+  handle: 20.500.11767/11874
+  title: 'Kissing loop interaction in adenine riboswitch: Insights from umbrella sampling
+    simulations'
+- arxiv: '1502.05667'
+  authors: Bottaro, Di Palma, Bussi
+  citation: RNA & DISEASE 2, e544 (2015)
+  doi: 10.14800/rd.544
+  handle: 20.500.11767/12408
+  title: Towards de novo RNA 3D Structure Prediction
+- authors: Di Palma, Colizzi, Bussi
+  citation: COMPUTATIONAL METHODS FOR UNDERSTANDING RIBOSWITCHES 553, 139 (2015)
+  doi: 10.1016/bs.mie.2014.10.055
+  handle: 20.500.11767/15196
+  tags:
+  - '#bookchapter'
+  title: Using reweighted pulling simulations to characterize conformational changes
+    in riboswitches
+- authors: "Jaafar, Pignedoli, Bussi, A\xEFt-Mansour, Groening, Amaya, Hirao, Fasel,\
+    \ Ruffieux"
+  citation: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY 136, 13666 (2014)
+  doi: 10.1021/ja504126z
+  handle: 20.500.11767/11873
+  title: Bowl inversion of surface-adsorbed sumanene
+- arxiv: '1401.0387'
+  authors: Abrams, Bussi
+  citation: ENTROPY 16, 163 (2014)
+  doi: 10.3390/e16010163
+  handle: 20.500.11767/15914
+  title: Enhanced sampling in molecular dynamics using metadynamics, replica-exchange,
+    and temperature-acceleration
+- arxiv: '1307.5144'
+  authors: Bussi
+  citation: MOLECULAR PHYSICS 112, 379 (2014)
+  doi: 10.1080/00268976.2013.824126
+  handle: 20.500.11767/15840
+  title: 'Hamiltonian replica exchange in GROMACS: A flexible implementation'
+- arxiv: '1310.0980'
+  authors: Tribello, Bonomi, Branduardi, Camilloni, Bussi
+  citation: COMPUTER PHYSICS COMMUNICATIONS 185, 604 (2014)
+  doi: 10.1016/j.cpc.2013.09.018
+  handle: 20.500.11767/11534
+  title: 'PLUMED 2: New feathers for an old bird'
+- authors: Colizzi, Lamontagne, Lafontaine, Bussi
+  citation: METHODS IN MOLECULAR BIOLOGY 1103, 141 (2014)
+  doi: 10.1007/978-1-62703-730-3_11
+  handle: 20.500.11767/15102
+  tags:
+  - '#bookchapter'
+  title: Probing riboswitch binding sites with molecular docking, focused libraries,
+    and in-line probing assays
+- arxiv: '1410.1271'
+  authors: Bottaro, Di Palma, Bussi
+  citation: NUCLEIC ACIDS RESEARCH 42, 13306 (2014)
+  doi: 10.1093/nar/gku972
+  handle: 20.500.11767/17373
+  title: The role of nucleobase interactions in RNA structure and dynamics
+- arxiv: '1309.5717'
+  authors: Di Palma, Colizzi, Bussi
+  citation: RNA 19, 1517 (2013)
+  doi: 10.1261/rna.040493.113
+  handle: 20.500.11767/11521
+  title: Ligand-induced stabilization of the aptamer terminal helix in the add adenine
+    riboswitch
+- arxiv: '1307.5565'
+  authors: Do, Carloni, Varani, Bussi
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 9, 1720 (2013)
+  doi: 10.1021/ct3009914
+  handle: 20.500.11767/11373
+  title: RNA/peptide binding driven by electrostatics - Insight from bidirectional
+    pulling simulations
+- authors: Franco, Sgrignani, Bussi, Magistrato
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING 53, 1371 (2013)
+  doi: 10.1021/ci4001647
+  handle: 20.500.11767/11517
+  title: Structural role of uracil DNA glycosylase for the recognition of uracil in
+    DNA duplexes. Clues from atomistic simulations
+- arxiv: '1205.3282'
+  authors: Ferretti, Mallia, Martin-Samos, Bussi, Ruini, Montanari, Harrison
+  citation: PHYSICAL REVIEW B 85, 235105 (2012)
+  doi: 10.1103/PhysRevB.85.235105
+  handle: 20.500.11767/12390
+  title: 'Ab initio complex band structure of conjugated polymers: Effects of hydrid
+    density functional theory and GW schemes'
+- arxiv: '1205.4300'
+  authors: Branduardi, Bussi, Parrinello
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 8, 2247 (2012)
+  doi: 10.1021/ct3002464
+  handle: 20.500.11767/12023
+  title: Metadynamics with adaptive gaussians
+- arxiv: '1203.5866'
+  authors: Colizzi, Bussi
+  citation: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY 134, 5173 (2012)
+  doi: 10.1021/ja210531q
+  handle: 20.500.11767/16711
+  title: RNA unwinding from reweighted pulling simulations
+- arxiv: '1207.6904'
+  authors: Yusuff, Babalola, Bussi, Raugei
+  citation: JOURNAL OF PHYSICAL CHEMISTRY B 116, 11004 (2012)
+  doi: 10.1021/jp3022908
+  handle: 20.500.11767/15016
+  title: 'Role of the subunit interactions in the conformational transitions in adult
+    human hemoglobin: An explicit solvent molecular dynamics study'
+- authors: Benedetti, Micheletti, Bussi, Sekatskii, Dietler
+  citation: BIOPHYSICAL JOURNAL 101, 1504 (2011)
+  doi: 10.1016/j.bpj.2011.07.047
+  handle: 20.500.11767/13930
+  title: 'Nonkinetic modeling of the mechanical unfolding of multimodular proteins:
+    Theory and experiments'
+- arxiv: '1104.0773'
+  authors: Raiteri, Gale, Bussi
+  citation: JOURNAL OF PHYSICS-CONDENSED MATTER 23, 334213 (2011)
+  doi: 10.1088/0953-8984/23/33/334213
+  handle: 20.500.11767/11900
+  title: Reactive force field simulation of proton diffusion in BaZrO3 using an empirical
+    valence bond approach
+- authors: Martin-Samos, Bussi, Ruini, Molinari, Caldas
+  citation: PHYSICA STATUS SOLIDI B-BASIC SOLID STATE PHYSICS 248, 1061 (2011)
+  doi: 10.1002/pssb.201046283
+  handle: 20.500.11767/14634
+  title: SiO2 in density functional theory and beyond
+- authors: Martin-Samos, Bussi, Ruini, Molinari, Caldas
+  citation: PHYSICAL REVIEW B 81, 081202(R) (2010)
+  doi: 10.1103/PhysRevB.81.081202
+  handle: 20.500.11767/16167
+  title: Unraveling effects of disorder on the electronic structure of SiO2 from first
+    principles
+- arxiv: '1204.0822'
+  authors: Ceriotti, Bussi, Parrinello
+  citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 6, 1170 (2010)
+  doi: 10.1021/ct900563s
+  handle: 20.500.11767/13481
+  title: "Colored-noise thermostats \xE0la Carte"
+- arxiv: '0812.1168'
+  authors: Ceriotti, Bussi, Parrinello
+  citation: PHYSICAL REVIEW LETTERS 102, 020601 (2009)
+  doi: 10.1103/PhysRevLett.102.020601
+  handle: 20.500.11767/13087
+  title: Langevin equation with colored noise for constant-temperature molecular dynamics
+    simulations
+- arxiv: '0812.1633'
+  authors: Bussi
+  citation: NUOVO CIMENTO DELLA SOCIETA ITALIANA DI FISICA C-COLLOQUIA ON PHYSICS
+    32, 61 (2009)
+  doi: 10.1393/ncc/i2009-10369-8
+  handle: 20.500.11767/16458
+  title: A simple asynchronous replica-exchange implementation
+- authors: Mantz, Branduardi, Bussi, Parrinello
+  citation: JOURNAL OF PHYSICAL CHEMISTRY B 113, 12521 (2009)
+  doi: 10.1021/jp8106556
+  handle: 20.500.11767/16242
+  title: Ensemble of Transition State Structures for the Cis-Trans Isomerization of
+    N-Methylacetamide
+- arxiv: '0901.0779'
+  authors: Bussi, Zykova-Timan, Parrinello
+  citation: JOURNAL OF CHEMICAL PHYSICS 130, 074101 (2009)
+  doi: 10.1063/1.3073889
+  handle: 20.500.11767/14744
+  title: Isothermal-isobaric molecular dynamics using stochastic velocity rescaling
+- arxiv: '0903.4551'
+  authors: Ceriotti, Bussi, Parrinello
+  citation: PHYSICAL REVIEW LETTERS 103, 030603 (2009)
+  doi: 10.1103/PhysRevLett.103.030603
+  handle: 20.500.11767/16057
+  title: Nuclear quantum effects in solids using a colored-noise thermostat
+- arxiv: '0902.0874'
+  authors: Bonomi, Branduardi, Bussi, Camilloni, Provasi, Raiteri, Donadio, Marinelli,
+    Pietrucci, Broglia, Parrinello
+  citation: COMPUTER PHYSICS COMMUNICATIONS 180, 1961 (2009)
+  doi: 10.1016/j.cpc.2009.05.011
+  handle: 20.500.11767/12498
+  title: 'PLUMED: A portable plugin for free-energy calculations with molecular dynamics'
+- authors: Martin-Samos, Bussi
+  citation: COMPUTER PHYSICS COMMUNICATIONS 180, 1416 (2009)
+  doi: 10.1016/j.cpc.2009.02.005
+  handle: 20.500.11767/16606
+  title: 'SaX: An open source package for electronic-structure and optical-properties
+    calculations in the GW approximation'
+- authors: Melis, Bussi, Lummis, Molteni
+  citation: JOURNAL OF PHYSICAL CHEMISTRY B 113, 12148 (2009)
+  doi: 10.1021/jp9046962
+  handle: 20.500.11767/12321
+  title: Trans-cis switching mechanisms in proline analogues and their relevance for
+    the gating of the 5-HT3 receptor
+- arxiv: '0805.3606'
+  authors: Micheletti, Bussi, Laio
+  citation: JOURNAL OF CHEMICAL PHYSICS 129, 074105 (2008)
+  doi: 10.1063/1.2969761
+  handle: 20.500.11767/12507
+  title: Optimal Langevin modeling of out-of-equilibrium molecular dynamics simulations
+- arxiv: '0803.4397'
+  authors: Bussi, Parrinello
+  citation: COMPUTER PHYSICS COMMUNICATIONS 179, 26 (2008)
+  doi: 10.1016/j.cpc.2008.01.006
+  handle: 20.500.11767/13948
+  title: 'Stochastic thermostats: comparison of local and global schemes'
+- authors: Raiteri, Bussi, Cucinotta, Credi, Stoddart, Parrinello
+  citation: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION 47, 3536 (2008)
+  doi: 10.1002/anie.200705207
+  handle: 20.500.11767/14670
+  title: Unravelling the shuttling mechanism in a photoswitchable multicomponent bistable
+    rotaxane
+- arxiv: '0803.3861'
+  authors: Barducci, Bussi, Parrinello
+  citation: PHYSICAL REVIEW LETTERS 100, 020603 (2008)
+  doi: 10.1103/PhysRevLett.100.020603
+  handle: 20.500.11767/16783
+  title: 'Well-tempered metadynamics: A smoothly converging and tunable free-energy
+    method'
+- arxiv: '0803.4083'
+  authors: Bussi, Parrinello
+  citation: PHYSICAL REVIEW E 75, 056707 (2007)
+  doi: 10.1103/PhysRevE.75.056707
+  handle: 20.500.11767/16816
+  title: Accurate sampling using Langevin dynamics
+- arxiv: '0803.4060'
+  authors: Bussi, Donadio, Parrinello
+  citation: JOURNAL OF CHEMICAL PHYSICS 126, 014101 (2007)
+  doi: 10.1063/1.2408420
+  handle: 20.500.11767/12943
+  title: Canonical sampling through velocity rescaling
+- arxiv: '0803.4444'
+  authors: Ceriotti, Bussi, Parrinello
+  citation: PHYSICAL REVIEW E 76, 026707 (2007)
+  doi: 10.1103/PhysRevE.76.026707
+  handle: 20.500.11767/17410
+  title: Conjugate gradient heat bath for ill-conditioned actions
+- arxiv: '0804.0175'
+  authors: Bussi, Laio, Parrinello
+  citation: PHYSICAL REVIEW LETTERS 96, 090601 (2006)
+  doi: 10.1103/PhysRevLett.96.090601
+  handle: 20.500.11767/13652
+  title: Equilibrium free energies from nonequilibrium metadynamics
+- authors: Bussi, Gervasio, Laio, Parrinello
+  citation: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY 128, 13435 (2006)
+  doi: 10.1021/ja062463w
+  handle: 20.500.11767/15037
+  title: "Free-energy landscape for \u03B2 hairpin folding from combined parallel\
+    \ tempering and metadynamics"
+- authors: Bussi, Gervasio, Laio, Parrinello
+  citation: High Performance Computing in Science and Engineering, 587 (2006)
+  handle: 20.500.11767/15218
+  tags:
+  - '#bookchapter'
+  title: Protein folding with combined parallel tempering and metadynamics
+- authors: Bussi, Chang, Ruini, Molinari
+  citation: PHYSICS OF SEMICONDUCTORS, PTS A AND B 772, 1025 (2005)
+  doi: 10.1063/1.1994460
+  handle: 20.500.11767/15206
+  tags:
+  - '#proceedings'
+  title: A symmetrized-basis approach to excitons in carbon nanotubes
+- authors: Hummer, Ambrosch-Draxl, Bussi, Ruini, Caldas, Molinari, Laskowski, Christensen
+  citation: PHYSICA STATUS SOLIDI B-BASIC SOLID STATE PHYSICS 242, 1754 (2005)
+  doi: 10.1002/pssb.200461785
+  handle: 20.500.11767/16836
+  title: Ab-initio study of excitonic effects in conventional and organic semiconductors
+- authors: Chang, Bussi, Ruini, Molinari
+  citation: PHYSICAL REVIEW B 72, 195423 (2005)
+  doi: 10.1103/PhysRevB.72.195423
+  handle: 20.500.11767/16615
+  title: 'First-principles approach for the calculation of optical properties of one-dimensional
+    systems with helical symmetry: The case of carbon nanotubes'
+- authors: Caldas, Bussi, Ruini, Molinari
+  citation: PHYSICS OF SEMICONDUCTORS, PTS A AND B 772, 1085 (2005)
+  doi: 10.1063/1.1994489
+  handle: 20.500.11767/15152
+  tags:
+  - '#proceedings'
+  title: 'Light-emitting polymers: A first-principles analysis of singlet-exciton
+    harvesting in PPV'
+- arxiv: cond-mat/0408583
+  authors: "Bussi, Men\xE9ndez, Ren, Canonico, Molinari"
+  citation: PHYSICAL REVIEW B 71, 041404(R) (2005)
+  doi: 10.1103/PhysRevB.71.041404
+  handle: 20.500.11767/14223
+  title: Quantum interferences in the Raman cross section for the radial breathing
+    mode in metallic carbon nanotubes
+- authors: Ferretti, Ruini, Bussi, Molinari, Caldas
+  citation: PHYSICAL REVIEW B 69, 205205 (2004)
+  doi: 10.1103/PhysRevB.69.205205
+  handle: 20.500.11767/16455
+  title: Ab initio study of transport parameters in polymer crystals
+- authors: Bussi
+  citation: PHYSICA SCRIPTA 2004, 141 (2004)
+  doi: 10.1238/Physica.Topical.109a00141
+  handle: 20.500.11767/17032
+  title: 'Effects of the electron-hole interaction on the optical properties of materials:
+    The Bethe-Salpeter equation'
+- arxiv: cond-mat/0405185
+  authors: Chang, Bussi, Ruini, Molinari
+  citation: PHYSICAL REVIEW LETTERS 92, 196401 (2004)
+  doi: 10.1103/PhysRevLett.92.196401
+  handle: 20.500.11767/11906
+  title: 'Excitons in carbon nanotubes: An ab initia symmetry-based approach'
+- authors: Ruini, Ferretti, Bussi, Molinari, Caldas
+  citation: SEMICONDUCTOR SCIENCE AND TECHNOLOGY 19, S362 (2004)
+  doi: 10.1088/0268-1242/19/4/119
+  handle: 20.500.11767/11903
+  title: Relationship between structural and optoelectronic properties in semiconducting
+    polymers
+- authors: Ruini, Bussi, Ferretti, Caldas, Molinari
+  citation: SYNTHETIC METALS 139, 755 (2003)
+  doi: 10.1016/S0379-6779(03)00319-9
+  handle: 20.500.11767/16405
+  title: 'Charge transport and radiative recombination in polythiophene crystals:
+    A first-principles study'
+- authors: Bussi, Ferretti, Ruini, Caldas, Molinari
+  citation: ADVANCES IN SOLID STATE PHYSICS 43 43, 313 (2003)
+  doi: 10.1007/978-3-540-44838-9_22
+  handle: 20.500.11767/15177
+  tags:
+  - '#bookchapter'
+  title: 'Optics and transport in conjugated polymer crystals: Interchain interaction
+    effects'
+- authors: Bussi, Ruini, Molinari, Caldas, Puschnig, Ambrosch-Draxl
+  citation: APPLIED PHYSICS LETTERS 80, 4118 (2002)
+  doi: 10.1063/1.1483905
+  handle: 20.500.11767/17436
+  title: 'Interchain interaction and Davydov splitting in polythiophene crystals:
+    An ab initio approach'
+- authors: Ruini, Caldas, Bussi, Ferretti, Silva, Goldoni, Molinari
+  citation: Radiation-Matter interaction in confined systems 155 (2002)
+  handle: 20.500.11767/15080
+  tags:
+  - '#bookchapter'
+  title: 'Optical properties of organic materials: from single molecules to solid
+    state'
+- authors: Ruini, Caldas, Bussi, Molinari
+  citation: PHYSICAL REVIEW LETTERS 88, 206403 (2002)
+  doi: 10.1103/PhysRevLett.88.206403
+  handle: 20.500.11767/13627
+  title: Solid state effects on exciton states and optical properties of PPV
 
