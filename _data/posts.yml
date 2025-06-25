@@ -1,3 +1,10 @@
+- date: '2025-06-25'
+  text: 'New #openreview from our group at <a href="https://prereview.org/reviews/15735964"
+    target="_blank">prereview.org/reviews/1573...</a>! @bussigio.bsky.social and @ollyfutur.bsky.social
+    reviewed a #preprint by Simon Olsson showing their Minimum-Excess-Work Guidance
+    method. Also available at <a href="https://doi.org/10.5281/zenodo.15735964" target="_blank">doi.org/10.5281/zeno...</a>'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3lsg6av6je22s
+  url: https://bsky.app/profile/bussilab.org/post/3lsg6av6je22s
 - date: '2025-06-23'
   text: 'Our research presented at the <a href="https://proteinelectrostatics.org"
     target="_blank">proteinelectrostatics.org</a> Protein Electrostatics 2025, Lisbon!
