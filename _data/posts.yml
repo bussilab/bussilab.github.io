@@ -1,4 +1,12 @@
 - date: '2025-06-26'
+  text: "\U0001F4E2 Paper with @sattler-lab.bsky.social now published in @narjournal.bsky.social\
+    \ ! <a href=\"https://doi.org/10.1093/nar/gkaf550\" target=\"_blank\">doi.org/10.1093/nar/...</a>\
+    \ We combine #NMR, #SAXS, and #MD to construct conformational ensembles, showing\
+    \ that A-to-I hyper-editing leads to significant structural dynamics. MD simulations\
+    \ by @piompons.bsky.social"
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3lsjdy4kfzk2f
+  url: https://bsky.app/profile/bussilab.org/post/3lsjdy4kfzk2f
+- date: '2025-06-26'
   text: A paper from our group (<a href="https://doi.org/10.1093/nargab/lqaa090" target="_blank">doi.org/10.1093/narg...</a>)
     has been tested and reviewed in ReproHack <a href="https://www.reprohack.org/review/151"
     target="_blank">www.reprohack.org/review/151</a>! We got interesting feedback
