@@ -1,3 +1,10 @@
+- date: '2025-06-26'
+  text: A paper from our group (<a href="https://doi.org/10.1093/nargab/lqaa090" target="_blank">doi.org/10.1093/narg...</a>)
+    has been tested and reviewed in ReproHack <a href="https://www.reprohack.org/review/151"
+    target="_blank">www.reprohack.org/review/151</a>! We got interesting feedback
+    on how to improve documentation of our notebooks. Very useful initiative!
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3lsigibvqb22f
+  url: https://bsky.app/profile/bussilab.org/post/3lsigibvqb22f
 - date: '2025-06-25'
   text: 'New #openreview from our group at <a href="https://prereview.org/reviews/15735964"
     target="_blank">prereview.org/reviews/1573...</a>! @bussigio.bsky.social and @ollyfutur.bsky.social
