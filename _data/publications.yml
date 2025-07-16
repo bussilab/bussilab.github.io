@@ -793,6 +793,12 @@
   doi: 10.1103/PhysRevE.75.056707
   handle: 20.500.11767/16816
   title: Accurate sampling using Langevin dynamics
+- arxiv: '0803.4060'
+  authors: Bussi, Donadio, Parrinello
+  citation: JOURNAL OF CHEMICAL PHYSICS 126, 014101 (2007)
+  doi: 10.1063/1.2408420
+  handle: 20.500.11767/12943
+  title: Canonical sampling through velocity rescaling
 - arxiv: '0803.4444'
   authors: Ceriotti, Bussi, Parrinello
   citation: PHYSICAL REVIEW E 76, 026707 (2007)
