@@ -374,12 +374,20 @@ if __name__ == "__main__":
     with open("_data/grants.yml") as f:
         grants=yaml.safe_load(f)
     
+    try:
+        with open("_data/publication_extras.yml") as f:
+            publication_extras=yaml.safe_load(f)
+    except FileNotFoundError:
+        publication_extras={}
+
+    preprints = publication_extras.get("preprints", [])
+    add_handles = publication_extras.get("handles", [])
+
+    handles += [h for h in add_handles if h not in handles]
+
     database=[]
     for handle in tqdm.tqdm(handles):
         database.append(iris_get(handle,raw=True,grants=grants))
-
-    with open("_data/preprints.yml") as f:
-        preprints=yaml.safe_load(f)
         
     for item in preprints:
         if "arxiv" in item:
