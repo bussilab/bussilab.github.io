@@ -403,6 +403,14 @@ if __name__ == "__main__":
         if "biorxiv" in item and not "handle" in item:
             item |= fetch_biorxiv_metadata(item["biorxiv"])
 
+    # override using local yml
+
+    for item in database:
+        for extra in publication_extras:
+            if "handle" in item and "handle" in extra and item["handle"] == extra["handle"]:
+                    for k in extra.keys():
+                        item[k] = extra[k]
+        
     database=sort_database(database)
     
     publications=[]
