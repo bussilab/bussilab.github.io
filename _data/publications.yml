@@ -12,10 +12,10 @@
   - '#pnrr2022'
   title: Unique conformational dynamics and protein recognition of A-to-I hyper-edited
     dsRNA
-- authors: "Mizrahi, Corley, Feldman, Fr\xF6hlking, Sun, Ziesel, Antczak, Bernetti,\
-    \ Elhajjajy, Huang, Nguyen, Park, Perez Martell, Trinity, Xu, Zok, Bussi, Jabbari,\
-    \ Orenstein, Aviran, Meyer, Yeo"
-  citation: RNA https://doi.org/10.1261/rna.080215.124 (2025)
+- authors: Mizrahi, Corley, Feldman, Froehlking, Sun, Ziesel, Antczak, Bernetti, Elhajjajy,
+    Huang, Nguyen, Park, Perez Martell, Trinity, Xu, Zok, Bussi, Jabbari, Orenstein,
+    Aviran, Meyer, Yeo
+  citation: RNA 31, 1103 (2025)
   doi: 10.1261/rna.080215.124
   handle: 20.500.11767/146310
   title: Evaluation of novel computational methods to identify RNA-binding protein
