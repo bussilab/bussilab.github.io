@@ -378,10 +378,10 @@ if __name__ == "__main__":
         with open("_data/publication_extras.yml") as f:
             publication_extras=yaml.safe_load(f)
     except FileNotFoundError:
-        publication_extras={}
+        publication_extras=[]
 
-    preprints = publication_extras.get("preprints", [])
-    add_handles = publication_extras.get("handles", [])
+    preprints = [p for p in publication_extras if "arxiv" in p or "biorxiv" in p]
+    add_handles = [p["handle"] for p in publication_extras if "handle" in p]
 
     handles += [h for h in add_handles if h not in handles]
 
