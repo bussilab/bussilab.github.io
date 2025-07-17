@@ -38,7 +38,7 @@ title: Publications
         {% endif %}
         {% if post.arxiv %}
         <a href="https://arxiv.org/abs/{{ post.arxiv }}" target="_blank">
-          <img alt="arXiv link" src="https://img.shields.io/badge/arXiv-darkred">
+          <img alt="arXiv link" src="https://img.shields.io/badge/arXiv-red">
         </a>
         {% endif %}
         {% if post.biorxiv %}
