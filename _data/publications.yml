@@ -4,7 +4,7 @@
   tags:
   - '#preprint'
   title: RNA Dynamics and Interactions Revealed through Atomistic Simulations
-- authors: Mueller-Hermes, Piomponi, Hilber, Asami, Kreutz, Bussi, Sattler
+- authors: "M\xFCller-Hermes, Piomponi, Hilber, Asami, Kreutz, Bussi, Sattler"
   citation: NUCLEIC ACIDS RESEARCH 53, gkaf550 (2025)
   doi: 10.1093/nar/gkaf550
   handle: 20.500.11767/146750
@@ -32,7 +32,7 @@
   title: Ensemble refinement of mismodeled cryo-EM RNA structures using all-atom simulations
 - arxiv: '2411.07798'
   authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
-  citation: THE JOURNAL OF CHEMICAL PHYSICS 162, 192501 (2025)
+  citation: JOURNAL OF CHEMICAL PHYSICS 162, 192501 (2025)
   doi: 10.1063/5.0256841
   handle: 20.500.11767/146150
   tags:
