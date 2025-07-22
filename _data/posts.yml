@@ -1,3 +1,16 @@
+- date: '2025-07-22'
+  text: 'Our research presented today at the Telluride meeting on #RNA dynamics! @bussigio.bsky.social
+    will report on some of our ongoing projects: the recent #CASP16 solvation challenge,
+    constant pH #MD simulations on #RNA, and 2D ensemble reconstructions using #DMS
+    data'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3lukpbjyjt225
+  url: https://bsky.app/profile/bussilab.org/post/3lukpbjyjt225
+- date: '2025-07-22'
+  text: 'A review reporting on the discussions held at the recent @cecamevents.bsky.social
+    workshop on enzymatic plastic degradation that we co-organized in Trieste is now
+    available on #arxiv'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3lukp3rze6c25
+  url: https://bsky.app/profile/bussilab.org/post/3lukp3rze6c25
 - date: '2025-07-16'
   text: Our research presented at the Cambridge Ellis Unit Summer School on Probabilistic
     Machine Learning! Giuseppe Sacco will present a poster reporting our machine-learned
