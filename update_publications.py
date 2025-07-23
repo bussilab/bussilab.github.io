@@ -116,7 +116,8 @@ def parse_raw_iris_data(raw_data,grants=None):
     if len(lista)>0:
         match = re.search(r"https?://arxiv\.org/(?:abs|pdf)/([^\s]+)", lista[0][1])
         if match:
-            record["arxiv"] = match.group(1).replace(".pdf", "")  # Remove .pdf if present
+            # remove .pdf and version
+            record["arxiv"] = re.sub(r'v\d+$', '', match.group(1).replace(".pdf", ""))
 
     dc_description_note	= extract_scalar(raw_data,[
         "dc.description.note"
