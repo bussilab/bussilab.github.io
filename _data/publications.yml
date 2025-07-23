@@ -291,7 +291,8 @@
   doi: 10.1038/s41467-020-17508-7
   handle: 20.500.11767/116391
   title: Directional translocation resistance of Zika xrRNA
-- authors: Calonaci, Jones, Cuturello, Sattler, Bussi
+- arxiv: '2004.00351'
+  authors: Calonaci, Jones, Cuturello, Sattler, Bussi
   citation: NAR GENOMICS AND BIOINFORMATICS 2, lqaa090 (2020)
   doi: 10.1093/nargab/lqaa090
   handle: 20.500.11767/115849
@@ -316,7 +317,8 @@
   handle: 20.500.11767/112577
   title: Fine-tuning of the AMBER RNA force field with a new term adjusting interactions
     of terminal nucleotides
-- authors: Cuturello, Tiana, Bussi
+- arxiv: '1812.07630'
+  authors: Cuturello, Tiana, Bussi
   citation: RNA 26, 637 (2020)
   doi: 10.1261/rna.074179.119
   handle: 20.500.11767/110422
@@ -430,7 +432,8 @@
   handle: 20.500.11767/68116
   title: Effects and limitations of a nucleobase-driven backmapping procedure for
     nucleic acids using steered molecular dynamics
-- authors: Poblete, Bottaro, Bussi
+- arxiv: '1711.00741'
+  authors: Poblete, Bottaro, Bussi
   citation: NUCLEIC ACIDS RESEARCH 46, 1674 (2018)
   doi: 10.1093/nar/gkx1269
   handle: 20.500.11767/68111
@@ -905,6 +908,12 @@
   - '#bookchapter'
   title: 'Optics and transport in conjugated polymer crystals: Interchain interaction
     effects'
+- arxiv: cond-mat/0203471
+  authors: Ruini, Caldas, Bussi, Molinari
+  citation: PHYSICAL REVIEW LETTERS 88, 206403 (2002)
+  doi: 10.1103/PhysRevLett.88.206403
+  handle: 20.500.11767/13627
+  title: Solid state effects on exciton states and optical properties of PPV
 - authors: Bussi, Ruini, Molinari, Caldas, Puschnig, Ambrosch-Draxl
   citation: APPLIED PHYSICS LETTERS 80, 4118 (2002)
   doi: 10.1063/1.1483905
@@ -918,9 +927,4 @@
   - '#bookchapter'
   title: 'Optical properties of organic materials: from single molecules to solid
     state'
-- authors: Ruini, Caldas, Bussi, Molinari
-  citation: PHYSICAL REVIEW LETTERS 88, 206403 (2002)
-  doi: 10.1103/PhysRevLett.88.206403
-  handle: 20.500.11767/13627
-  title: Solid state effects on exciton states and optical properties of PPV
 
