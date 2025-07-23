@@ -4,13 +4,6 @@
 # removed, the script should be able to merge the two items
 - arxiv: "2507.14413"
 - arxiv: "2507.08474"
-- arxiv: "2412.03595"
-- arxiv: "2411.07798"
-- arxiv: "2410.16064"
-- arxiv: "2407.16584"
-- biorxiv: 10.1101/2024.11.01.618995
-- biorxiv: 10.1101/2024.09.13.612876
-- biorxiv: 10.1101/2024.07.24.604258
 # Corrections to exisiting IRIS records must be added here
 # this is to fix the page number in Amaro et al, Nature Methods (2025)
 - handle: "20.500.11767/145810"
