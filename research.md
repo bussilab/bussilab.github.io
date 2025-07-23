@@ -24,7 +24,7 @@ enabling us to integrate computational insights into complex biological contexts
 A sample application of this approach is [here](./publications?query=Machine+learning+a+model+for+RNA+structure+prediction), but you can expect more coming.
 
 ## PLUMED
-We are involved in the development [PLUMED](https://www.plumed.org),
+We are involved in the development of [PLUMED](https://www.plumed.org),
 an open-source software widely used for enhanced sampling and integrative methods in molecular dynamics simulations.
 PLUMED integrates seamlessly with various MD engines, enabling advanced methodologies that are central to our research.
 Dig more in our [PLUMED related papers](./publications?query=plumed%7C+Promoting+transparency+and+reproducibility+in+enhanced+molecular+simulations).
