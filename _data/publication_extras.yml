@@ -1,13 +1,19 @@
-# Preprints must be directly added to this list.
-# A preprint can be safely removed ones the
-# publication makes it into IRIS. However, even if it's not
-# removed, the script should be able to merge the two items
-- arxiv: "2507.14413"
-- arxiv: "2507.08474"
+# Biorxiv preprints must be added to this list using something like:
+# - biorxiv: "10.1101/2022.07.02.498583"
+
+# Arxiv IDs are directly searched from arXiv. If they are not
+# found, they can be added here using something like:
+# - arxiv: "2507.14413"
+
+# Handles are directly searched from IRIS. If they are not
+# found, they can be added here using something like:
+# - handle: "20.500.11767/140550"
+
+# Important: to avoid duplications, it is crucial that
+# IRIS records contain also the preprint URL in one of the URL
+# fields.
+
 # Corrections to exisiting IRIS records must be added here
 # this is to fix the page number in Amaro et al, Nature Methods (2025)
 - handle: "20.500.11767/145810"
   page: "641"
-## If, for some reason, one of the IRIS handles is not
-## automatically found, it can be added here.
-# - handle: "20.500.11767/xxxxxx"

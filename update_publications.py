@@ -32,6 +32,13 @@ def extract_scalar(raw_data,names):
             return fields[0]
     return ""
 
+def extract_list(raw_data,names):
+    """Extract a list from IRIS raw data. Try a list of fallback names."""
+    fields = []
+    for name in names:
+        fields.extend([item[1] for item in raw_data if item[0] == name])
+    return fields
+
 def parse_raw_iris_data(raw_data,grants=None):
     """Parse IRIS raw data, returning a canonical dictionary."""
 
@@ -123,13 +130,21 @@ def parse_raw_iris_data(raw_data,grants=None):
         "dc.description.note"
     ])
 
+    dc_authority_project_list = extract_list(raw_data,[
+        "dc.authority.project"
+    ])
+
     record["grants"]=[]
     for grant in grants:
       if "strings" in grant:
           for regex in grant["strings"]:
-             if regex in dc_description_note:
+             if regex in dc_description_note and not grant["tag"] in record["grants"]:
                  record["grants"].append(grant["tag"])
                  break
+             for dc_authority_project in dc_authority_project_list:
+                 if regex in dc_authority_project and not grant["tag"] in record["grants"]:
+                     record["grants"].append(grant["tag"])
+                     break
 
     ## not sure this is ok, this prefix might be not unique to biorxiv
     #lista=[item for item in raw_data if item[0]=="dc.identifier.url" and "doi.org/10.1101/" in item[1]]
@@ -180,6 +195,37 @@ def iris_get(handle,*,base_url="https://iris.sissa.it/handle/",raw=False,parsed=
         record["iris_raw"]=raw_data
     record["handle"]=handle
     return record
+
+import requests
+from bs4 import BeautifulSoup
+
+def get_arxiv_ids_from_author_page(orcid):
+    """
+    Extract arXiv identifiers from the author page associated with a given ORCID.
+
+    Parameters:
+        orcid (str): ORCID ID, e.g., "0000-0001-9216-5782"
+
+    Returns:
+        List[str]: List of arXiv identifiers (e.g., ["2303.09372", "1812.08213"])
+    """
+    url = f"https://arxiv.org/a/{orcid}.html"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        arxiv_ids = []
+        for dt in soup.find_all("dt"):
+            id_tag = dt.find("a", href=True)
+            if id_tag and id_tag["href"].startswith("/abs/"):
+                arxiv_id = id_tag["href"].split("/abs/")[1]
+                arxiv_ids.append(arxiv_id)
+
+        return arxiv_ids
+    except Exception as e:
+        print(f"Error: {e}")
+        return []
 
 
 def fetch_arxiv_metadata(arxiv_id):
@@ -382,8 +428,14 @@ if __name__ == "__main__":
         publication_extras=[]
 
     preprints = [p for p in publication_extras if "arxiv" in p or "biorxiv" in p]
-    add_handles = [p["handle"] for p in publication_extras if "handle" in p]
 
+    orcid_arxiv_ids = get_arxiv_ids_from_author_page("0000-0001-9216-5782")
+
+    for arxiv_id in orcid_arxiv_ids:
+        if arxiv_id not in [p["arxiv"] for p in preprints if "arxiv" in p]:
+            preprints.append({"arxiv": arxiv_id})
+
+    add_handles = [p["handle"] for p in publication_extras if "handle" in p]
     handles += [h for h in add_handles if h not in handles]
 
     database=[]

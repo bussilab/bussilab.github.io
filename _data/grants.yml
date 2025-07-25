@@ -1,3 +1,9 @@
+- tag: firb2012
+  strings:
+    - "RBFR102PY5"
+- tag: erc2012
+  strings:
+    - "306662"
 - tag: prin2022
   strings:
     - "2022Z4FZE9"

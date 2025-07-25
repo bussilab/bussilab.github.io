@@ -149,12 +149,14 @@
   title: Molecular dynamics simulations reveal how vinculin refolds partially unfolded
     talin rod helices to stabilize them against mechanical force
 - authors: Thiel, Bussi, Poblete, Hofacker
+  biorxiv: 10.1101/2022.07.02.498583
   citation: NUCLEIC ACIDS RESEARCH 52, e73 (2024)
   doi: 10.1093/nar/gkae602
   handle: 20.500.11767/140550
   title: Sampling globally and locally correct RNA 3D structures using Ernwin, SPQR
     and experimental SAXS data
 - authors: "Pokorn\xE1, Ml\xFDnsk\xFD, Bussi, \u0160poner, Stadlbauer"
+  biorxiv: 10.1101/2023.09.09.556957
   citation: INTERNATIONAL JOURNAL OF BIOLOGICAL MACROMOLECULES 261, 129712 (2024)
   doi: 10.1016/j.ijbiomac.2024.129712
   handle: 20.500.11767/137290
@@ -234,7 +236,8 @@
   - '#review'
   title: 'Biomotors, viral assembly, and RNA nanobiotechnology: Current achievements
     and future directions'
-- authors: "Piomponi, Fr\xF6hlking, Bernetti, Bussi"
+- arxiv: '2203.14886'
+  authors: "Piomponi, Fr\xF6hlking, Bernetti, Bussi"
   citation: ACS CENTRAL SCIENCE 8, 1218 (2022)
   doi: 10.1021/acscentsci.2c00565
   handle: 20.500.11767/129310
@@ -280,6 +283,7 @@
   handle: 20.500.11767/123470
   title: Arginine multivalency stabilizes protein/RNA condensates
 - authors: Bottaro, Bussi, Lindorff-Larsen
+  biorxiv: 10.1101/2020.12.11.421784
   citation: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY 143, 8333 (2021)
   doi: 10.1021/jacs.1c01094
   handle: 20.500.11767/123468
@@ -342,6 +346,8 @@
   citation: NUCLEIC ACIDS RESEARCH 48, 1164 (2020)
   doi: 10.1093/nar/gkz1184
   handle: 20.500.11767/108474
+  tags:
+  - '#erc2012'
   title: Conformational ensembles of an RNA hairpin using molecular dynamics and sparse
     NMR data
 - authors: Colizzi, Perez-Gonzalez, Fritzen, Levy, White, Carlos Penedo, Bussi
@@ -349,6 +355,8 @@
     AMERICA 116, 22471 (2019)
   doi: 10.1073/pnas.1901086116
   handle: 20.500.11767/104314
+  tags:
+  - '#erc2012'
   title: Asymmetric base-pair opening drives helicase unwinding dynamics
 - arxiv: '1812.08213'
   authors: Bussi, Tribello
@@ -400,12 +408,17 @@
   citation: JOURNAL OF CHEMICAL PHYSICS 150, 154123 (2019)
   doi: 10.1063/1.5083227
   handle: 20.500.11767/89934
+  tags:
+  - '#erc2012'
   title: 'The mechanism of RNA base fraying: Molecular dynamics simulations analyzed
     with core-set Markov state models'
 - authors: Bottaro, Bussi, Pinamonti, Reiber, Boomsma, Lindorff-Larsen
+  biorxiv: 10.1101/345678
   citation: RNA 25, 219 (2019)
   doi: 10.1261/rna.067678.118
   handle: 20.500.11767/86543
+  tags:
+  - '#erc2012'
   title: 'Barnaba: software for analysis of nucleic acid structures and trajectories'
 - authors: Rangan, Bonomi, Heller, Cesari, Bussi, Vendruscolo
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 14, 6632 (2018)
@@ -420,9 +433,12 @@
   title: Atomistic Details of Chymotrypsin Conformational Changes upon Adsorption
     on Silica
 - authors: Bottaro, Bussi, Kennedy, Turner, Lindorff-Larsen
+  biorxiv: 10.1101/230268
   citation: SCIENCE ADVANCES 4, eaar8521 (2018)
   doi: 10.1126/sciadv.aar8521
   handle: 20.500.11767/84994
+  tags:
+  - '#erc2012'
   title: Conformational ensembles of RNA oligonucleotides from integrating NMR and
     molecular simulations
 - arxiv: '1709.08691'
@@ -430,6 +446,8 @@
   citation: BIOCHEMICAL AND BIOPHYSICAL RESEARCH COMMUNICATIONS 498, 352 (2018)
   doi: 10.1016/j.bbrc.2017.12.057
   handle: 20.500.11767/68116
+  tags:
+  - '#erc2012'
   title: Effects and limitations of a nucleobase-driven backmapping procedure for
     nucleic acids using steered molecular dynamics
 - arxiv: '1711.00741'
@@ -437,6 +455,8 @@
   citation: NUCLEIC ACIDS RESEARCH 46, 1674 (2018)
   doi: 10.1093/nar/gkx1269
   handle: 20.500.11767/68111
+  tags:
+  - '#erc2012'
   title: A nucleobase-centered coarse-grained representation for structure prediction
     of RNA motifs
 - authors: "Sponer, Bussi, Krepl, Banas, Bottaro, Cunha, Gil-Ley, Pinamonti, Poblete,\
@@ -446,6 +466,7 @@
   handle: 20.500.11767/67900
   tags:
   - '#review'
+  - '#erc2012'
   title: 'RNA structural dynamics as captured by molecular simulations: A comprehensive
     overview'
 - authors: "Podbev\u0161ek, Fasolo, Bon, Cimatti, Rei\xDFer, Carninci, Bussi, Zucchelli,\
@@ -453,6 +474,8 @@
   citation: SCIENTIFIC REPORTS 8, 3189 (2018)
   doi: 10.1038/s41598-017-14908-6
   handle: 20.500.11767/67664
+  tags:
+  - '#erc2012'
   title: Structural determinants of the SINE B2 element embedded in the long non-coding
     RNA activator of translation AS Uchl1
 - arxiv: '1801.05247'
@@ -470,11 +493,14 @@
   handle: 20.500.11767/65204
   tags:
   - '#review'
+  - '#erc2012'
   title: Exploring RNA structure and dynamics through enhanced sampling simulations
 - authors: "Ml\xFDnsk\xFD, Bussi"
   citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 9, 313 (2018)
   doi: 10.1021/acs.jpclett.7b02921
   handle: 20.500.11767/63625
+  tags:
+  - '#erc2012'
   title: Molecular Dynamics Simulations Reveal an Interplay between SHAPE Reagent
     Binding and RNA Flexibility
 - authors: "Islam, Stadlbauer, Gil-Ley, P\xE9rez-Hern\xE1ndez, Haider, Neidle, Bussi,\
@@ -482,6 +508,8 @@
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 13, 2458 (2017)
   doi: 10.1021/acs.jctc.7b00226
   handle: 20.500.11767/53697
+  tags:
+  - '#erc2012'
   title: Exploring the Dynamics of Propeller Loops in Human Telomeric DNA Quadruplexes
     Using Atomistic Simulations
 - arxiv: '1702.01072'
@@ -489,6 +517,8 @@
   citation: RNA 23, 712 (2017)
   doi: 10.1261/rna.060442.116
   handle: 20.500.11767/43707
+  tags:
+  - '#erc2012'
   title: Understanding in-line probing experiments by modeling cleavage of nonreactive
     RNA nucleotides
 - authors: Bellucci, Bussi, Di Felice, Corni
@@ -503,6 +533,8 @@
   citation: BIOCHIMICA ET BIOPHYSICA ACTA-GENERAL SUBJECTS 1861, 1246 (2017)
   doi: 10.1016/j.bbagen.2016.12.008
   handle: 20.500.11767/14883
+  tags:
+  - '#erc2012'
   title: "Folding of guanine quadruplex molecules\u2013funnel-like mechanism or kinetic\
     \ partitioning? An overview from MD simulation studies"
 - arxiv: '1612.07470'
@@ -510,18 +542,24 @@
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 13, 926 (2017)
   doi: 10.1021/acs.jctc.6b00982
   handle: 20.500.11767/17423
+  tags:
+  - '#erc2012'
   title: Predicting the Kinetics of RNA Oligonucleotides Using Markov State Models
 - arxiv: '1612.08550'
   authors: Cunha, Bussi
   citation: RNA 23, 628 (2017)
   doi: 10.1261/rna.060079.116
   handle: 20.500.11767/11944
+  tags:
+  - '#erc2012'
   title: Unraveling Mg2+-RNA binding with atomistic molecular dynamics
 - arxiv: '1611.06156'
   authors: Cesari, Gil-Ley, Bussi
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 12, 6192 (2016)
   doi: 10.1021/acs.jctc.6b00944
   handle: 20.500.11767/17367
+  tags:
+  - '#erc2012'
   title: Combining Simulations and Solution Experiments as a Paradigm for RNA Force
     Field Refinement
 - arxiv: '1609.08276'
@@ -529,36 +567,48 @@
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 12, 4534 (2016)
   doi: 10.1021/acs.jctc.6b00300
   handle: 20.500.11767/15904
+  tags:
+  - '#erc2012'
   title: 'Computer Folding of RNA Tetraloops: Identification of Key Force Field Deficiencies'
 - arxiv: '1605.00934'
   authors: Gil-Ley, Bottaro, Bussi
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 12, 2790 (2016)
   doi: 10.1021/acs.jctc.6b00299
   handle: 20.500.11767/11774
+  tags:
+  - '#erc2012'
   title: Empirical Corrections to the Amber RNA Force Field with Target Metadynamics
 - arxiv: '1609.07898'
   authors: "Bottaro, Ban\xE1\u0161, \u0160poner, Bussi"
   citation: JOURNAL OF PHYSICAL CHEMISTRY LETTERS 7, 4032 (2016)
   doi: 10.1021/acs.jpclett.6b01905
   handle: 20.500.11767/15962
+  tags:
+  - '#erc2012'
   title: Free Energy Landscape of GAGA and UUCG RNA Tetraloops
 - arxiv: '1603.08952'
   authors: Bottaro, Gil-Ley, Bussi
   citation: NUCLEIC ACIDS RESEARCH 44, 5883 (2016)
   doi: 10.1093/nar/gkw239
   handle: 20.500.11767/11768
+  tags:
+  - '#erc2012'
   title: RNA folding pathways in stop motion
 - arxiv: '1412.3916'
   authors: "Ferrarotti, Bottaro, P\xE9rez-Villa, Bussi"
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 11, 139 (2015)
   doi: 10.1021/ct5007086
   handle: 20.500.11767/11876
+  tags:
+  - '#erc2012'
   title: Accurate multiple time step in biased molecular simulations
 - arxiv: '1508.05199'
   authors: "P\xE9rez-Villa, Darvas, Bussi"
   citation: NUCLEIC ACIDS RESEARCH 43, 8725 (2015)
   doi: 10.1093/nar/gkv872
   handle: 20.500.11767/14395
+  tags:
+  - '#erc2012'
   title: 'ATP dependent NS3 helicase interaction with RNA: Insights from molecular
     simulations'
 - arxiv: '1506.09178'
@@ -566,6 +616,8 @@
   citation: NUCLEIC ACIDS RESEARCH 43, 7260 (2015)
   doi: 10.1093/nar/gkv708
   handle: 20.500.11767/12537
+  tags:
+  - '#erc2012'
   title: 'Elastic network models for RNA: A comparative assessment with molecular
     dynamics and SHAPE experiments'
 - arxiv: '1502.02115'
@@ -573,6 +625,8 @@
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 11, 1077 (2015)
   doi: 10.1021/ct5009087
   handle: 20.500.11767/16966
+  tags:
+  - '#erc2012'
   title: Enhanced conformational sampling using replica exchange with collective-variable
     tempering
 - authors: Bussi, Branduardi
@@ -588,6 +642,8 @@
   citation: NUCLEIC ACIDS RESEARCH 43, 9626 (2015)
   doi: 10.1093/nar/gkv994
   handle: 20.500.11767/12540
+  tags:
+  - '#erc2012'
   title: Hairpins participating in folding of human telomeric sequence quadruplexes
     studied by standard and T-REMD simulations
 - arxiv: '1504.07392'
@@ -595,6 +651,8 @@
   citation: BMC BIOINFORMATICS 16, S6 (2015)
   doi: 10.1186/1471-2105-16-S9-S6
   handle: 20.500.11767/11874
+  tags:
+  - '#erc2012'
   title: 'Kissing loop interaction in adenine riboswitch: Insights from umbrella sampling
     simulations'
 - arxiv: '1502.05667'
@@ -602,6 +660,8 @@
   citation: RNA & DISEASE 2, e544 (2015)
   doi: 10.14800/rd.544
   handle: 20.500.11767/12408
+  tags:
+  - '#erc2012'
   title: Towards de novo RNA 3D Structure Prediction
 - authors: Di Palma, Colizzi, Bussi
   citation: COMPUTATIONAL METHODS FOR UNDERSTANDING RIBOSWITCHES 553, 139 (2015)
@@ -609,6 +669,7 @@
   handle: 20.500.11767/15196
   tags:
   - '#bookchapter'
+  - '#erc2012'
   title: Using reweighted pulling simulations to characterize conformational changes
     in riboswitches
 - authors: "Jaafar, Pignedoli, Bussi, A\xEFt-Mansour, Groening, Amaya, Hirao, Fasel,\
@@ -622,6 +683,8 @@
   citation: ENTROPY 16, 163 (2014)
   doi: 10.3390/e16010163
   handle: 20.500.11767/15914
+  tags:
+  - '#erc2012'
   title: Enhanced sampling in molecular dynamics using metadynamics, replica-exchange,
     and temperature-acceleration
 - arxiv: '1307.5144'
@@ -629,12 +692,17 @@
   citation: MOLECULAR PHYSICS 112, 379 (2014)
   doi: 10.1080/00268976.2013.824126
   handle: 20.500.11767/15840
+  tags:
+  - '#erc2012'
   title: 'Hamiltonian replica exchange in GROMACS: A flexible implementation'
 - arxiv: '1310.0980'
   authors: Tribello, Bonomi, Branduardi, Camilloni, Bussi
   citation: COMPUTER PHYSICS COMMUNICATIONS 185, 604 (2014)
   doi: 10.1016/j.cpc.2013.09.018
   handle: 20.500.11767/11534
+  tags:
+  - '#firb2012'
+  - '#erc2012'
   title: 'PLUMED 2: New feathers for an old bird'
 - authors: Colizzi, Lamontagne, Lafontaine, Bussi
   citation: METHODS IN MOLECULAR BIOLOGY 1103, 141 (2014)
@@ -642,6 +710,7 @@
   handle: 20.500.11767/15102
   tags:
   - '#bookchapter'
+  - '#erc2012'
   title: Probing riboswitch binding sites with molecular docking, focused libraries,
     and in-line probing assays
 - arxiv: '1410.1271'
@@ -649,12 +718,16 @@
   citation: NUCLEIC ACIDS RESEARCH 42, 13306 (2014)
   doi: 10.1093/nar/gku972
   handle: 20.500.11767/17373
+  tags:
+  - '#erc2012'
   title: The role of nucleobase interactions in RNA structure and dynamics
 - arxiv: '1309.5717'
   authors: Di Palma, Colizzi, Bussi
   citation: RNA 19, 1517 (2013)
   doi: 10.1261/rna.040493.113
   handle: 20.500.11767/11521
+  tags:
+  - '#erc2012'
   title: Ligand-induced stabilization of the aptamer terminal helix in the add adenine
     riboswitch
 - arxiv: '1307.5565'
@@ -662,6 +735,8 @@
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 9, 1720 (2013)
   doi: 10.1021/ct3009914
   handle: 20.500.11767/11373
+  tags:
+  - '#erc2012'
   title: RNA/peptide binding driven by electrostatics - Insight from bidirectional
     pulling simulations
 - authors: Franco, Sgrignani, Bussi, Magistrato
@@ -682,12 +757,16 @@
   citation: JOURNAL OF CHEMICAL THEORY AND COMPUTATION 8, 2247 (2012)
   doi: 10.1021/ct3002464
   handle: 20.500.11767/12023
+  tags:
+  - '#firb2012'
   title: Metadynamics with adaptive gaussians
 - arxiv: '1203.5866'
   authors: Colizzi, Bussi
   citation: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY 134, 5173 (2012)
   doi: 10.1021/ja210531q
   handle: 20.500.11767/16711
+  tags:
+  - '#firb2012'
   title: RNA unwinding from reweighted pulling simulations
 - arxiv: '1207.6904'
   authors: Yusuff, Babalola, Bussi, Raugei

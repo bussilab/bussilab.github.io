@@ -60,8 +60,8 @@ Our research has been funded by the following sources:
   -  [RNA Dynamics prediction with Diffusion Models](https://cordis.europa.eu/project/id/101152924).
 - [EMBO](https://www.embo.org), one post-doctoral fellowship (ALTF 399-2022). See [publications](./publications?query=%23embo2022).
 - [PRIN](https://prin.mur.gov.it/), PRIN 2022, [Hunting metal ions within cryo-EM derived RNA structures](https://bussilab.github.io/prin2022). See [publications](./publications?query=%23prin2022).
-- [ERC](https://erc.europa.eu/), Starting Grant 2012, [Small RNAs in silico](http://www.srnas.sissa.it/home/)
-- [FIRB](https://firb.miur.it/), Futuro in Ricerca 2010
+- [ERC](https://erc.europa.eu/), Starting Grant 2012, [Small RNAs in silico](http://www.srnas.sissa.it/home/). See [publications](./publications?query=%23erc2012).
+- [FIRB](https://firb.miur.it/), Futuro in Ricerca 2010. See [publications](./publications?query=%23firb2012).
 - [CINECA](https://www.cineca.it) and [EuroHPC](https://eurohpc-ju.europa.eu) for computer time. Recent projects:
   - EuroHPC 2024. See [publications](./publications?query=%23eurohpc2024).
 
