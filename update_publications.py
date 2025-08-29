@@ -107,7 +107,7 @@ def parse_raw_iris_data(raw_data,grants=None):
         "dc.collection.name"
     ])
     
-    if collection_name and "review in journal" in collection_name.lower():
+    if collection_name and ( "review in journal" in collection_name.lower() or "critique in journal" in collection_name.lower()):
         record["is_review"]=True
 
     if collection_name and "book chapter" in collection_name.lower():
