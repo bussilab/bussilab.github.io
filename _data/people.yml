@@ -74,10 +74,9 @@
     Integration of cryo-EM data and MD simulations to study the dynamics of viral nucleoproteins.
 
 - name: Davide Di Vora
-  role: Undergraduate Student, University of Trieste (2025)
+  role: Guest
   funds: "None"
-  research: >
-    Methods to integrate experimental data and molecular simulations on-the-fly.
+  previously: Undergraduate Student, University of Trieste (2025)
 
 - name: Valerio Piomponi
   thesis: https://iris.sissa.it/handle/20.500.11767/134590
