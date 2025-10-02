@@ -37,21 +37,6 @@
   scholar: https://scholar.google.com/citations?user=dF1zugYAAAAJ
   orcid: "0000-0002-2407-4763"
 
-- name: Ivan Gilardoni
-  role: PhD Student
-  orcid: "0000-0002-7504-9840"
-  prereview: true
-  research: >
-    Methods to integrate experiment and simulation data.
-  
-- name: Elisa Posani
-  role: PhD Student
-  orcid: "0000-0002-0217-5125"
-  scholar: https://scholar.google.com/citations?user=XVv-8q8AAAAJ
-  research: >
-    Integration of cryo-EM data and MD simulations to study RNA dynamics and interaction with divalent cations.
-    Co-supervision with [Alessandra Magistrato (CNR)](https://www.iom.cnr.it/phonebook/alessandra-magistrato/).
-
 - name: Salvatore Di Marco
   role: PhD Student
   funds: SISSA, PNRR
@@ -72,6 +57,23 @@
   role: PhD Student
   research: >
     Integration of cryo-EM data and MD simulations to study the dynamics of viral nucleoproteins.
+
+- name: Ivan Gilardoni
+  role: Guest
+  previously: PhD Student
+  orcid: "0000-0002-7504-9840"
+  prereview: true
+  research: >
+    Methods to integrate experiment and simulation data.
+  
+- name: Elisa Posani
+  role: Guest
+  previously: PhD Student
+  orcid: "0000-0002-0217-5125"
+  scholar: https://scholar.google.com/citations?user=XVv-8q8AAAAJ
+  research: >
+    Integration of cryo-EM data and MD simulations to study RNA dynamics and interaction with divalent cations.
+    Co-supervision with [Alessandra Magistrato (CNR)](https://www.iom.cnr.it/phonebook/alessandra-magistrato/).
 
 - name: Davide Di Vora
   role: Guest
