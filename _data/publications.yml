@@ -20,6 +20,19 @@
   - '#preprint'
   title: "Computations Meet Experiments to Advance the Enzymatic Depolymerization\n\
     \  of Plastics One Atom at a Time"
+- arxiv: '2511.02622'
+  authors: Sacco, Bussi, Sanguinetti
+  citation: arXiv:2511.02622
+  tags:
+  - '#preprint'
+  title: "Machine Learning for RNA Secondary Structure Prediction: a review of\n \
+    \ current methods and challenges"
+- arxiv: '2511.02699'
+  authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
+  citation: arXiv:2511.02699
+  tags:
+  - '#preprint'
+  title: 'Making PLUMED fly: a tutorial on optimizing performance'
 - arxiv: '2507.08474'
   authors: "Languin-Catto\xEBn, Bussi"
   citation: arXiv:2507.08474
