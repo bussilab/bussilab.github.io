@@ -1,3 +1,11 @@
+- date: '2025-11-06'
+  text: 'Our work presented at the Ultra-Highfield NMR and 4D Structural Biology workshop
+    <a href="https://www.bnmrz.org/4dstructbiol" target="_blank">www.bnmrz.org/4dstructbiol</a>
+    organized by @sattler-lab.bsky.social! @bussigio.bsky.social will show our works
+    on #RNA dynamics integrating #MD, #SAXS, and #NMR and validating a #CASP16 target
+    using #cryoEM data'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3m4x46emku22u
+  url: https://bsky.app/profile/bussilab.org/post/3m4x46emku22u
 - date: '2025-11-05'
   text: "New #preprint alert! \U0001F9EC Machine Learning for #RNA Secondary Structure\
     \ Prediction: a #review of current methods and challenges, by Giuseppe Sacco,\
