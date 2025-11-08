@@ -1,13 +1,3 @@
-- authors: Kretsch, Posani, Baulin, Bujnicki, Bussi, Cheatham, Chen, Elofsson, Farsani,
-    Fisher, Gromiha, Gupta, Hamada, Harini, Hu, Huang, Iwakiri, Jain, Kagaya, Kihara,
-    Kmiecik, Krishnan, Kurisaki, Languin-Cattoen, Li, Li, Malekzadeh, Nakamura, Ni,
-    Nithin, Palo, Park, Pilla, Poblete, Pucci, Punuru, Saha, Sato, Srivastava, Terashi,
-    Tugolukova, Verburgt, Wuyun, Zerze, Zhang, Zhang, Zhen
-  biorxiv: 10.1101/2025.11.03.685595
-  citation: biorxiv:10.1101/2025.11.03.685595
-  tags:
-  - '#preprint'
-  title: Blind Prediction of Complex Water and Ion Ensembles Around RNA in CASP16
 - arxiv: '2507.14413'
   authors: "Colizzi, Bl\xE1zquez-S\xE1nchez, Bussi, Andr\xE9, Ballabio, Bayer, Bertocchini,\
     \ Butensch\xF6n, Carosati, Piero, Pede-Mattatelli, Faggian, Favaro, Fernandes,\
@@ -39,6 +29,21 @@
   tags:
   - '#preprint'
   title: RNA Dynamics and Interactions Revealed through Atomistic Simulations
+- authors: "Kretsch, Posani, Baulin, Bujnicki, Bussi, Cheatham, Chen, Elofsson, Farsani,\
+    \ Fisher, Gromiha, Gupta, Hamada, Harini, Hu, Huang, Iwakiri, Jain, Kagaya, Kihara,\
+    \ Kmiecik, Krishnan, Kurisaki, Languin\u2010Catto\xEBn, Li, Li, Malekzadeh, Nakamura,\
+    \ Ni, Nithin, Palo, Park, Pilla, Poblete, Pucci, Punuru, Saha, Sato, Srivastava,\
+    \ Terashi, Tugolukova, Verburgt, Wuyun, Zerze, Zhang, Zhang, Zheng, Zhou, Chiu,\
+    \ Case, Das"
+  biorxiv: 10.1101/2025.11.03.685595
+  citation: PROTEINS https://doi.org/10.1002/prot.70079 (2025)
+  doi: 10.1002/prot.70079
+  handle: 20.500.11767/149190
+  tags:
+  - '#prin2022'
+  - '#pnrr2022'
+  - '#eurohpc2024'
+  title: Blind Prediction of Complex Water and Ion Ensembles Around RNA in CASP16
 - authors: "M\xFCller-Hermes, Piomponi, Hilber, Asami, Kreutz, Bussi, Sattler"
   citation: NUCLEIC ACIDS RESEARCH 53, gkaf550 (2025)
   doi: 10.1093/nar/gkaf550
