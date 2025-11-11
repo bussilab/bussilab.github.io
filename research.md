@@ -16,7 +16,7 @@ You can start the exploration looking at [our reviews](./publications?query=Inte
 ## Applications of Molecular Dynamics
 Using molecular dynamics simulations, we characterize the structures and dynamics of RNA molecules,
 as well as their interactions with ions, proteins, and small molecules, providing insights into their biological roles.
-A sort of comprehensive review on the topic is [available here](./publications?query=RNA+structural+dynamics+as+captured+by+molecular+simulations%3A+A+comprehensive+overview).
+Reviews on this topic are [available here](./publications?query=RNA+Structural+Dynamics+As+Captured+by+Molecular+Simulations%3A+A+Comprehensive+Overview%7CRNA+Dynamics+and+Interactions+Revealed+through+Atomistic+Simulations).
 
 ## Bioinformatics for Large Systems
 To scale our studies to larger RNA systems, we utilize bioinformatics tools like secondary structure prediction,
