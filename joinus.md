@@ -18,6 +18,7 @@ We welcome applications from post-doctoral researchers. Our group is happy to su
 
 - **Previous Fellowships**: We hosted MSCA and EMBO fellowships, and we are open to supporting these or other options. 
 - **Internal Funding**: We routinely open positions funded by internal grants. Check [the news section](./news?query=%23joinus%7Cjoin+us) for open calls.
+- **External Funding**: Our group is funded by a [large scale FIS grant](./fis3), several post-doctoration positions available.
 
 ---
 
