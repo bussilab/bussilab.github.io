@@ -68,7 +68,7 @@ Our research has been funded by the following sources:
 
 
 <img src="logos/SISSA.png" alt="SISSA Logo"  width="100"/>
-<img src="logos/fis_rosso.png" alt="FIS Logo"  width="100"/>
+<img src="logos/fis_rosso.png" alt="FIS Logo"  width="300"/>
 <img src="logos/PNRR.svg" alt="PNRR Logo" width="300"/> 
 <img src="logos/EuropeanCommission.svg"  alt="European Commission Logo" width="300"/> 
 <img src="logos/EMBO.svg" alt="EMBO Logo" width="200"/> 
