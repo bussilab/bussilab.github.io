@@ -54,6 +54,7 @@ Principal Investigator, Full Professor
 
 Our research has been funded by the following sources:
 - [SISSA](https://www.sissa.it/), institutional funds
+- [FIS3](https://fis-submission.mur.gov.it/), Advanced Grant 2025, [Exploring RNA Dynamics across Scales: From Base Pairs to Viral Genomes](./fis3).
 - PNRR, National Centre for HPC, Big Data, and Quantum Computing. See [publications](./publications?query=%23pnrr2022).
 - [MSCA](https://marie-sklodowska-curie-actions.ec.europa.eu/), two post-doctoral fellowships:
   -  [Multiscale Simulations of HIV capsid assembly and RNA](https://cordis.europa.eu/project/id/101109916).
