@@ -1,7 +1,7 @@
 
 We develop and apply advanced computational methods to study RNA, the most intriguing actor in molecular biology.
 We are part of the <a target="_blank" href="https://msb.sissa.it">Molecular and Statistical Biophysics group</a>
-at <a target="_blank" href="https://www.sissa.it">SISSA</a>.
+at <a target="_blank" href="https://www.sissa.it">SISSA</a>. Starting in spring 2026, our group will receive substantial funding from a [FIS3](https://fis-submission.mur.gov.it/) Advanced Grant to [explore RNA dynamics across scales, from base pairs to viral genomes](./fis3).
 
 ---
 
