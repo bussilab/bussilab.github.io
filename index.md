@@ -1,7 +1,7 @@
 
 We develop and apply advanced computational methods to study RNA, the most intriguing actor in molecular biology.
 We are part of the <a target="_blank" href="https://msb.sissa.it">Molecular and Statistical Biophysics group</a>
-at <a target="_blank" href="https://www.sissa.it">SISSA</a>. Starting in spring 2026, our group will receive substantial funding from a [FIS3](https://fis-submission.mur.gov.it/) Advanced Grant to [explore RNA dynamics across scales, from base pairs to viral genomes](./fis3).
+at <a target="_blank" href="https://www.sissa.it">SISSA</a>. Starting in spring 2026, our group will receive substantial funding from a [FIS3](https://fis-submission.mur.gov.it/) Advanced Grant to [explore RNA dynamics across scales, from base pairs to viral genomes](./rnascale).
 
 ---
 
@@ -54,7 +54,7 @@ Principal Investigator, Full Professor
 
 Our research has been funded by the following sources:
 - [SISSA](https://www.sissa.it/), institutional funds
-- [FIS3](https://fis-submission.mur.gov.it/), Advanced Grant 2025, [Exploring RNA Dynamics across Scales: From Base Pairs to Viral Genomes](./fis3).
+- [FIS3](https://fis-submission.mur.gov.it/), Advanced Grant 2025, [Exploring RNA Dynamics across Scales: From Base Pairs to Viral Genomes](./rnascale).
 - PNRR, National Centre for HPC, Big Data, and Quantum Computing. See [publications](./publications?query=%23pnrr2022).
 - [MSCA](https://marie-sklodowska-curie-actions.ec.europa.eu/), two post-doctoral fellowships:
   -  [Multiscale Simulations of HIV capsid assembly and RNA](https://cordis.europa.eu/project/id/101109916).
