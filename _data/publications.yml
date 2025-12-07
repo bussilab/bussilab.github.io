@@ -1,3 +1,34 @@
+- arxiv: '2507.14413'
+  authors: "Colizzi, Bl\xE1zquez-S\xE1nchez, Bussi, Andr\xE9, Ballabio, Bayer, Bertocchini,\
+    \ Butensch\xF6n, Carosati, Piero, Pede-Mattatelli, Faggian, Favaro, Fernandes,\
+    \ Ferretti, Fojan, Gagsteiger, Garc\xEDa-Ruiz, Gardossi, Giorgino, Graefe, Gunkel,\
+    \ Jim\xE9nez, Keller, K\xFCnze, Lim, Lippens, Maria-Solano, Mitusi\u0144ska, Moliner,\
+    \ Molla, Myburgh, Panel, Ram\xEDrez-Sarmiento, Rocher, Strodel, Ruiz, Turak, Varrone,\
+    \ Vezzini, Westh, Zimmermann"
+  citation: arXiv:2507.14413
+  tags:
+  - '#preprint'
+  title: Computations Meet Experiments to Advance the Enzymatic Depolymerization of
+    Plastics One Atom at a Time
+- arxiv: '2511.02622'
+  authors: Sacco, Bussi, Sanguinetti
+  citation: arXiv:2511.02622
+  tags:
+  - '#preprint'
+  title: 'Machine Learning for RNA Secondary Structure Prediction: a review of current
+    methods and challenges'
+- arxiv: '2511.02699'
+  authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
+  citation: arXiv:2511.02699
+  tags:
+  - '#preprint'
+  title: 'Making PLUMED fly: a tutorial on optimizing performance'
+- arxiv: '2507.08474'
+  authors: "Languin-Catto\xEBn, Bussi"
+  citation: arXiv:2507.08474
+  tags:
+  - '#preprint'
+  title: RNA Dynamics and Interactions Revealed through Atomistic Simulations
 - authors: "Kretsch, Posani, Baulin, Bujnicki, Bussi, Cheatham, Chen, Elofsson, Farsani,\
     \ Fisher, Gromiha, Gupta, Hamada, Harini, Hu, Huang, Iwakiri, Jain, Kagaya, Kihara,\
     \ Kmiecik, Krishnan, Kurisaki, Languin\u2010Cattoen, Li, Li, Malekzadeh, Nakamura,\
