@@ -23,6 +23,13 @@
   tags:
   - '#preprint'
   title: 'Making PLUMED fly: a tutorial on optimizing performance'
+- arxiv: '2512.20581'
+  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
+  citation: arXiv:2512.20581
+  tags:
+  - '#preprint'
+  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
+    with chemical probing'
 - arxiv: '2507.08474'
   authors: "Languin-Catto\xEBn, Bussi"
   citation: arXiv:2507.08474
