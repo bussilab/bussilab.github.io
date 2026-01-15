@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from xml.etree import ElementTree
 from dateutil import parser
 
+user_agent="IRIS metadata fetch (contact: bussi@sissa.it)"
 
 def extract_authors(raw_data):
     """Extract list of authors from IRIS raw data."""
@@ -164,8 +165,8 @@ def parse_raw_iris_data(raw_data,grants=None):
     return record
     
 def iris_get(handle,*,base_url="https://iris.sissa.it/handle/",raw=False,parsed=True,grants=None):
-    response=requests.get(f"{base_url}{handle}?mode=full")
-    # Check the response status
+    url=f"{base_url}{handle}?mode=full"
+    response=requests.get(url,headers={"User-Agent":user_agent})
     if response.status_code != 200:
         raise RuntimeError(response.status_code)
         
@@ -308,7 +309,7 @@ def iris_fetch_handles(author_name, max_pages=10):
         params_template["start"] = page * 100
         
         # Make the request
-        response = requests.get(base_url, params=params_template)
+        response = requests.get(base_url, params=params_template, headers={"User-Agent":user_agent})
         
         if response.status_code != 200:
             print(f"Error fetching page {page}: {response.status_code}")
