@@ -17,3 +17,18 @@
 - tag: eurohpc2024
   strings:
     - "2023R03-136"
+- tag: iscrab2013
+  strings:
+    - "HP10BI6HS2"
+- tag: iscrab2012b
+  strings:
+    - "HP10BL6XFZ"
+- tag: iscrab2012a
+  strings:
+    - "HP10B2G6OF"
+- tag: iscrab2010
+  strings:
+    - "HP10B194XL"
+- tag: iscrab2011
+  strings:
+    - "HP10AQXC5N"

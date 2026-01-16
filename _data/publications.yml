@@ -644,6 +644,7 @@
   handle: 20.500.11767/14395
   tags:
   - '#erc2012'
+  - '#iscrab2012b'
   title: 'ATP dependent NS3 helicase interaction with RNA: Insights from molecular
     simulations'
 - arxiv: '1506.09178'
@@ -688,6 +689,7 @@
   handle: 20.500.11767/11874
   tags:
   - '#erc2012'
+  - '#iscrab2013'
   title: 'Kissing loop interaction in adenine riboswitch: Insights from umbrella sampling
     simulations'
 - arxiv: '1502.05667'
@@ -705,6 +707,7 @@
   tags:
   - '#bookchapter'
   - '#erc2012'
+  - '#iscrab2012a'
   title: Using reweighted pulling simulations to characterize conformational changes
     in riboswitches
 - authors: "Jaafar, Pignedoli, Bussi, A\xEFt-Mansour, Groening, Amaya, Hirao, Fasel,\
@@ -729,6 +732,7 @@
   handle: 20.500.11767/15840
   tags:
   - '#erc2012'
+  - '#iscrab2010'
   title: 'Hamiltonian replica exchange in GROMACS: A flexible implementation'
 - arxiv: '1310.0980'
   authors: Tribello, Bonomi, Branduardi, Camilloni, Bussi
@@ -763,6 +767,7 @@
   handle: 20.500.11767/11521
   tags:
   - '#erc2012'
+  - '#iscrab2012a'
   title: Ligand-induced stabilization of the aptamer terminal helix in the add adenine
     riboswitch
 - arxiv: '1307.5565'
@@ -772,6 +777,7 @@
   handle: 20.500.11767/11373
   tags:
   - '#erc2012'
+  - '#iscrab2011'
   title: RNA/peptide binding driven by electrostatics - Insight from bidirectional
     pulling simulations
 - authors: Franco, Sgrignani, Bussi, Magistrato
