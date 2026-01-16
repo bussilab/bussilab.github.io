@@ -58,7 +58,7 @@ Our research has been funded by the following sources:
 - PNRR, National Centre for HPC, Big Data, and Quantum Computing. See [publications](./publications?query=%23pnrr2022).
 - [MSCA](https://marie-sklodowska-curie-actions.ec.europa.eu/), two post-doctoral fellowships:
   -  [Multiscale Simulations of HIV capsid assembly and RNA](https://cordis.europa.eu/project/id/101109916).
-  -  [RNA Dynamics prediction with Diffusion Models](https://cordis.europa.eu/project/id/101152924).
+  -  [RNA Dynamics prediction with Diffusion Models](https://cordis.europa.eu/project/id/101152924). See [publications](./publications?query=%23msca2023).
 - [EMBO](https://www.embo.org), one post-doctoral fellowship (ALTF 399-2022). See [publications](./publications?query=%23embo2022).
 - [PRIN](https://prin.mur.gov.it/), PRIN 2022, [Hunting metal ions within cryo-EM derived RNA structures](https://bussilab.github.io/prin2022). See [publications](./publications?query=%23prin2022).
 - [ERC](https://erc.europa.eu/), Starting Grant 2012, [Small RNAs in silico](http://www.srnas.sissa.it/home/). See [publications](./publications?query=%23erc2012).
