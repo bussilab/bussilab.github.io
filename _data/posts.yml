@@ -1,3 +1,9 @@
+- date: '2026-01-27'
+  text: |-
+    Our review on Machine Learning for #RNA Secondary Structure Prediction is now published in @rnajournal.bsky.social ! <a href="https://dx.doi.org/10.1261/rna.080840.125" target="_blank">dx.doi.org/10.1261/rna....</a>
+    Summary in this previous thread <a href="https://bsky.app/profile/bussilab.org/post/3m4w445qypk2l" target="_blank">bsky.app/profile/buss...</a>
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mdfbjarknc2x
+  url: https://bsky.app/profile/bussilab.org/post/3mdfbjarknc2x
 - date: '2025-12-24'
   text: "New #preprint alert! \U0001F9EC MERGE-RNA: a physics-based model to predict\
     \ #RNA secondary structure ensembles with chemical probing, lead by Giuseppe Sacco,\
