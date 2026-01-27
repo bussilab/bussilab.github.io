@@ -10,13 +10,6 @@
   - '#preprint'
   title: Computations Meet Experiments to Advance the Enzymatic Depolymerization of
     Plastics One Atom at a Time
-- arxiv: '2511.02622'
-  authors: Sacco, Bussi, Sanguinetti
-  citation: arXiv:2511.02622
-  tags:
-  - '#preprint'
-  title: 'Machine Learning for RNA Secondary Structure Prediction: a review of current
-    methods and challenges'
 - arxiv: '2511.02699'
   authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
   citation: arXiv:2511.02699
@@ -36,6 +29,15 @@
   tags:
   - '#preprint'
   title: RNA Dynamics and Interactions Revealed through Atomistic Simulations
+- arxiv: '2511.02622'
+  authors: Sacco, Bussi, Sanguinetti
+  citation: RNA https://doi.org/10.1261/rna.080840.125 (2026)
+  doi: 10.1261/rna.080840.125
+  handle: 20.500.11767/149890
+  tags:
+  - '#review'
+  title: 'Machine Learning for RNA Secondary Structure Prediction: a review of current
+    methods and challenges'
 - authors: "Kretsch, Posani, Baulin, Bujnicki, Bussi, Cheatham, Chen, Elofsson, Farsani,\
     \ Fisher, Gromiha, Gupta, Hamada, Harini, Hu, Huang, Iwakiri, Jain, Kagaya, Kihara,\
     \ Kmiecik, Krishnan, Kurisaki, Languin\u2010Cattoen, Li, Li, Malekzadeh, Nakamura,\
