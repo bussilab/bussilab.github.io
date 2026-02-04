@@ -1,3 +1,9 @@
+- date: '2026-02-03'
+  text: |-
+    New #openreview from our group at <a href="https://prereview.org/reviews/18475062" target="_blank">prereview.org/reviews/1847...</a>! @bussigio.bsky.social and @sdimarco.bsky.social reviewed a #preprint by Pavel Banas and coworkers on the evaluation of enhanced sampling
+    methods for force field benchmarking. Also available at <a href="https://doi.org/10.5281/zenodo.18475062" target="_blank">doi.org/10.5281/zeno...</a>
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mdybmccyfc2l
+  url: https://bsky.app/profile/bussilab.org/post/3mdybmccyfc2l
 - date: '2026-01-27'
   text: |-
     Our review on Machine Learning for #RNA Secondary Structure Prediction is now published in @rnajournal.bsky.social ! <a href="https://dx.doi.org/10.1261/rna.080840.125" target="_blank">dx.doi.org/10.1261/rna....</a>
