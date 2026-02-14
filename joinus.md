@@ -16,7 +16,7 @@ Join the [Molecular and Statistical Biophysics PhD program](https://msb.sissa.it
 
 We welcome applications from post-doctoral researchers.
 
-- **Funded Positions**: Our group is funded by a [large scale FIS grant](./rnascale) for the 2026-2031 period, several post-doctoration positions available.
+- **Funded Positions**: Our group is funded by a [large-scale FIS grant](./rnascale) for the 2026-2031 period, several post-doctoral positions are available.
 - **Previous Fellowships**: We hosted MSCA and EMBO fellowships, and we are open to supporting these or other options. 
 - **Internal Funding**: We routinely open positions funded by internal grants. Check [the news section](./news?query=%23joinus%7Cjoin+us) for open calls.
 
