@@ -21,7 +21,7 @@ Reviews on this topic are [available here](./publications?query=RNA+Structural+D
 ## Bioinformatics for Large Systems
 To scale our studies to larger RNA systems, we utilize bioinformatics tools like secondary structure prediction,
 enabling us to integrate computational insights into complex biological contexts.
-Sample applications are [here](./publications?query=Machine+learning+a+model+for+RNA+structure+prediction) and [here](https://www.bussilab.org/publications?query=merge-rna).
+Sample applications are available [here](https://www.bussilab.org/publications?query=merge-rna%7Cmachine+learning+a+model+for+RNA+structure+prediction).
 
 ## PLUMED
 We are involved in the development of [PLUMED](https://www.plumed.org),
