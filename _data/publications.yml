@@ -23,6 +23,13 @@
   - '#preprint'
   title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
     with chemical probing'
+- authors: Palmer, Chauvier, Silva, Ontiveros, Bussi, Walter, Mishanina
+  biorxiv: 10.64898/2026.02.18.706685
+  citation: biorxiv:10.64898/2026.02.18.706685
+  tags:
+  - '#preprint'
+  title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline
+    activation to metal sensing
 - arxiv: '2507.08474'
   authors: "Languin-Catto\xEBn, Bussi"
   citation: arXiv:2507.08474
