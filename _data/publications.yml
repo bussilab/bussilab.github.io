@@ -10,12 +10,6 @@
   - '#preprint'
   title: Computations Meet Experiments to Advance the Enzymatic Depolymerization of
     Plastics One Atom at a Time
-- arxiv: '2511.02699'
-  authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
-  citation: arXiv:2511.02699
-  tags:
-  - '#preprint'
-  title: 'Making PLUMED fly: a tutorial on optimizing performance'
 - arxiv: '2512.20581'
   authors: Sacco, Li, Smyth, Sanguinetti, Bussi
   citation: arXiv:2512.20581
@@ -36,6 +30,15 @@
   tags:
   - '#preprint'
   title: RNA Dynamics and Interactions Revealed through Atomistic Simulations
+- arxiv: '2511.02699'
+  authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
+  citation: JOURNAL OF PHYSICAL CHEMISTRY. B, CONDENSED MATTER, MATERIALS, SURFACES,
+    INTERFACES & BIOPHYSICAL https://doi.org/10.1021/acs.jpcb.5c07562 (2026)
+  doi: 10.1021/acs.jpcb.5c07562
+  handle: 20.500.11767/149990
+  tags:
+  - '#pnrr2022'
+  title: 'Making PLUMED Fly: A Tutorial on Optimizing Performance'
 - arxiv: '2511.02622'
   authors: Sacco, Bussi, Sanguinetti
   citation: RNA https://doi.org/10.1261/rna.080840.125 (2026)
