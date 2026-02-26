@@ -8,7 +8,7 @@ Join the [Molecular and Statistical Biophysics PhD program](https://msb.sissa.it
 
 - **Schedule**: Entrance exams are typically held in spring and summer. Dates may vary, so check [the news section](./news?query=%23joinus%7Cjoin+us) for updates.
 - **Program Structure**: Selected candidates will attend approximately 9 months of lectures before choosing among the available research groups, including ours.
-- **2025 call**: Information on the call for the academic year 2025/2026 is available [here](https://msb.sissa.it/join-us) (section: PhD positions).
+- **2026 call**: Information on the call for the academic year 2026/2027 is available [here](https://msb.sissa.it/join-us) (section: PhD positions).
 
 ---
 
