@@ -25,11 +25,15 @@
   title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline
     activation to metal sensing
 - arxiv: '2507.08474'
-  authors: "Languin-Catto\xEBn, Bussi"
-  citation: arXiv:2507.08474
+  authors: Languin-Cattoen, Bussi
+  citation: ANNUAL REVIEW OF PHYSICAL CHEMISTRY https://doi.org/10.1146/annurev-physchem-082624-013453
+    (2026)
+  doi: 10.1146/annurev-physchem-082624-013453
+  handle: 20.500.11767/150010
   tags:
-  - '#preprint'
-  title: RNA Dynamics and Interactions Revealed through Atomistic Simulations
+  - '#review'
+  - '#msca2023'
+  title: RNA Dynamics and Interactions Revealed Through Atomistic Simulations
 - arxiv: '2511.02699'
   authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
   citation: JOURNAL OF PHYSICAL CHEMISTRY. B, CONDENSED MATTER, MATERIALS, SURFACES,
