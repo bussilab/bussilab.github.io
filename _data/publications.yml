@@ -10,6 +10,13 @@
   - '#preprint'
   title: Computations Meet Experiments to Advance the Enzymatic Depolymerization of
     Plastics One Atom at a Time
+- authors: Mlynsky, Kuehrova, Bussi, Otyepka, Sponer, Banas
+  biorxiv: 10.64898/2026.03.20.713292
+  citation: biorxiv:10.64898/2026.03.20.713292
+  tags:
+  - '#preprint'
+  title: 'From gHBfix to NBfix: Reweighting-Driven Refinement of Hydrogen-Bond Interactions
+    in RNA Force Fields'
 - arxiv: '2512.20581'
   authors: Sacco, Li, Smyth, Sanguinetti, Bussi
   citation: arXiv:2512.20581
