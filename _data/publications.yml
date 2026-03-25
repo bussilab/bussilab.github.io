@@ -31,6 +31,13 @@
   - '#preprint'
   title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline
     activation to metal sensing
+- authors: Zhang, Dolcetti, Tyrchan, De Maria, Bussi, Czechtizky
+  citation: JOURNAL OF CHEMICAL INFORMATION AND MODELING https://doi.org/10.1021/acs.jcim.6c00108
+    (2026)
+  doi: 10.1021/acs.jcim.6c00108
+  handle: 20.500.11767/150150
+  title: 'Exploring Secondary Structure Predictions for RNA-Targeted Drug Discovery:
+    Power and Challenges'
 - arxiv: '2507.08474'
   authors: Languin-Cattoen, Bussi
   citation: ANNUAL REVIEW OF PHYSICAL CHEMISTRY https://doi.org/10.1146/annurev-physchem-082624-013453
@@ -51,7 +58,7 @@
   title: 'Making PLUMED Fly: A Tutorial on Optimizing Performance'
 - arxiv: '2511.02622'
   authors: Sacco, Bussi, Sanguinetti
-  citation: RNA https://doi.org/10.1261/rna.080840.125 (2026)
+  citation: RNA 32, 443 (2026)
   doi: 10.1261/rna.080840.125
   handle: 20.500.11767/149890
   tags:
