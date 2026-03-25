@@ -1,3 +1,17 @@
+- date: '2026-03-25'
+  text: 'New paper published! @bussigio.bsky.social contributed to a work led by Zhengyue
+    Zhang @astrazeneca.com where #RNA secondary-structure prediction methods were
+    benchmarked in the context of #RNA-targeted #drugdiscovery.  <a href="https://doi.org/10.1021/acs.jcim.6c00108"
+    target="_blank">doi.org/10.1021/acs....</a>'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mhvtzs4ol22z
+  url: https://bsky.app/profile/bussilab.org/post/3mhvtzs4ol22z
+- date: '2026-03-25'
+  text: 'New #preprint alert! @bussigio.bsky.social contributed to a work led by Vojtech
+    Mlysnky, Pavel Banas et al, where hydrogen bond fixes for #RNA force field (ghbfix19)
+    were reformulated as more portable Lennard-Jones fixes <a href="https://doi.org/10.64898/2026.03.20.713292"
+    target="_blank">doi.org/10.64898/202...</a>'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mhvtpihxy224
+  url: https://bsky.app/profile/bussilab.org/post/3mhvtpihxy224
 - date: '2026-02-26'
   text: 'Our review on atomistic simulations of #RNA systems has been published in
     the Annual Reviews of Physical Chemistry! <a href="https://doi.org/10.1146/annurev-physchem-082624-013453"
