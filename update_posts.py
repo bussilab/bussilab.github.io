@@ -32,7 +32,7 @@ def linkify_hashtags(text):
     Replaces hashtags with clickable links to the News Archive page with a pre-filled query.
     Handles cases where hashtags are followed by punctuation marks.
     """
-    hashtag_pattern = re.compile(r"(?<!\w)#(\w+)(?=[\s.,!?;:]|$)")
+    hashtag_pattern = re.compile(r"(?<!\w)#(\w+)(?=[\s.,!?;:<]|$)")
     return hashtag_pattern.sub(r'<a href="' + archive_base_url + r'%23\1">#\1</a>', text)
 
 
