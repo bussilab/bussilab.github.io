@@ -157,15 +157,6 @@
   - '#embo2022'
   title: Characterizing RNA Oligomers Using Stochastic Titration Constant-pH Metadynamics
     Simulations
-- authors: "Di Marco, Aupi\u010D, Bussi, Magistrato"
-  biorxiv: 10.1101/2024.11.01.618995
-  citation: NANO LETTERS 25, 4628 (2025)
-  doi: 10.1021/acs.nanolett.5c01254
-  handle: 20.500.11767/145610
-  tags:
-  - '#pnrr2022'
-  title: All-Atom Simulations Elucidate the Molecular Mechanism Underlying RNA-Membrane
-    Interactions
 - arxiv: '2412.03595'
   authors: "Tribello, Bonomi, Bussi, Camilloni, Armstrong, Arsiccio, Aureli, Ballabio,\
     \ Bernetti, Bonati, Brookes, Brotzakis, Capelli, Ceriotti, Chan, Cossio, Dasetty,\
