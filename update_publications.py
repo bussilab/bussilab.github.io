@@ -454,8 +454,9 @@ if __name__ == "__main__":
     for item in database:
         if "arxiv" in item and not "handle" in item:
             item |= fetch_arxiv_metadata(item["arxiv"])
-        if "biorxiv" in item and not "handle" in item:
-            item |= fetch_biorxiv_metadata(item["biorxiv"])
+        ## temporarily disabled:
+        # if "biorxiv" in item and not "handle" in item:
+        #    item |= fetch_biorxiv_metadata(item["biorxiv"])
 
     # override using local yml
 

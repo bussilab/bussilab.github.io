@@ -3,8 +3,34 @@
 # Biorxiv preprints must be added to this list using something like:
 # - biorxiv: "10.1101/2022.07.02.498583"
 
+
+# temporarily, fetching info from biorxiv is disabled, so:
+# - biorxiv data should be added by hand
+# - authors should be entered as a list of strings
+# - item should be removed when papers is published and added to IRIS
+# To fix this, make sure that the function fetch_biorxiv_metadata in update_publications.py
+# is working correctly
+
 - biorxiv: "10.64898/2026.03.20.713292"
+  title: 'From gHBfix to NBfix: Reweighting-Driven Refinement of Hydrogen-Bond Interactions in RNA Force Fields'
+  authors:
+    - Mlynsky
+    - Kuehrova
+    - Bussi
+    - Otyepka
+    - Sponer
+    - Banas
+
 - biorxiv: "10.64898/2026.02.18.706685"
+  title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline activation to metal sensing
+  authors:
+    - Palmer
+    - Chauvier
+    - Silva
+    - Ontiveros
+    - Bussi
+    - Walter
+    - Mishanina
 
 # Arxiv IDs are directly searched from arXiv. If they are not
 # found, they can be added here using something like:
