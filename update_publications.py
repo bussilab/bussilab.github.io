@@ -332,9 +332,12 @@ def citation_to_yaml(record):
     # we skip abstracts
     if "is_abstract" in record and record["is_abstract"]:
         return None
-        
+
     if "authors" in record:
-        output["authors"]=", ".join(record["authors"])
+        if isinstance(record["authors"],str):
+            output["authors"]=record["authors"]
+        else:
+            output["authors"]=", ".join(record["authors"])
     if "title" in record:
         output["title"]=record["title"]
     if "journal" in record:
