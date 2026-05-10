@@ -29,6 +29,9 @@
 - tag: iscrab2012a
   strings:
     - "HP10B2G6OF"
+- tag: iscrab2011
+  strings:
+    - "HP10BLIT9Z"
 - tag: iscrab2010
   strings:
     - "HP10B194XL"

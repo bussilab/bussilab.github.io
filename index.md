@@ -68,6 +68,7 @@ Our research has been funded by the following sources:
   - ISCRA B 2013, Distribution of Mg2+ ions around RNA. See [publications](./publications?query=%23iscrab2013).
   - ISCRA B 2012, RNA unwinding by NS3 helicase. See [publications](./publications?query=%23iscrab2012b).
   - ISCRA B 2012, Conformational transitions in adenine and guanine sensing riboswitch: a computational study. See [publications](./publications?query=%23iscrab2012a).
+  - ISCRA B 2011, Step-by-step RNA unwinding. See [publications](./publications?query=%23iscrab2011).
   - ISCRA A 2011, RNA-protein binding by means of massively-parallel biased simulations. See [publications](./publications?query=%23iscraa2011).
   - ISCRA B 2010, In silico RNA manipulation. See [publications](./publications?query=%23iscrab2010).
 
