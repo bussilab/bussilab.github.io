@@ -64,7 +64,7 @@ Our research has been funded by the following sources:
 - [ERC](https://erc.europa.eu/), Starting Grant 2012, [Small RNAs in silico](http://www.srnas.sissa.it/home/). See [publications](./publications?query=%23erc2012).
 - [FIRB](https://firb.miur.it/), Futuro in Ricerca 2010. See [publications](./publications?query=%23firb2012).
 - [CINECA](https://www.cineca.it) and [EuroHPC](https://eurohpc-ju.europa.eu) for computer time, including the following projects:
-  - EuroHPC 2024. See [publications](./publications?query=%23eurohpc2024).
+  - EuroHPC 2024, Cryo-EM ensemble refinement with molecular dynamics enables the structural characterization of flexible RNAs. See [publications](./publications?query=%23eurohpc2024).
   - ISCRA B 2013, Distribution of Mg2+ ions around RNA. See [publications](./publications?query=%23iscrab2013).
   - ISCRA B 2012, RNA unwinding by NS3 helicase. See [publications](./publications?query=%23iscrab2012b).
   - ISCRA B 2012, Conformational transitions in adenine and guanine sensing riboswitch: a computational study. See [publications](./publications?query=%23iscrab2012a).
