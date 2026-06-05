@@ -1,3 +1,17 @@
+- date: '2026-06-05'
+  text: 'Our work presented today at an internal seminar at Sanofi, Paris, hosted
+    by Evi Gkeka. @bussigio.bsky.social presented our applications integrating #MD
+    simulations and RNA secondary structure prediction with #NMR, #SAXS, #cryoEM,
+    and #DMS data, to reconstruct #RNA dynamics and RNA-Mg interaction'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mnkih6xrjc2x
+  url: https://bsky.app/profile/bussilab.org/post/3mnkih6xrjc2x
+- date: '2026-06-05'
+  text: 'Our work presented today at the @cecamevents.bsky.social meeting Decoding
+    Allostery in Protein-Nucleic Acid Complexes: The AI Revolution ! <a href="https://www.cecam.org/workshop-details/decoding-allostery-in-protein-nucleic-acid-complexes-the-ai-revolution-1527"
+    target="_blank">www.cecam.org/workshop-det...</a> Maurizio Gilioli discussed our
+    study of Influenza A Virus nucleoproteins using #MD simulations and #cryoEM data'
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mnkic524222x
+  url: https://bsky.app/profile/bussilab.org/post/3mnkic524222x
 - date: '2026-06-04'
   text: 'Our work presented today at the @cecamevents.bsky.social meeting Decoding
     Allostery in Protein-Nucleic Acid Complexes: The AI Revolution <a href="https://www.cecam.org/workshop-details/decoding-allostery-in-protein-nucleic-acid-complexes-the-ai-revolution-1527"
