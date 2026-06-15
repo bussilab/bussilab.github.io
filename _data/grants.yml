@@ -38,3 +38,9 @@
 - tag: iscraa2011
   strings:
     - "HP10AQXC5N"
+- tag: iscrab2026
+  strings:
+    - "HP10BE9GOQ"
+- tag: rnascale
+  strings:
+    - "FIS-2024-01745"
