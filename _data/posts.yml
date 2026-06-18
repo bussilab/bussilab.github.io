@@ -1,3 +1,11 @@
+- date: '2026-06-18'
+  text: "New #preprint alert! How should we count molecular ensembles in #Bayesian\
+    \ ensemble refinement? Ivan Gilardoni and @bussigio.bsky.social show that this\
+    \ choice affects posterior estimates, and propose an invariant solution based\
+    \ on the Jeffreys measure.  <a href=\"https://arxiv.org/abs/2606.18495\" target=\"\
+    _blank\">arxiv.org/abs/2606.18495</a> Summary in thread \U0001F447"
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mok6uwo6vk2n
+  url: https://bsky.app/profile/bussilab.org/post/3mok6uwo6vk2n
 - date: '2026-06-05'
   text: 'Our work presented today at an internal seminar at Sanofi, Paris, hosted
     by Evi Gkeka. @bussigio.bsky.social presented our applications integrating #MD
