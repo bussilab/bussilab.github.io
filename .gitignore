@@ -5,3 +5,6 @@ Gemfile.lock
 .jekyll-cache
 .jekyll-cache
 token.sh
+.ipynb_checkpoints
+.DS_Store
+__pycache__
