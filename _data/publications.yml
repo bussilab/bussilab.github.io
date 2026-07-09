@@ -24,6 +24,12 @@
   - '#preprint'
   title: Computations Meet Experiments to Advance the Enzymatic Depolymerization of
     Plastics One Atom at a Time
+- arxiv: '2607.07186'
+  authors: "Languin-Catto\xEBn, Posani, Bussi"
+  citation: arXiv:2607.07186
+  tags:
+  - '#preprint'
+  title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
 - authors: Mlynsky, Kuehrova, Bussi, Otyepka, Sponer, Banas
   biorxiv: 10.64898/2026.03.20.713292
   citation: biorxiv:10.64898/2026.03.20.713292
