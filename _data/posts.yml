@@ -1,3 +1,11 @@
+- date: '2026-07-09'
+  text: "New #preprint alert! Fast sampling of #RNA\u2013Mg\xB2\u207A binding. @ollyfutur.bsky.social,\
+    \ Elisa Posani and @bussigio.bsky.social present an enhanced-sampling method,\
+    \ extending our top-performing #CASP16 approach, and validate it with #cryoEM.\
+    \ <a href=\"https://arxiv.org/abs/2607.07186\" target=\"_blank\">arxiv.org/abs/2607.07186</a>\
+    \ Summary in thread\U0001F447"
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mq752rfg322s
+  url: https://bsky.app/profile/bussilab.org/post/3mq752rfg322s
 - date: '2026-06-18'
   text: "New #preprint alert! How should we count molecular ensembles in #Bayesian\
     \ ensemble refinement? Ivan Gilardoni and @bussigio.bsky.social show that this\
