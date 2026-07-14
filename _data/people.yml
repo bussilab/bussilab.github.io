@@ -14,14 +14,6 @@
   research: >
     Computational methods to study RNA dynamics.
 
-- name: Tomás F. D. Silva
-  previously: Post-Doctoral Researcher (2023-2026)
-  funds: EMBO, PRIN
-  scholar: https://scholar.google.com/citations?user=WHFaAK8AAAAJ
-  orcid: "0000-0003-4608-2673"
-  research: >
-    Constant pH methods for RNA systems.
-
 - name: Olivier Languin-Cattoën
   role: Post-Doctoral Researcher (2023-present)
   funds: SISSA, PRIN, MSCA
@@ -60,6 +52,25 @@
   orcid: "0009-0002-0468-9178"
   research: >
     Integration of cryo-EM data and MD simulations to study the dynamics of viral nucleoproteins.
+
+- name: Filippo Garattoni
+  role: PhD Student (2026-present)
+  research: >
+    Molecular dynamics simulations of pH-sensitive RNA motifs.
+
+- name: Mauro Maglione
+  role: PhD Student (2026-present)
+  research: >
+    Combination of chemical probing data and secondary structure prediction.
+    Co-supervision with [Guido Sanguinetti (SISSA)](https://orcid.org/0000-0002-6663-8336) and [Cristian Micheletti (SISSA)](https://people.sissa.it/~michelet/).
+
+- name: Tomás F. D. Silva
+  previously: Post-Doctoral Researcher (2023-2026)
+  funds: EMBO, PRIN
+  scholar: https://scholar.google.com/citations?user=WHFaAK8AAAAJ
+  orcid: "0000-0003-4608-2673"
+  research: >
+    Constant pH methods for RNA systems.
 
 - name: Ivan Gilardoni
   thesis: https://iris.sissa.it/handle/20.500.11767/148092
