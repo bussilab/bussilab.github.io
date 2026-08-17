@@ -1,3 +1,9 @@
+- date: '2026-08-16'
+  text: Work by Vojtech Mlynksy, Pavel Banas, et al, with contributions from @bussigio.bsky.social,
+    showing the reformulation of gHBfix19 using Lennard Jones potential has been published
+    in JCTC! <a href="https://doi.org/10.1021/acs.jctc.6c00924" target="_blank">doi.org/10.1021/acs....</a>
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3mt7lbjg3bs2m
+  url: https://bsky.app/profile/bussilab.org/post/3mt7lbjg3bs2m
 - date: '2026-07-09'
   text: "New #preprint alert! Fast sampling of #RNA\u2013Mg\xB2\u207A binding. @ollyfutur.bsky.social,\
     \ Elisa Posani and @bussigio.bsky.social present an enhanced-sampling method,\
