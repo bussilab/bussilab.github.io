@@ -3,7 +3,8 @@ title: Publications
 ---
 
 <!-- Search Box -->
-<input type="text" id="search-box" placeholder="Search by text or hashtags (e.g., #preprint)" oninput="filterPosts()">
+<input type="text" id="search-box" placeholder="Search by text or hashtags (e.g., #preprint)" aria-describedby="match-count">
+<div id="match-count" role="status" aria-live="polite"></div>
 
 <!-- Posts List -->
 <!-- Posts List -->
@@ -123,8 +124,15 @@ function filterPosts(allPosts) {
     });
   });
 
+  updateMatchCount();
+
   // Immediately render posts after filtering
   renderPosts();
+}
+
+function updateMatchCount() {
+  const count = filteredPosts.length;
+  document.getElementById('match-count').textContent = `${count} ${count === 1 ? 'match' : 'matches'}`;
 }
 
 function normalizeString(str) {
@@ -224,10 +232,17 @@ function updateMaxPosts() {
 }
 
 #search-box {
-  margin-bottom: 20px;
+  margin-bottom: 0;
   padding: 10px;
   width: 100%; /* Full width */
   font-size: 16px;
+}
+
+#match-count {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 
 #posts-per-page-controls {
