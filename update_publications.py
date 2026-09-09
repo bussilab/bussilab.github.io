@@ -340,21 +340,12 @@ def citation_to_yaml(record):
             output["authors"]=", ".join(record["authors"])
     if "title" in record:
         output["title"]=record["title"]
-    if "journal" in record:
-        citation=record["journal"]
-        if "volume" in record:
-            citation+=" "+record["volume"]+","
-        if "page" in record:
-            citation+=" "+record["page"]
-        elif "doi" in record:
-            citation+=" https://doi.org/"+record["doi"]
-        if "year" in record:
-            citation+=" (" + record["year"] + ")"
-        output["citation"]=citation
-    elif "arxiv" in record:
-        output["citation"]="arXiv:"+record["arxiv"]    
-    elif "biorxiv" in record:
-        output["citation"]="biorxiv:"+record["biorxiv"]
+
+    # Keep bibliographic fields separate. The website assembles their visual
+    # representation, while the individual values remain available for search.
+    for field in ("journal", "volume", "page", "year"):
+        if field in record:
+            output[field]=record[field]
         
     if "arxiv" in record:    
         output["arxiv"]=record["arxiv"]
@@ -479,5 +470,4 @@ if __name__ == "__main__":
         
     with open("_data/publications.yml","w") as f:
         print(yaml.safe_dump(publications),file=f)
-
 

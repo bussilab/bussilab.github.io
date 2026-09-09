@@ -3,19 +3,34 @@ title: Publications
 ---
 
 <!-- Search Box -->
-<input type="text" id="search-box" placeholder="Search by text or hashtags (e.g., #preprint)" aria-describedby="match-count">
+<input type="text" id="search-box" placeholder="Search text, fields, or tags (e.g., plumed, journal:nucleic, or #preprint)" aria-describedby="match-count">
 <div id="match-count" role="status" aria-live="polite"></div>
 
 <!-- Posts List -->
 <!-- Posts List -->
 <div id="posts-container" style="display: none;">
   {% for post in site.data.publications %}
-    <div class="post-data" data-text="{{ post.authors | escape }} {{ post.title | escape }} {{ post.citation | escape }} {{ post.doi }} {{ post.handle }} {{ post.tags | escape }}">
+    <div class="post-data"
+         data-text="{{ post.authors | escape }} {{ post.title | escape }} {{ post.journal | escape }} {{ post.volume }} {{ post.page }} {{ post.year }} {{ post.doi }} {{ post.handle }} {{ post.arxiv }} {{ post.biorxiv }} {{ post.tags | escape }}"
+         data-author="{{ post.authors | escape }}"
+         data-title="{{ post.title | escape }}"
+         data-journal="{{ post.journal | escape }}"
+         data-year="{{ post.year }}">
       <!-- Authors, Title, and Citation -->
       <p class="publication-details">
         <span class="publication-authors">{{ post.authors | safe }}</span>
         <span class="publication-title"><strong>{{ post.title | safe }}</strong></span>
-        <span class="publication-citation">{{ post.citation | safe }}</span>
+        <span class="publication-citation">
+          {% if post.journal %}
+            {{ post.journal | safe }}{% if post.volume %} {{ post.volume }}{% if post.page %},{% endif %}{% endif %}{% if post.page %} {{ post.page }}{% endif %}{% if post.year %} ({{ post.year }}){% endif %}
+          {% elsif post.arxiv %}
+            arXiv:{{ post.arxiv }}
+          {% elsif post.biorxiv %}
+            biorxiv:{{ post.biorxiv }}
+          {% else %}
+            {{ post.citation | safe }}
+          {% endif %}
+        </span>
         {% if post.tags %}
         <span class="publication-tags">
           {% for tag in post.tags %}
@@ -120,7 +135,7 @@ function filterPosts(allPosts) {
     const andGroups = query.split(/\s*&\s*/); // Split by "&" for "AND"
     return andGroups.every(andGroup => {
       const orTerms = andGroup.split(/\s*\|\s*/); // Split by "|" for "OR"
-      return orTerms.some(term => text.includes(term.trim()));
+      return orTerms.some(term => matchesSearchTerm(post, text, term));
     });
   });
 
@@ -128,6 +143,19 @@ function filterPosts(allPosts) {
 
   // Immediately render posts after filtering
   renderPosts();
+}
+
+function matchesSearchTerm(post, text, rawTerm) {
+  const term = rawTerm.trim();
+  const fieldSearch = term.match(/^(author|authors|title|journal|year):(.*)$/);
+
+  if (!fieldSearch) {
+    return text.includes(term);
+  }
+
+  const field = fieldSearch[1] === "authors" ? "author" : fieldSearch[1];
+  const value = normalizeString(post.dataset[field].toLowerCase());
+  return value.includes(fieldSearch[2].trim());
 }
 
 function updateMatchCount() {
