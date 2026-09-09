@@ -4,7 +4,10 @@ title: Publications
 
 <!-- Search Box -->
 <input type="text" id="search-box" placeholder="Search text, fields, or tags (e.g., plumed, journal:nucleic, or #preprint)" aria-describedby="match-count">
-<div id="match-count" role="status" aria-live="polite"></div>
+<div id="search-summary">
+  <span id="match-count" role="status" aria-live="polite"></span>
+  <button type="button" id="clear-search" hidden>Clear search</button>
+</div>
 
 <!-- Posts List -->
 <!-- Posts List -->
@@ -115,6 +118,13 @@ document.addEventListener("DOMContentLoaded", () => {
     filterPosts(allPosts);
   });
 
+  document.getElementById("clear-search").addEventListener("click", () => {
+    document.getElementById("search-box").value = "";
+    skipPosts = 0;
+    filterPosts(allPosts);
+    document.getElementById("search-box").focus();
+  });
+
   // Filter and render posts initially
   filterPosts(allPosts);
 });
@@ -139,8 +149,6 @@ function filterPosts(allPosts) {
     });
   });
 
-  updateMatchCount();
-
   // Immediately render posts after filtering
   renderPosts();
 }
@@ -158,9 +166,14 @@ function matchesSearchTerm(post, text, rawTerm) {
   return value.includes(fieldSearch[2].trim());
 }
 
-function updateMatchCount() {
+function updateSearchSummary(start, end) {
   const count = filteredPosts.length;
-  document.getElementById('match-count').textContent = `${count} ${count === 1 ? 'match' : 'matches'}`;
+  const visibleStart = count === 0 ? 0 : start + 1;
+  const visibleEnd = Math.min(end, count);
+  document.getElementById('match-count').textContent =
+    `Displaying ${visibleStart}\u2013${visibleEnd} of ${count} ${count === 1 ? 'match' : 'matches'}`;
+  document.getElementById('clear-search').hidden =
+    document.getElementById('search-box').value.trim() === "";
 }
 
 function normalizeString(str) {
@@ -185,6 +198,12 @@ function renderPosts() {
   const postsContainer = document.getElementById('posts');
   postsContainer.innerHTML = ''; // Clear current posts
 
+  if (filteredPosts.length === 0) {
+    skipPosts = 0;
+  } else if (skipPosts >= filteredPosts.length) {
+    skipPosts = Math.floor((filteredPosts.length - 1) / maxPosts) * maxPosts;
+  }
+
   const start = skipPosts;
   const end = skipPosts + maxPosts;
 
@@ -197,6 +216,7 @@ function renderPosts() {
   // Enable/disable pagination buttons
   document.getElementById("prev-button").disabled = skipPosts <= 0;
   document.getElementById("next-button").disabled = end >= filteredPosts.length;
+  updateSearchSummary(start, end);
 
   // Update query parameters for pagination
   const url = new URL(window.location);
@@ -266,11 +286,30 @@ function updateMaxPosts() {
   font-size: 16px;
 }
 
-#match-count {
+#search-summary {
   color: #888;
   font-size: 0.85rem;
   margin-top: 4px;
   margin-bottom: 20px;
+}
+
+#clear-search {
+  appearance: none;
+  background: none;
+  border: 0;
+  color: #999;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  margin-left: 0.4rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+#clear-search:hover,
+#clear-search:focus-visible {
+  color: #666;
+  text-decoration: underline;
 }
 
 #posts-per-page-controls {
