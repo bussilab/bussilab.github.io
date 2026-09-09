@@ -4,6 +4,8 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 .jekyll-cache
+.bundle
+vendor
 token.sh
 .ipynb_checkpoints
 .DS_Store
