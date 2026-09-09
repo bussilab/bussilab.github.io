@@ -141,7 +141,7 @@ title: People
         {% if person.scholar %}
         <a href="{{ person.scholar }}" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         {% endif %}
-        {% if person.prereview && person.orcid %}
+        {% if person.prereview and person.orcid %}
         <a href="https://prereview.org/profiles/{{ person.orcid }}" target="_blank" aria-label="PREreview" title="PREreview"><i class="fas fa-clipboard"></i></a>
         {% endif %}
         {% if person.bluesky %}
@@ -228,5 +228,4 @@ document.addEventListener('DOMContentLoaded', () => {
   font-style: italic; /* Optional: adds a soft visual tone */
 }
 </style>
-
 
