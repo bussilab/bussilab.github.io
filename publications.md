@@ -25,7 +25,7 @@ title: Publications
         <span class="publication-title"><strong>{{ post.title | safe }}</strong></span>
         <span class="publication-citation">
           {% if post.journal %}
-            {{ post.journal | safe }}{% if post.volume %} {{ post.volume }}{% if post.page %},{% endif %}{% endif %}{% if post.page %} {{ post.page }}{% endif %}{% if post.year %} ({{ post.year }}){% endif %}
+            <a href="./publications?query=JOURNAL%3A%3D%22{{ post.journal | url_encode }}%22" class="journal-filter" title="Show all publications in {{ post.journal | escape }}">{{ post.journal | escape }}</a>{% if post.volume %} {{ post.volume }}{% if post.page %},{% endif %}{% endif %}{% if post.page %} {{ post.page }}{% endif %}{% if post.year %} ({{ post.year }}){% endif %}
           {% elsif post.arxiv %}
             arXiv:{{ post.arxiv }}
           {% elsif post.biorxiv %}
@@ -142,9 +142,9 @@ function filterPosts(allPosts) {
   // Filter posts based on the query
   filteredPosts = allPosts.filter(post => {
     const text = normalizeString(post.getAttribute('data-text').toLowerCase());
-    const andGroups = query.split(/\s*&\s*/); // Split by "&" for "AND"
+    const andGroups = splitSearchExpression(query, "&");
     return andGroups.every(andGroup => {
-      const orTerms = andGroup.split(/\s*\|\s*/); // Split by "|" for "OR"
+      const orTerms = splitSearchExpression(andGroup, "|");
       return orTerms.some(term => matchesSearchTerm(post, text, term));
     });
   });
@@ -153,17 +153,50 @@ function filterPosts(allPosts) {
   renderPosts();
 }
 
+function splitSearchExpression(expression, separator) {
+  const parts = [];
+  let current = "";
+  let inQuotes = false;
+
+  for (const character of expression) {
+    if (character === '"') {
+      inQuotes = !inQuotes;
+    }
+
+    if (character === separator && !inQuotes) {
+      parts.push(current.trim());
+      current = "";
+    } else {
+      current += character;
+    }
+  }
+
+  parts.push(current.trim());
+  return parts;
+}
+
 function matchesSearchTerm(post, text, rawTerm) {
   const term = rawTerm.trim();
-  const fieldSearch = term.match(/^(author|authors|title|journal|year):(.*)$/);
+  const fieldSearch = term.match(/^(author|authors|title|journal|journals|year)(:=|=:|:)(.*)$/);
 
   if (!fieldSearch) {
     return text.includes(term);
   }
 
-  const field = fieldSearch[1] === "authors" ? "author" : fieldSearch[1];
+  const aliases = { authors: "author", journals: "journal" };
+  const field = aliases[fieldSearch[1]] || fieldSearch[1];
   const value = normalizeString(post.dataset[field].toLowerCase());
-  return value.includes(fieldSearch[2].trim());
+  let searchValue = fieldSearch[3].trim();
+
+  if (searchValue.startsWith('"') && searchValue.endsWith('"')) {
+    searchValue = searchValue.slice(1, -1);
+  }
+
+  if (fieldSearch[2] === ":") {
+    return value.includes(searchValue);
+  }
+
+  return value === searchValue;
 }
 
 function updateSearchSummary(start, end) {
