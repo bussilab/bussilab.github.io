@@ -23,12 +23,6 @@
   research: >
     Enhanced sampling methods for interaction of RNA with divalent cations. Diffusion models for RNA dynamics.
 
-- name: Korbinian Liebl
-  role: Post-Doctoral Researcher (2025-present)
-  funds: MSCA, FIS
-  scholar: https://scholar.google.com/citations?user=dF1zugYAAAAJ
-  orcid: "0000-0002-2407-4763"
-
 - name: Salvatore Di Marco
   role: PhD Student (2023-present)
   funds: SISSA, PNRR
@@ -65,6 +59,13 @@
   research: >
     Combination of chemical probing data and secondary structure prediction.
     Co-supervision with [Guido Sanguinetti (SISSA)](https://orcid.org/0000-0002-6663-8336) and [Cristian Micheletti (SISSA)](https://people.sissa.it/~michelet/).
+
+- name: Korbinian Liebl
+  role: Guest
+  previously: Post-Doctoral Researcher (2025-2026)
+  funds: MSCA, FIS
+  scholar: https://scholar.google.com/citations?user=dF1zugYAAAAJ
+  orcid: "0000-0002-2407-4763"
 
 - name: Tomás F. D. Silva
   previously: Post-Doctoral Researcher (2023-2026)
