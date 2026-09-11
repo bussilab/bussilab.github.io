@@ -164,19 +164,19 @@ function splitSearchExpression(expression, separator) {
     }
 
     if (character === separator && !inQuotes) {
-      parts.push(current.trim());
+      parts.push(current);
       current = "";
     } else {
       current += character;
     }
   }
 
-  parts.push(current.trim());
+  parts.push(current);
   return parts;
 }
 
 function matchesSearchTerm(post, text, rawTerm) {
-  const term = rawTerm.trim();
+  const term = rawTerm;
   const fieldSearch = term.match(/^(author|authors|title|journal|journals|year)(:=|=:|:)(.*)$/);
 
   if (!fieldSearch) {
@@ -186,7 +186,7 @@ function matchesSearchTerm(post, text, rawTerm) {
   const aliases = { authors: "author", journals: "journal" };
   const field = aliases[fieldSearch[1]] || fieldSearch[1];
   const value = normalizeString(post.dataset[field].toLowerCase());
-  let searchValue = fieldSearch[3].trim();
+  let searchValue = fieldSearch[3];
 
   if (searchValue.startsWith('"') && searchValue.endsWith('"')) {
     searchValue = searchValue.slice(1, -1);

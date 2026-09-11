@@ -79,10 +79,10 @@ function filterPosts(allPosts) {
   // Filter posts based on the query
   filteredPosts = allPosts.filter(post => {
     const text = normalizeString(post.getAttribute('data-text').toLowerCase());
-    const andGroups = query.split(/\s*&\s*/); // Split by "&" for "AND"
+    const andGroups = query.split("&"); // Split by "&" for "AND"
     return andGroups.every(andGroup => {
-      const orTerms = andGroup.split(/\s*\|\s*/); // Split by "|" for "OR"
-      return orTerms.some(term => text.includes(term.trim()));
+      const orTerms = andGroup.split("|"); // Split by "|" for "OR"
+      return orTerms.some(term => text.includes(term));
     }); 
   });   
         
