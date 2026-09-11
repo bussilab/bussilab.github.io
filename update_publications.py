@@ -1,5 +1,6 @@
 
 
+import csv
 import yaml
 import requests
 import re
@@ -9,6 +10,49 @@ from xml.etree import ElementTree
 from dateutil import parser
 
 user_agent="IRIS metadata fetch (contact: bussi@sissa.it)"
+
+csv_fields = (
+    "authors", "title", "journal", "volume", "page", "year",
+    "publication_type", "issn", "doi", "handle", "arxiv",
+    "biorxiv", "tags"
+)
+
+issn_pattern = re.compile(r"(?<!\d)(\d{4}-\d{3}[\dXx])(?!\d)")
+
+
+def infer_publication_type(record):
+    """Infer a normalized publication type from the stored metadata."""
+    tags = set(record.get("tags", []))
+    if "#review" in tags:
+        return "review"
+    if "#bookchapter" in tags:
+        return "book chapter"
+    if "#proceedings" in tags:
+        return "conference proceedings"
+    if "#preprint" in tags:
+        return "preprint"
+    if record.get("journal"):
+        return "journal article"
+    return ""
+
+
+def write_publications_csv(publications, path="publications.csv"):
+    """Write the website publication data as an Excel-friendly CSV file."""
+    with open(path, "w", encoding="utf-8-sig", newline="") as csv_file:
+        writer = csv.DictWriter(
+            csv_file,
+            fieldnames=csv_fields,
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        for publication in publications:
+            row = {field: publication.get(field, "") for field in csv_fields}
+            row["publication_type"] = (
+                publication.get("publication_type")
+                or infer_publication_type(publication)
+            )
+            row["tags"] = " ".join(publication.get("tags", []))
+            writer.writerow(row)
 
 def extract_authors(raw_data):
     """Extract list of authors from IRIS raw data."""
@@ -39,6 +83,38 @@ def extract_list(raw_data,names):
     for name in names:
         fields.extend([item[1] for item in raw_data if item[0] == name])
     return fields
+
+def extract_issn(raw_data):
+    """Extract the print ISSN without falling back to electronic ISSN fields."""
+    field_groups = (
+        (
+            "dc.identifier.issn",
+            "isi.identifier.issn",
+            "scopus.identifier.issn",
+        ),
+        (
+            "isi.authority.ancejournal",
+            "scopus.authority.ancejournal",
+            "dc.authority.ancejournal",
+        ),
+    )
+    for field_names in field_groups:
+        for key, value in raw_data:
+            if key in field_names:
+                match = issn_pattern.search(value)
+                if match:
+                    return match.group(1).upper()
+
+    for key, value in raw_data:
+        if key == "dc.identifier.citation":
+            match = re.search(
+                r"(?<![\w-])ISSN\s*:?[\s-]*(\d{4}-\d{3}[\dXx])(?!\d)",
+                value,
+                re.IGNORECASE,
+            )
+            if match:
+                return match.group(1).upper()
+    return ""
 
 def parse_raw_iris_data(raw_data,grants=None):
     """Parse IRIS raw data, returning a canonical dictionary."""
@@ -86,6 +162,10 @@ def parse_raw_iris_data(raw_data,grants=None):
     ])
     if journal:
         record["journal"]=journal
+
+    issn=extract_issn(raw_data)
+    if issn:
+        record["issn"]=issn
 
     
     volume=extract_scalar(raw_data,[
@@ -343,7 +423,7 @@ def citation_to_yaml(record):
 
     # Keep bibliographic fields separate. The website assembles their visual
     # representation, while the individual values remain available for search.
-    for field in ("journal", "volume", "page", "year"):
+    for field in ("journal", "volume", "page", "year", "issn"):
         if field in record:
             output[field]=record[field]
         
@@ -471,3 +551,4 @@ if __name__ == "__main__":
     with open("_data/publications.yml","w") as f:
         print(yaml.safe_dump(publications),file=f)
 
+    write_publications_csv(publications)

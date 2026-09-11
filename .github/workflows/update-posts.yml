@@ -64,11 +64,12 @@ jobs:
           git add _data/posts.yml
           git add _data/posts_preformatted_text.yml
           git add _data/publications.yml
+          git add publications.csv
 
           if ! git diff --cached --quiet; then
             if test -n "$BUSSILAB_NOTIFY_TOKEN" && test -n "$BUSSILAB_NOTIFY_CHANNEL" ; then
-              git diff --cached --quiet _data/publications.yml ||
-              bussilab notify -c $BUSSILAB_NOTIFY_CHANNEL --token $BUSSILAB_NOTIFY_TOKEN --screenlog <(git diff origin/master  _data/publications.yml) -m "Publications updated"
+              git diff --cached --quiet _data/publications.yml publications.csv ||
+              bussilab notify -c $BUSSILAB_NOTIFY_CHANNEL --token $BUSSILAB_NOTIFY_TOKEN --screenlog <(git diff origin/master -- _data/publications.yml publications.csv) -m "Publications updated"
             fi
             # [skip ci] used here in case later we add a on: push for this job
             git commit -m "[skip ci] Automated update: $(date)"

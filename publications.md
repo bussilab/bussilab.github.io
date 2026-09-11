@@ -5,8 +5,11 @@ title: Publications
 <!-- Search Box -->
 <input type="text" id="search-box" placeholder="Search text, fields, or tags (e.g., plumed, journal:nucleic, or #preprint)" aria-describedby="match-count">
 <div id="search-summary">
-  <span id="match-count" role="status" aria-live="polite"></span>
-  <button type="button" id="clear-search" hidden>Clear search</button>
+  <span id="search-status">
+    <span id="match-count" role="status" aria-live="polite"></span>
+    <button type="button" id="clear-search" hidden>Clear search</button>
+  </span>
+  <a id="download-csv" href="{{ '/publications.csv' | relative_url }}" download>Download CSV</a>
 </div>
 
 <!-- Posts List -->
@@ -320,10 +323,18 @@ function updateMaxPosts() {
 }
 
 #search-summary {
+  align-items: baseline;
   color: #888;
+  display: flex;
   font-size: 0.85rem;
+  gap: 1rem;
+  justify-content: space-between;
   margin-top: 4px;
   margin-bottom: 20px;
+}
+
+#download-csv {
+  white-space: nowrap;
 }
 
 #clear-search {

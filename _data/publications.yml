@@ -42,6 +42,7 @@
   biorxiv: 10.64898/2026.03.20.713292
   doi: 10.1021/acs.jctc.6c00924
   handle: 20.500.11767/152550
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '1'
   tags:
@@ -52,6 +53,7 @@
 - authors: Zhang, Dolcetti, Tyrchan, De Maria, Bussi, Czechtizky
   doi: 10.1021/acs.jcim.6c00108
   handle: 20.500.11767/150150
+  issn: 1549-9596
   journal: JOURNAL OF CHEMICAL INFORMATION AND MODELING
   page: '4215'
   title: 'Exploring Secondary Structure Predictions for RNA-Targeted Drug Discovery:
@@ -62,6 +64,7 @@
   authors: "Languin-Catto\xEBn, Bussi"
   doi: 10.1146/annurev-physchem-082624-013453
   handle: 20.500.11767/150010
+  issn: 0066-426X
   journal: ANNUAL REVIEW OF PHYSICAL CHEMISTRY
   page: '489'
   tags:
@@ -74,6 +77,7 @@
   authors: Rapetti, Bonomi, Camilloni, Bussi, Tribello
   doi: 10.1021/acs.jpcb.5c07562
   handle: 20.500.11767/149990
+  issn: 1520-6106
   journal: JOURNAL OF PHYSICAL CHEMISTRY B
   page: '2504'
   tags:
@@ -85,6 +89,7 @@
   authors: Sacco, Bussi, Sanguinetti
   doi: 10.1261/rna.080840.125
   handle: 20.500.11767/149890
+  issn: 1355-8382
   journal: RNA
   page: '443'
   tags:
@@ -102,6 +107,7 @@
   biorxiv: 10.1101/2025.11.03.685595
   doi: 10.1002/prot.70079
   handle: 20.500.11767/149190
+  issn: 0887-3585
   journal: PROTEINS-STRUCTURE FUNCTION AND BIOINFORMATICS
   page: '381'
   tags:
@@ -115,6 +121,7 @@
 - authors: "M\xFCller-Hermes, Piomponi, Hilber, Asami, Kreutz, Bussi, Sattler"
   doi: 10.1093/nar/gkaf550
   handle: 20.500.11767/146750
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: gkaf550
   tags:
@@ -128,6 +135,7 @@
     \ Orenstein, Aviran, Meyer, Yeo"
   doi: 10.1261/rna.080215.124
   handle: 20.500.11767/146310
+  issn: 1355-8382
   journal: RNA
   page: '1103'
   title: Evaluation of novel computational methods to identify RNA-binding protein
@@ -138,6 +146,7 @@
   biorxiv: 10.1101/2024.07.24.604258
   doi: 10.1038/s41467-025-59769-0
   handle: 20.500.11767/146190
+  issn: 2041-1723
   journal: NATURE COMMUNICATIONS
   page: '4549'
   tags:
@@ -151,6 +160,7 @@
   authors: "Gilardoni, Piomponi, Fr\xF6hlking, Bussi"
   doi: 10.1063/5.0256841
   handle: 20.500.11767/146150
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '192501'
   tags:
@@ -163,6 +173,7 @@
   biorxiv: 10.1101/2024.09.13.612876
   doi: 10.1073/pnas.2425261122
   handle: 20.500.11767/145890
+  issn: 0027-8424
   journal: PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
     AMERICA
   page: e2425261122
@@ -191,6 +202,7 @@
     \ Orozco"
   doi: 10.1038/s41592-025-02635-0
   handle: 20.500.11767/145810
+  issn: 1548-7091
   journal: NATURE METHODS
   page: '641'
   title: The need to implement FAIR principles in biomolecular simulations
@@ -200,6 +212,7 @@
   authors: Silva, Bussi
   doi: 10.1021/acs.jcim.4c02185
   handle: 20.500.11767/145710
+  issn: 1549-9596
   journal: JOURNAL OF CHEMICAL INFORMATION AND MODELING
   page: '3568'
   tags:
@@ -213,6 +226,7 @@
   biorxiv: 10.1101/2024.11.01.618995
   doi: 10.1021/acs.nanolett.5c01254
   handle: 20.500.11767/145610
+  issn: 1530-6984
   journal: NANO LETTERS
   page: '4628'
   tags:
@@ -232,6 +246,7 @@
     \ Valsson, Vendruscolo, Voth, White, Wu"
   doi: 10.1063/5.0251501
   handle: 20.500.11767/145470
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: 092501
   tags:
@@ -245,6 +260,7 @@
     \ \u0160poner, Ban\xE1\u0161"
   doi: 10.1002/jcc.27535
   handle: 20.500.11767/144070
+  issn: 0192-8651
   journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
   page: e27535
   title: 'Computer Folding of Parallel DNA G-Quadruplex: Hitchhiker''s Guide to the
@@ -255,6 +271,7 @@
   authors: Piomponi, Krepl, Sponer, Bussi
   doi: 10.1021/acs.jpcb.4c03397
   handle: 20.500.11767/140611
+  issn: 1520-6106
   journal: JOURNAL OF PHYSICAL CHEMISTRY B
   page: '8896'
   title: 'Molecular Simulations to Investigate the Impact of N6-Methylation in RNA
@@ -267,6 +284,7 @@
     Zacharias
   doi: 10.1016/j.str.2024.07.019
   handle: 20.500.11767/140610
+  issn: 0969-2126
   journal: STRUCTURE
   page: '1281'
   tags:
@@ -277,6 +295,7 @@
 - authors: "Mykuliak, Rahikainen, Ball, Bussi, Goult, Hyt\xF6nen"
   doi: 10.1371/journal.pcbi.1012341
   handle: 20.500.11767/140551
+  issn: 1553-734X
   journal: PLOS COMPUTATIONAL BIOLOGY
   page: e1012341
   title: Molecular dynamics simulations reveal how vinculin refolds partially unfolded
@@ -287,6 +306,7 @@
   biorxiv: 10.1101/2022.07.02.498583
   doi: 10.1093/nar/gkae602
   handle: 20.500.11767/140550
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: e73
   title: Sampling globally and locally correct RNA 3D structures using Ernwin, SPQR
@@ -297,6 +317,7 @@
   biorxiv: 10.1101/2023.09.09.556957
   doi: 10.1016/j.ijbiomac.2024.129712
   handle: 20.500.11767/137290
+  issn: 0141-8130
   journal: INTERNATIONAL JOURNAL OF BIOLOGICAL MACROMOLECULES
   page: '129712'
   title: Molecular dynamics simulations reveal the parallel stranded d(GGGA)3GGG DNA
@@ -307,6 +328,7 @@
   authors: "Gilardoni, Fr\xF6hlking, Bussi"
   doi: 10.1021/acs.jpclett.3c03423
   handle: 20.500.11767/136390
+  issn: 1948-7185
   journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
   page: '1204'
   title: 'Boosting Ensemble Refinement with Transferable Force-Field Corrections:
@@ -328,6 +350,7 @@
   authors: Calonaci, Bernetti, Jones, Sattler, Bussi
   doi: 10.1021/acs.jctc.3c00084
   handle: 20.500.11767/132690
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '3672'
   title: Molecular Dynamics Simulations with Grand-Canonical Reweighting Suggest Cooperativity
@@ -338,6 +361,7 @@
   authors: "Fr\xF6hlking, Bernetti, Bussi"
   doi: 10.1063/5.0151163
   handle: 20.500.11767/132590
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '214120'
   title: Simultaneous refinement of molecular dynamics ensembles and forward models
@@ -348,6 +372,7 @@
     \ Krepl"
   doi: 10.1021/acs.jcim.3c00358
   handle: 20.500.11767/131910
+  issn: 1549-9596
   journal: JOURNAL OF CHEMICAL INFORMATION AND MODELING
   page: '2794'
   title: Atomistic Picture of Opening-Closing Dynamics of DNA Holliday Junction Obtained
@@ -358,6 +383,7 @@
   authors: Hsu, Piomponi, Merz, Bussi, Shirts
   doi: 10.1021/acs.jctc.2c01258
   handle: 20.500.11767/131150
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '1805'
   title: 'Alchemical Metadynamics: Adding Alchemical Variables to Metadynamics to
@@ -368,6 +394,7 @@
   authors: Bernetti, Bussi
   doi: 10.1016/j.sbi.2022.102503
   handle: 20.500.11767/130351
+  issn: 0959-440X
   journal: CURRENT OPINION IN STRUCTURAL BIOLOGY
   page: '102503'
   tags:
@@ -379,6 +406,7 @@
 - authors: Dutta, Tapio, Suma, Mostafa, Kanehira, Carnevale, Bussi, Bald
   doi: 10.1039/d2nr03664a
   handle: 20.500.11767/130112
+  issn: 2040-3364
   journal: NANOSCALE
   page: '16467'
   title: Molecular states and spin crossover of hemin studied by DNA origami enabled
@@ -389,6 +417,7 @@
   biorxiv: 10.1101/2022.06.17.496605
   doi: 10.1021/acs.jcim.2c01049
   handle: 20.500.11767/130111
+  issn: 1549-9596
   journal: JOURNAL OF CHEMICAL INFORMATION AND MODELING
   page: '4992'
   title: Exploration, Representation, and Rationalization of the Conformational Phase
@@ -399,6 +428,7 @@
     \ Oukhaled, Gao, \u0160ulc, Binzel, Bhullar, Liang, Guo, Afonin"
   doi: 10.1016/j.csbj.2022.11.007
   handle: 20.500.11767/130110
+  issn: 2001-0370
   journal: COMPUTATIONAL AND STRUCTURAL BIOTECHNOLOGY JOURNAL
   page: '6120'
   tags:
@@ -411,6 +441,7 @@
   authors: "Piomponi, Fr\xF6hlking, Bernetti, Bussi"
   doi: 10.1021/acscentsci.2c00565
   handle: 20.500.11767/129310
+  issn: 2374-7951
   journal: ACS CENTRAL SCIENCE
   page: '1218'
   title: Molecular Simulations Matching Denaturation Experiments for N6-Methyladenosine
@@ -421,6 +452,7 @@
     \u0161, \u0160poner, Bussi"
   doi: 10.1021/acs.jctc.2c00200
   handle: 20.500.11767/129230
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '4490'
   title: Automatic Learning of Hydrogen-Bond Fixes in the AMBER RNA Force Field
@@ -431,6 +463,7 @@
   biorxiv: 10.1101/2021.11.30.470631
   doi: 10.1021/acs.jctc.1c01222
   handle: 20.500.11767/128029
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '2642'
   title: 'Toward Convergence in Folding Simulations of RNA Tetraloops: Comparison
@@ -440,6 +473,7 @@
 - authors: Del Tatto, Raiteri, Bernetti, Bussi
   doi: 10.3390/app12031139
   handle: 20.500.11767/126131
+  issn: 2076-3417
   journal: APPLIED SCIENCES-BASEL
   page: '1139'
   title: Molecular Dynamics of Solids at Constant Pressure and Stress Using Anisotropic
@@ -449,6 +483,7 @@
 - authors: Bernetti, Bussi
   doi: 10.1140/epjb/s10051-021-00186-9
   handle: 20.500.11767/126129
+  issn: 1434-6028
   journal: EUROPEAN PHYSICAL JOURNAL B
   page: '180'
   title: Comparing state-of-the-art approaches to back-calculate SAXS spectra from
@@ -459,6 +494,7 @@
   authors: Bernetti, Hall, Bussi
   doi: 10.1093/nar/gkab459
   handle: 20.500.11767/123473
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: e84
   title: Reweighting of molecular simulations with explicit-solvent SAXS restraints
@@ -469,6 +505,7 @@
   biorxiv: 10.1101/2021.04.22.440959
   doi: 10.1002/pro.4109
   handle: 20.500.11767/123470
+  issn: 0961-8368
   journal: PROTEIN SCIENCE
   page: '1418'
   title: Arginine multivalency stabilizes protein/RNA condensates
@@ -478,6 +515,7 @@
   biorxiv: 10.1101/2020.12.11.421784
   doi: 10.1021/jacs.1c01094
   handle: 20.500.11767/123468
+  issn: 0002-7863
   journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
   page: '8333'
   title: Conformational Ensembles of Noncoding Elements in the SARS-CoV-2 Genome from
@@ -488,6 +526,7 @@
   biorxiv: 10.1101/2020.06.17.157297
   doi: 10.1038/s41467-020-17508-7
   handle: 20.500.11767/116391
+  issn: 2041-1723
   journal: NATURE COMMUNICATIONS
   page: '3749'
   title: Directional translocation resistance of Zika xrRNA
@@ -497,6 +536,7 @@
   authors: Calonaci, Jones, Cuturello, Sattler, Bussi
   doi: 10.1093/nargab/lqaa090
   handle: 20.500.11767/115849
+  issn: 2631-9268
   journal: NAR GENOMICS AND BIOINFORMATICS
   page: lqaa090
   title: Machine learning a model for RNA structure prediction
@@ -506,6 +546,7 @@
   authors: Bernetti, Bussi
   doi: 10.1063/5.0020514
   handle: 20.500.11767/114289
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '114107'
   title: Pressure control using stochastic cell rescaling
@@ -515,6 +556,7 @@
   authors: "Fr\xF6hlking, Bernetti, Calonaci, Bussi"
   doi: 10.1063/5.0011346
   handle: 20.500.11767/112969
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '230902'
   title: Toward empirical force fields that match experimental observables
@@ -525,6 +567,7 @@
   biorxiv: 10.1101/2020.03.08.982538
   doi: 10.1021/acs.jctc.0c00228
   handle: 20.500.11767/112577
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '3936'
   title: Fine-tuning of the AMBER RNA force field with a new term adjusting interactions
@@ -535,6 +578,7 @@
   authors: Cuturello, Tiana, Bussi
   doi: 10.1261/rna.074179.119
   handle: 20.500.11767/110422
+  issn: 1355-8382
   journal: RNA
   page: '637'
   title: Assessing the accuracy of direct-coupling analysis for RNA contact prediction
@@ -553,6 +597,7 @@
 - authors: Bussi, Laio
   doi: 10.1038/s42254-020-0153-0
   handle: 20.500.11767/110289
+  issn: 2522-5820
   journal: NATURE REVIEWS PHYSICS
   page: '200'
   tags:
@@ -563,6 +608,7 @@
 - authors: "Rei\xDFer, Zucchelli, Gustincich, Bussi"
   doi: 10.1093/nar/gkz1184
   handle: 20.500.11767/108474
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '1164'
   tags:
@@ -574,6 +620,7 @@
 - authors: Colizzi, Perez-Gonzalez, Fritzen, Levy, White, Carlos Penedo, Bussi
   doi: 10.1073/pnas.1901086116
   handle: 20.500.11767/104314
+  issn: 0027-8424
   journal: PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF
     AMERICA
   page: '22471'
@@ -607,6 +654,7 @@
     P., Valsson O., Vendruscolo M., Voth G. A., White A.
   doi: 10.1038/s41592-019-0506-8
   handle: 20.500.11767/100676
+  issn: 1548-7091
   journal: NATURE METHODS
   page: '670'
   title: Promoting transparency and reproducibility in enhanced molecular simulations
@@ -616,6 +664,7 @@
   authors: Franco, Cagiada, Bussi, Tiana
   doi: 10.1088/1478-3975/ab1c15
   handle: 20.500.11767/95976
+  issn: 1478-3967
   journal: PHYSICAL BIOLOGY
   page: '046007'
   title: Statistical mechanical properties of sequence space determine the efficiency
@@ -626,6 +675,7 @@
 - authors: "Cesari, Bottaro, Lindorff-Larsen, Ban\xE1\u0161, \u0160poner, Bussi"
   doi: 10.1021/acs.jctc.9b00206
   handle: 20.500.11767/95974
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '3425'
   title: Fitting Corrections to an RNA Force Field Using Experimental Data
@@ -636,6 +686,7 @@
   biorxiv: 10.1101/410993
   doi: 10.1021/acs.jctc.8b00955
   handle: 20.500.11767/92640
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '3288'
   title: Improving the Performance of the Amber RNA Force Field by Tuning the Hydrogen-Bonding
@@ -646,6 +697,7 @@
   authors: Pinamonti, Paul, Noe, Rodriguez, Bussi
   doi: 10.1063/1.5083227
   handle: 20.500.11767/89934
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '154123'
   tags:
@@ -658,6 +710,7 @@
   biorxiv: 10.1101/345678
   doi: 10.1261/rna.067678.118
   handle: 20.500.11767/86543
+  issn: 1355-8382
   journal: RNA
   page: '219'
   tags:
@@ -668,6 +721,7 @@
 - authors: Rangan, Bonomi, Heller, Cesari, Bussi, Vendruscolo
   doi: 10.1021/acs.jctc.8b00738
   handle: 20.500.11767/86016
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '6632'
   title: 'Determination of Structural Ensembles of Proteins: Restraining vs Reweighting'
@@ -677,6 +731,7 @@
     \ Bussi, K\xF6ppen, Piane, Ciacchi"
   doi: 10.1021/acsbiomaterials.8b00819
   handle: 20.500.11767/86014
+  issn: 2373-9878
   journal: ACS BIOMATERIALS SCIENCE & ENGINEERING
   page: '4036'
   title: Atomistic Details of Chymotrypsin Conformational Changes upon Adsorption
@@ -687,6 +742,7 @@
   biorxiv: 10.1101/230268
   doi: 10.1126/sciadv.aar8521
   handle: 20.500.11767/84994
+  issn: 2375-2548
   journal: SCIENCE ADVANCES
   page: eaar8521
   tags:
@@ -699,6 +755,7 @@
   authors: Poblete, Bottaro, Bussi
   doi: 10.1016/j.bbrc.2017.12.057
   handle: 20.500.11767/68116
+  issn: 0006-291X
   journal: BIOCHEMICAL AND BIOPHYSICAL RESEARCH COMMUNICATIONS
   page: '352'
   tags:
@@ -711,6 +768,7 @@
   authors: Poblete, Bottaro, Bussi
   doi: 10.1093/nar/gkx1269
   handle: 20.500.11767/68111
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '1674'
   tags:
@@ -723,6 +781,7 @@
     \ Jure\u010Dka, Walter, Otyepka"
   doi: 10.1021/acs.chemrev.7b00427
   handle: 20.500.11767/67900
+  issn: 0009-2665
   journal: CHEMICAL REVIEWS
   page: '4177'
   tags:
@@ -736,6 +795,7 @@
     \ Plavec, Gustincich"
   doi: 10.1038/s41598-017-14908-6
   handle: 20.500.11767/67664
+  issn: 2045-2322
   journal: SCIENTIFIC REPORTS
   page: '3189'
   tags:
@@ -748,6 +808,7 @@
   authors: "Cesari, Rei\xDFer, Bussi"
   doi: 10.3390/computation6010015
   handle: 20.500.11767/65948
+  issn: 2079-3197
   journal: COMPUTATION
   page: '15'
   tags:
@@ -759,6 +820,7 @@
   authors: "Ml\xFDnsk\xFD, Bussi"
   doi: 10.1016/j.sbi.2018.01.004
   handle: 20.500.11767/65204
+  issn: 0959-440X
   journal: CURRENT OPINION IN STRUCTURAL BIOLOGY
   page: '63'
   tags:
@@ -770,6 +832,7 @@
 - authors: "Ml\xFDnsk\xFD, Bussi"
   doi: 10.1021/acs.jpclett.7b02921
   handle: 20.500.11767/63625
+  issn: 1948-7185
   journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
   page: '313'
   tags:
@@ -782,6 +845,7 @@
     \ Banas, Otyepka, Sponer"
   doi: 10.1021/acs.jctc.7b00226
   handle: 20.500.11767/53697
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '2458'
   tags:
@@ -794,6 +858,7 @@
   authors: "Ml\xFDnsk\xFD, Bussi"
   doi: 10.1261/rna.060442.116
   handle: 20.500.11767/43707
+  issn: 1355-8382
   journal: RNA
   page: '712'
   tags:
@@ -805,6 +870,7 @@
 - authors: Bellucci, Bussi, Di Felice, Corni
   doi: 10.1039/C6NR06010B
   handle: 20.500.11767/11943
+  issn: 2040-3364
   journal: NANOSCALE
   page: '2279'
   title: "Fibrillation-prone conformations of the amyloid-\u03B2-42 peptide at the\
@@ -816,6 +882,7 @@
     \ Neidle, Otyepka"
   doi: 10.1016/j.bbagen.2016.12.008
   handle: 20.500.11767/14883
+  issn: 0304-4165
   journal: BIOCHIMICA ET BIOPHYSICA ACTA-GENERAL SUBJECTS
   page: '1246'
   tags:
@@ -828,6 +895,7 @@
   authors: "Pinamonti, Zhao, Condon, Paul, No\xE8, Turner, Bussi"
   doi: 10.1021/acs.jctc.6b00982
   handle: 20.500.11767/17423
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '926'
   tags:
@@ -839,6 +907,7 @@
   authors: Cunha, Bussi
   doi: 10.1261/rna.060079.116
   handle: 20.500.11767/11944
+  issn: 1355-8382
   journal: RNA
   page: '628'
   tags:
@@ -850,6 +919,7 @@
   authors: Cesari, Gil-Ley, Bussi
   doi: 10.1021/acs.jctc.6b00944
   handle: 20.500.11767/17367
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '6192'
   tags:
@@ -862,6 +932,7 @@
   authors: "K\xFChrov\xE1, Best, Bottaro, Bussi, \u0160poner, Otyepka, Ban\xE1\u0161"
   doi: 10.1021/acs.jctc.6b00300
   handle: 20.500.11767/15904
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '4534'
   tags:
@@ -873,6 +944,7 @@
   authors: Gil-Ley, Bottaro, Bussi
   doi: 10.1021/acs.jctc.6b00299
   handle: 20.500.11767/11774
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '2790'
   tags:
@@ -884,6 +956,7 @@
   authors: "Bottaro, Ban\xE1\u0161, \u0160poner, Bussi"
   doi: 10.1021/acs.jpclett.6b01905
   handle: 20.500.11767/15962
+  issn: 1948-7185
   journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
   page: '4032'
   tags:
@@ -895,6 +968,7 @@
   authors: Bottaro, Gil-Ley, Bussi
   doi: 10.1093/nar/gkw239
   handle: 20.500.11767/11768
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '5883'
   tags:
@@ -906,6 +980,7 @@
   authors: "Ferrarotti, Bottaro, P\xE9rez-Villa, Bussi"
   doi: 10.1021/ct5007086
   handle: 20.500.11767/11876
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '139'
   tags:
@@ -917,6 +992,7 @@
   authors: "P\xE9rez-Villa, Darvas, Bussi"
   doi: 10.1093/nar/gkv872
   handle: 20.500.11767/14395
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '8725'
   tags:
@@ -930,6 +1006,7 @@
   authors: Pinamonti, Bottaro, Micheletti, Bussi
   doi: 10.1093/nar/gkv708
   handle: 20.500.11767/12537
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '7260'
   tags:
@@ -942,6 +1019,7 @@
   authors: Gil-Ley, Bussi
   doi: 10.1021/ct5009087
   handle: 20.500.11767/16966
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '1077'
   tags:
@@ -965,6 +1043,7 @@
     rek, Otyepka, \u0160poner"
   doi: 10.1093/nar/gkv994
   handle: 20.500.11767/12540
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '9626'
   tags:
@@ -977,6 +1056,7 @@
   authors: Di Palma, Bottaro, Bussi
   doi: 10.1186/1471-2105-16-S9-S6
   handle: 20.500.11767/11874
+  issn: 1471-2105
   journal: BMC BIOINFORMATICS
   page: S6
   tags:
@@ -990,6 +1070,7 @@
   authors: Bottaro, Di Palma, Bussi
   doi: 10.14800/rd.544
   handle: 20.500.11767/12408
+  issn: 2375-2467
   journal: RNA & DISEASE
   page: e544
   tags:
@@ -1014,6 +1095,7 @@
     \ Ruffieux"
   doi: 10.1021/ja504126z
   handle: 20.500.11767/11873
+  issn: 0002-7863
   journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
   page: '13666'
   title: Bowl inversion of surface-adsorbed sumanene
@@ -1023,6 +1105,7 @@
   authors: Abrams, Bussi
   doi: 10.3390/e16010163
   handle: 20.500.11767/15914
+  issn: 1099-4300
   journal: ENTROPY
   page: '163'
   tags:
@@ -1035,6 +1118,7 @@
   authors: Bussi
   doi: 10.1080/00268976.2013.824126
   handle: 20.500.11767/15840
+  issn: 0026-8976
   journal: MOLECULAR PHYSICS
   page: '379'
   tags:
@@ -1047,6 +1131,7 @@
   authors: Tribello, Bonomi, Branduardi, Camilloni, Bussi
   doi: 10.1016/j.cpc.2013.09.018
   handle: 20.500.11767/11534
+  issn: 0010-4655
   journal: COMPUTER PHYSICS COMMUNICATIONS
   page: '604'
   tags:
@@ -1071,6 +1156,7 @@
   authors: Bottaro, Di Palma, Bussi
   doi: 10.1093/nar/gku972
   handle: 20.500.11767/17373
+  issn: 0305-1048
   journal: NUCLEIC ACIDS RESEARCH
   page: '13306'
   tags:
@@ -1082,6 +1168,7 @@
   authors: Di Palma, Colizzi, Bussi
   doi: 10.1261/rna.040493.113
   handle: 20.500.11767/11521
+  issn: 1355-8382
   journal: RNA
   page: '1517'
   tags:
@@ -1095,6 +1182,7 @@
   authors: Do, Carloni, Varani, Bussi
   doi: 10.1021/ct3009914
   handle: 20.500.11767/11373
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '1720'
   tags:
@@ -1107,6 +1195,7 @@
 - authors: Franco, Sgrignani, Bussi, Magistrato
   doi: 10.1021/ci4001647
   handle: 20.500.11767/11517
+  issn: 1549-9596
   journal: JOURNAL OF CHEMICAL INFORMATION AND MODELING
   page: '1371'
   title: Structural role of uracil DNA glycosylase for the recognition of uracil in
@@ -1117,6 +1206,7 @@
   authors: Ferretti, Mallia, Martin-Samos, Bussi, Ruini, Montanari, Harrison
   doi: 10.1103/PhysRevB.85.235105
   handle: 20.500.11767/12390
+  issn: 2469-9950
   journal: PHYSICAL REVIEW B
   page: '235105'
   title: 'Ab initio complex band structure of conjugated polymers: Effects of hydrid
@@ -1127,6 +1217,7 @@
   authors: Branduardi, Bussi, Parrinello
   doi: 10.1021/ct3002464
   handle: 20.500.11767/12023
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '2247'
   tags:
@@ -1138,6 +1229,7 @@
   authors: Colizzi, Bussi
   doi: 10.1021/ja210531q
   handle: 20.500.11767/16711
+  issn: 0002-7863
   journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
   page: '5173'
   tags:
@@ -1150,6 +1242,7 @@
   authors: Yusuff, Babalola, Bussi, Raugei
   doi: 10.1021/jp3022908
   handle: 20.500.11767/15016
+  issn: 1520-6106
   journal: JOURNAL OF PHYSICAL CHEMISTRY B
   page: '11004'
   title: 'Role of the subunit interactions in the conformational transitions in adult
@@ -1159,6 +1252,7 @@
 - authors: Benedetti, Micheletti, Bussi, Sekatskii, Dietler
   doi: 10.1016/j.bpj.2011.07.047
   handle: 20.500.11767/13930
+  issn: 0006-3495
   journal: BIOPHYSICAL JOURNAL
   page: '1504'
   title: 'Nonkinetic modeling of the mechanical unfolding of multimodular proteins:
@@ -1169,6 +1263,7 @@
   authors: Raiteri, Gale, Bussi
   doi: 10.1088/0953-8984/23/33/334213
   handle: 20.500.11767/11900
+  issn: 0953-8984
   journal: JOURNAL OF PHYSICS-CONDENSED MATTER
   page: '334213'
   title: Reactive force field simulation of proton diffusion in BaZrO3 using an empirical
@@ -1178,6 +1273,7 @@
 - authors: Martin-Samos, Bussi, Ruini, Molinari, Caldas
   doi: 10.1002/pssb.201046283
   handle: 20.500.11767/14634
+  issn: 0370-1972
   journal: PHYSICA STATUS SOLIDI B-BASIC SOLID STATE PHYSICS
   page: '1061'
   title: SiO2 in density functional theory and beyond
@@ -1186,6 +1282,7 @@
 - authors: Martin-Samos, Bussi, Ruini, Molinari, Caldas
   doi: 10.1103/PhysRevB.81.081202
   handle: 20.500.11767/16167
+  issn: 1098-0121
   journal: PHYSICAL REVIEW B
   page: 081202(R)
   title: Unraveling effects of disorder on the electronic structure of SiO2 from first
@@ -1196,6 +1293,7 @@
   authors: Ceriotti, Bussi, Parrinello
   doi: 10.1021/ct900563s
   handle: 20.500.11767/13481
+  issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
   page: '1170'
   title: "Colored-noise thermostats \xE0la Carte"
@@ -1205,6 +1303,7 @@
   authors: Ceriotti, Bussi, Parrinello
   doi: 10.1103/PhysRevLett.102.020601
   handle: 20.500.11767/13087
+  issn: 0031-9007
   journal: PHYSICAL REVIEW LETTERS
   page: '020601'
   title: Langevin equation with colored noise for constant-temperature molecular dynamics
@@ -1215,6 +1314,7 @@
   authors: Bussi
   doi: 10.1393/ncc/i2009-10369-8
   handle: 20.500.11767/16458
+  issn: 1124-1896
   journal: NUOVO CIMENTO DELLA SOCIETA ITALIANA DI FISICA C-COLLOQUIA ON PHYSICS
   page: '61'
   title: A simple asynchronous replica-exchange implementation
@@ -1223,6 +1323,7 @@
 - authors: Mantz, Branduardi, Bussi, Parrinello
   doi: 10.1021/jp8106556
   handle: 20.500.11767/16242
+  issn: 1520-6106
   journal: JOURNAL OF PHYSICAL CHEMISTRY B
   page: '12521'
   title: Ensemble of Transition State Structures for the Cis-Trans Isomerization of
@@ -1233,6 +1334,7 @@
   authors: Bussi, Zykova-Timan, Parrinello
   doi: 10.1063/1.3073889
   handle: 20.500.11767/14744
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '074101'
   title: Isothermal-isobaric molecular dynamics using stochastic velocity rescaling
@@ -1242,6 +1344,7 @@
   authors: Ceriotti, Bussi, Parrinello
   doi: 10.1103/PhysRevLett.103.030603
   handle: 20.500.11767/16057
+  issn: 0031-9007
   journal: PHYSICAL REVIEW LETTERS
   page: '030603'
   title: Nuclear quantum effects in solids using a colored-noise thermostat
@@ -1252,6 +1355,7 @@
     Pietrucci, Broglia, Parrinello
   doi: 10.1016/j.cpc.2009.05.011
   handle: 20.500.11767/12498
+  issn: 0010-4655
   journal: COMPUTER PHYSICS COMMUNICATIONS
   page: '1961'
   title: 'PLUMED: A portable plugin for free-energy calculations with molecular dynamics'
@@ -1260,6 +1364,7 @@
 - authors: Martin-Samos, Bussi
   doi: 10.1016/j.cpc.2009.02.005
   handle: 20.500.11767/16606
+  issn: 0010-4655
   journal: COMPUTER PHYSICS COMMUNICATIONS
   page: '1416'
   title: 'SaX: An open source package for electronic-structure and optical-properties
@@ -1269,6 +1374,7 @@
 - authors: Melis, Bussi, Lummis, Molteni
   doi: 10.1021/jp9046962
   handle: 20.500.11767/12321
+  issn: 1520-6106
   journal: JOURNAL OF PHYSICAL CHEMISTRY B
   page: '12148'
   title: Trans-cis switching mechanisms in proline analogues and their relevance for
@@ -1279,6 +1385,7 @@
   authors: Micheletti, Bussi, Laio
   doi: 10.1063/1.2969761
   handle: 20.500.11767/12507
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '074105'
   title: Optimal Langevin modeling of out-of-equilibrium molecular dynamics simulations
@@ -1288,6 +1395,7 @@
   authors: Bussi, Parrinello
   doi: 10.1016/j.cpc.2008.01.006
   handle: 20.500.11767/13948
+  issn: 0010-4655
   journal: COMPUTER PHYSICS COMMUNICATIONS
   page: '26'
   title: 'Stochastic thermostats: comparison of local and global schemes'
@@ -1296,6 +1404,7 @@
 - authors: Raiteri, Bussi, Cucinotta, Credi, Stoddart, Parrinello
   doi: 10.1002/anie.200705207
   handle: 20.500.11767/14670
+  issn: 1433-7851
   journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
   page: '3536'
   title: Unravelling the shuttling mechanism in a photoswitchable multicomponent bistable
@@ -1306,6 +1415,7 @@
   authors: Barducci, Bussi, Parrinello
   doi: 10.1103/PhysRevLett.100.020603
   handle: 20.500.11767/16783
+  issn: 0031-9007
   journal: PHYSICAL REVIEW LETTERS
   page: '020603'
   title: 'Well-tempered metadynamics: A smoothly converging and tunable free-energy
@@ -1316,6 +1426,7 @@
   authors: Bussi, Parrinello
   doi: 10.1103/PhysRevE.75.056707
   handle: 20.500.11767/16816
+  issn: 2470-0045
   journal: PHYSICAL REVIEW E
   page: '056707'
   title: Accurate sampling using Langevin dynamics
@@ -1325,6 +1436,7 @@
   authors: Bussi, Donadio, Parrinello
   doi: 10.1063/1.2408420
   handle: 20.500.11767/12943
+  issn: 0021-9606
   journal: JOURNAL OF CHEMICAL PHYSICS
   page: '014101'
   title: Canonical sampling through velocity rescaling
@@ -1334,6 +1446,7 @@
   authors: Ceriotti, Bussi, Parrinello
   doi: 10.1103/PhysRevE.76.026707
   handle: 20.500.11767/17410
+  issn: 1539-3755
   journal: PHYSICAL REVIEW E
   page: '026707'
   title: Conjugate gradient heat bath for ill-conditioned actions
@@ -1343,6 +1456,7 @@
   authors: Bussi, Laio, Parrinello
   doi: 10.1103/PhysRevLett.96.090601
   handle: 20.500.11767/13652
+  issn: 0031-9007
   journal: PHYSICAL REVIEW LETTERS
   page: 090601
   title: Equilibrium free energies from nonequilibrium metadynamics
@@ -1351,6 +1465,7 @@
 - authors: Bussi, Gervasio, Laio, Parrinello
   doi: 10.1021/ja062463w
   handle: 20.500.11767/15037
+  issn: 0002-7863
   journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
   page: '13435'
   title: "Free-energy landscape for \u03B2 hairpin folding from combined parallel\
@@ -1378,6 +1493,7 @@
 - authors: Hummer, Ambrosch-Draxl, Bussi, Ruini, Caldas, Molinari, Laskowski, Christensen
   doi: 10.1002/pssb.200461785
   handle: 20.500.11767/16836
+  issn: 0370-1972
   journal: PHYSICA STATUS SOLIDI B-BASIC SOLID STATE PHYSICS
   page: '1754'
   title: Ab-initio study of excitonic effects in conventional and organic semiconductors
@@ -1386,6 +1502,7 @@
 - authors: Chang, Bussi, Ruini, Molinari
   doi: 10.1103/PhysRevB.72.195423
   handle: 20.500.11767/16615
+  issn: 2469-9950
   journal: PHYSICAL REVIEW B
   page: '195423'
   title: 'First-principles approach for the calculation of optical properties of one-dimensional
@@ -1407,6 +1524,7 @@
   authors: "Bussi, Men\xE9ndez, Ren, Canonico, Molinari"
   doi: 10.1103/PhysRevB.71.041404
   handle: 20.500.11767/14223
+  issn: 2469-9950
   journal: PHYSICAL REVIEW B
   page: 041404(R)
   title: Quantum interferences in the Raman cross section for the radial breathing
@@ -1416,6 +1534,7 @@
 - authors: Ferretti, Ruini, Bussi, Molinari, Caldas
   doi: 10.1103/PhysRevB.69.205205
   handle: 20.500.11767/16455
+  issn: 2469-9950
   journal: PHYSICAL REVIEW B
   page: '205205'
   title: Ab initio study of transport parameters in polymer crystals
@@ -1424,6 +1543,7 @@
 - authors: Bussi
   doi: 10.1238/Physica.Topical.109a00141
   handle: 20.500.11767/17032
+  issn: 0031-8949
   journal: PHYSICA SCRIPTA
   page: '141'
   title: 'Effects of the electron-hole interaction on the optical properties of materials:
@@ -1434,6 +1554,7 @@
   authors: Chang, Bussi, Ruini, Molinari
   doi: 10.1103/PhysRevLett.92.196401
   handle: 20.500.11767/11906
+  issn: 0031-9007
   journal: PHYSICAL REVIEW LETTERS
   page: '196401'
   title: 'Excitons in carbon nanotubes: An ab initia symmetry-based approach'
@@ -1442,6 +1563,7 @@
 - authors: Ruini, Ferretti, Bussi, Molinari, Caldas
   doi: 10.1088/0268-1242/19/4/119
   handle: 20.500.11767/11903
+  issn: 0268-1242
   journal: SEMICONDUCTOR SCIENCE AND TECHNOLOGY
   page: S362
   title: Relationship between structural and optoelectronic properties in semiconducting
@@ -1451,6 +1573,7 @@
 - authors: Ruini, Bussi, Ferretti, Caldas, Molinari
   doi: 10.1016/S0379-6779(03)00319-9
   handle: 20.500.11767/16405
+  issn: 0379-6779
   journal: SYNTHETIC METALS
   page: '755'
   title: 'Charge transport and radiative recombination in polythiophene crystals:
@@ -1472,6 +1595,7 @@
   authors: Ruini, Caldas, Bussi, Molinari
   doi: 10.1103/PhysRevLett.88.206403
   handle: 20.500.11767/13627
+  issn: 0031-9007
   journal: PHYSICAL REVIEW LETTERS
   page: '206403'
   title: Solid state effects on exciton states and optical properties of PPV
@@ -1480,6 +1604,7 @@
 - authors: Bussi, Ruini, Molinari, Caldas, Puschnig, Ambrosch-Draxl
   doi: 10.1063/1.1483905
   handle: 20.500.11767/17436
+  issn: 0003-6951
   journal: APPLIED PHYSICS LETTERS
   page: '4118'
   title: 'Interchain interaction and Davydov splitting in polythiophene crystals:
