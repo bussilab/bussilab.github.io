@@ -133,7 +133,7 @@ title: People
         <a href="tel:{{ person.phone }}" target="_blank" aria-label="Phone" title="Phone"><i class="fas fa-phone"></i></a>
         {% endif %}
         {% if person.thesis %}
-        <a href="{{ person.thesis }}" target="_blank" aria-label="PhD Thesis" title="PhD Thesis"><i class="fas fa-book"></i></a>
+        <a href="https://hdl.handle.net/{{ person.thesis }}" target="_blank" aria-label="PhD Thesis" title="PhD Thesis"><i class="fas fa-book"></i></a>
         {% endif %}
         {% if person.orcid %}
         <a href="https://orcid.org/{{ person.orcid }}" target="_blank" aria-label="ORCID" title="ORCID"><i class="fab fa-orcid"></i></a>
@@ -228,4 +228,3 @@ document.addEventListener('DOMContentLoaded', () => {
   font-style: italic; /* Optional: adds a soft visual tone */
 }
 </style>
-
