@@ -566,7 +566,7 @@ if __name__ == "__main__":
             if not item["biorxiv"] in [item["biorxiv"] for item in database if "biorxiv" in item]:
                 database = [item] + database
     
-    for item in database:
+    for item in tqdm.tqdm(database):
         if "arxiv" in item and not "handle" in item:
             item |= fetch_arxiv_metadata(item["arxiv"])
         ## temporarily disabled:
