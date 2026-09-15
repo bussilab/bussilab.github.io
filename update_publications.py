@@ -433,37 +433,56 @@ def fetch_arxiv_metadata_with_cache(arxiv_ids, cache_path="_data/publications.ym
                 print(warning, file=f)
 
         return cached_metadata
-import requests
 
 def fetch_biorxiv_metadata(doi):
-    # Base URL for bioRxiv API
-    base_url = "https://api.biorxiv.org/details/biorxiv"
-    
-    # Construct the query URL
-    query_url = f"{base_url}/{doi}"
-    
-    # Make the GET request
-    response = requests.get(query_url)
-    if response.status_code != 200:
-        raise RuntimeError(f"Error: Unable to fetch data for DOI {doi}")
-    
-    # Parse the JSON response
-    data = response.json()
-    
-    if data["messages"][0]["status"] != "ok":
-        raise RuntimeError(f"Error: DOI {doi} not found")
-    
-    # Extract metadata
-    preprint = data["collection"][0]
-    title = preprint["title"]
-    authors_full = preprint["authors"]
+    """Fetch title and author surnames for a bioRxiv DOI.
 
-    # Extract surnames properly
-    authors_surnames = [author.split(",")[0].strip() for author in authors_full.split("; ")]
-    
+    New bioRxiv records use the openRxiv ``10.64898`` DOI prefix, which is
+    not supported by the legacy api.biorxiv.org details endpoint.  DOI
+    content negotiation works for both the new prefix and historical
+    ``10.1101`` records and returns structured CSL-JSON metadata.
+    """
+    try:
+        response = requests.get(
+            f"https://doi.org/{doi}",
+            headers={
+                "Accept": "application/vnd.citationstyles.csl+json",
+                "User-Agent": user_agent,
+            },
+            timeout=30,
+        )
+        response.raise_for_status()
+        data = response.json()
+    except (requests.RequestException, ValueError) as error:
+        raise RuntimeError(
+            f"Unable to fetch bioRxiv metadata for DOI {doi}"
+        ) from error
+
+    if not isinstance(data, dict):
+        raise RuntimeError(
+            f"Invalid bioRxiv metadata returned for DOI {doi}"
+        )
+
+    title = data.get("title")
+    # Some metadata providers use the Crossref API's one-element title list
+    # even when returning CSL-JSON.
+    if isinstance(title, list):
+        title = title[0] if title else ""
+
+    authors = []
+    for author in data.get("author", []):
+        surname = author.get("family") or author.get("literal")
+        if surname:
+            authors.append(surname.strip())
+
+    if not isinstance(title, str) or not title.strip() or not authors:
+        raise RuntimeError(
+            f"Incomplete bioRxiv metadata returned for DOI {doi}"
+        )
+
     return {
-        "title": title,
-        "authors": authors_surnames
+        "title": title.strip(),
+        "authors": authors,
     }
 
 def iris_fetch_handles(author_name, max_pages=10):
@@ -642,9 +661,8 @@ if __name__ == "__main__":
     for item in tqdm.tqdm(database):
         if "arxiv" in item and "handle" not in item:
             item |= arxiv_metadata[item["arxiv"]]
-        ## temporarily disabled:
-        # if "biorxiv" in item and not "handle" in item:
-        #    item |= fetch_biorxiv_metadata(item["biorxiv"])
+        if "biorxiv" in item and "handle" not in item:
+            item |= fetch_biorxiv_metadata(item["biorxiv"])
 
     # override using local yml
 
