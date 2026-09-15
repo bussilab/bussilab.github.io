@@ -118,6 +118,20 @@
   title: Blind Prediction of Complex Water and Ion Ensembles Around RNA in CASP16
   volume: '94'
   year: '2026'
+- authors: Gilardoni
+  handle: 20.500.11767/148092
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Development and application of methods to integrate molecular simulations
+    with experimental measurements
+  year: '2025'
+- authors: Posani
+  handle: 20.500.11767/148091
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Ensemble Refinement of Cryo-Electron Microscopy-Derived RNA Structures Using
+    Molecular Dynamics Simulations
+  year: '2025'
 - authors: "M\xFCller-Hermes, Piomponi, Hilber, Asami, Kreutz, Bussi, Sattler"
   doi: 10.1093/nar/gkaf550
   handle: 20.500.11767/146750
@@ -267,20 +281,6 @@
     Conformational Space'
   volume: '46'
   year: '2025'
-- authors: Gilardoni
-  handle: 20.500.11767/148092
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Development and application of methods to integrate molecular simulations
-    with experimental measurements
-  year: '2025'
-- authors: Posani
-  handle: 20.500.11767/148091
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Ensemble Refinement of Cryo-Electron Microscopy-Derived RNA Structures Using
-    Molecular Dynamics Simulations
-  year: '2025'
 - arxiv: '2404.14821'
   authors: Piomponi, Krepl, Sponer, Bussi
   doi: 10.1021/acs.jpcb.4c03397
@@ -360,6 +360,13 @@
   title: "Molecular Dynamics Simulations of\_Chemically Modified Ribonucleotides"
   volume: '14'
   year: '2023'
+- authors: Piomponi
+  handle: 20.500.11767/134590
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Molecular simulations to investigate the impact of post-transcriptional modifications
+    on RNA structural dynamics
+  year: '2023'
 - arxiv: '2209.12640'
   authors: Calonaci, Bernetti, Jones, Sattler, Bussi
   doi: 10.1021/acs.jctc.3c00084
@@ -417,13 +424,6 @@
     structural dynamics
   volume: '78'
   year: '2023'
-- authors: Piomponi
-  handle: 20.500.11767/134590
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Molecular simulations to investigate the impact of post-transcriptional modifications
-    on RNA structural dynamics
-  year: '2023'
 - authors: Dutta, Tapio, Suma, Mostafa, Kanehira, Carnevale, Bussi, Bald
   doi: 10.1039/d2nr03664a
   handle: 20.500.11767/130112
@@ -457,6 +457,12 @@
   title: 'Biomotors, viral assembly, and RNA nanobiotechnology: Current achievements
     and future directions'
   volume: '20'
+  year: '2022'
+- authors: Froehlking
+  handle: 20.500.11767/129750
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Machine learning RNA force fields from experimental data
   year: '2022'
 - arxiv: '2203.14886'
   authors: "Piomponi, Fr\xF6hlking, Bernetti, Bussi"
@@ -500,12 +506,6 @@
   title: Molecular Dynamics of Solids at Constant Pressure and Stress Using Anisotropic
     Stochastic Cell Rescaling
   volume: '12'
-  year: '2022'
-- authors: Froehlking
-  handle: 20.500.11767/129750
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Machine learning RNA force fields from experimental data
   year: '2022'
 - authors: Bernetti, Bussi
   doi: 10.1140/epjb/s10051-021-00186-9
@@ -558,6 +558,13 @@
   page: '3749'
   title: Directional translocation resistance of Zika xrRNA
   volume: '11'
+  year: '2020'
+- authors: Calonaci
+  handle: 20.500.11767/116273
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Computational investigations of structure probing experiments for RNA structure
+    prediction
   year: '2020'
 - arxiv: '2004.00351'
   authors: Calonaci, Jones, Cuturello, Sattler, Bussi
@@ -644,13 +651,6 @@
     NMR data
   volume: '48'
   year: '2020'
-- authors: Calonaci
-  handle: 20.500.11767/116273
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Computational investigations of structure probing experiments for RNA structure
-    prediction
-  year: '2020'
 - authors: Colizzi, Perez-Gonzalez, Fritzen, Levy, White, Carlos Penedo, Bussi
   doi: 10.1073/pnas.1901086116
   handle: 20.500.11767/104314
@@ -662,6 +662,12 @@
   - '#erc2012'
   title: Asymmetric base-pair opening drives helicase unwinding dynamics
   volume: '116'
+  year: '2019'
+- authors: Cuturello
+  handle: 20.500.11767/103809
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Covariance models for RNA structure prediction
   year: '2019'
 - arxiv: '1812.08213'
   authors: Bussi, Tribello
@@ -752,12 +758,6 @@
   title: 'Barnaba: software for analysis of nucleic acid structures and trajectories'
   volume: '25'
   year: '2019'
-- authors: Cuturello
-  handle: 20.500.11767/103809
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Covariance models for RNA structure prediction
-  year: '2019'
 - authors: Rangan, Bonomi, Heller, Cesari, Bussi, Vendruscolo
   doi: 10.1021/acs.jctc.8b00738
   handle: 20.500.11767/86016
@@ -790,6 +790,13 @@
   title: Conformational ensembles of RNA oligonucleotides from integrating NMR and
     molecular simulations
   volume: '4'
+  year: '2018'
+- authors: Cesari
+  handle: 20.500.11767/84104
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Enforcing ensemble averages in molecular dynamics simulations using the Maximum
+    Entropy principle
   year: '2018'
 - arxiv: '1709.08691'
   authors: Poblete, Bottaro, Bussi
@@ -881,13 +888,12 @@
     Binding and RNA Flexibility
   volume: '9'
   year: '2018'
-- authors: Cesari
-  handle: 20.500.11767/84104
+- authors: Andre Cunha
+  handle: 20.500.11767/59219
   journal: PHD THESIS
   publication_type: PhD thesis
-  title: Enforcing ensemble averages in molecular dynamics simulations using the Maximum
-    Entropy principle
-  year: '2018'
+  title: Dissecting Mg2+-RNA interactions using atomistic molecular dynamics
+  year: '2017'
 - authors: "Islam, Stadlbauer, Gil-Ley, P\xE9rez-Hern\xE1ndez, Haider, Neidle, Bussi,\
     \ Banas, Otyepka, Sponer"
   doi: 10.1021/acs.jctc.7b00226
@@ -913,12 +919,6 @@
   title: Understanding in-line probing experiments by modeling cleavage of nonreactive
     RNA nucleotides
   volume: '23'
-  year: '2017'
-- authors: Andre Cunha
-  handle: 20.500.11767/59219
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Dissecting Mg2+-RNA interactions using atomistic molecular dynamics
   year: '2017'
 - authors: Bellucci, Bussi, Di Felice, Corni
   doi: 10.1039/C6NR06010B
@@ -968,6 +968,19 @@
   title: Unraveling Mg2+-RNA binding with atomistic molecular dynamics
   volume: '23'
   year: '2017'
+- authors: Gil Ley
+  handle: 20.500.11767/4628
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Enhanced sampling and force field corrections for RNA oligomers
+  year: '2016'
+- authors: Pinamonti
+  handle: 20.500.11767/4905
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Studying the dynamical properties of small RNA molecules with computational
+    techniques
+  year: '2016'
 - arxiv: '1611.06156'
   authors: Cesari, Gil-Ley, Bussi
   doi: 10.1021/acs.jctc.6b00944
@@ -1005,12 +1018,6 @@
   title: Empirical Corrections to the Amber RNA Force Field with Target Metadynamics
   volume: '12'
   year: '2016'
-- authors: Gil Ley
-  handle: 20.500.11767/4628
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Enhanced sampling and force field corrections for RNA oligomers
-  year: '2016'
 - arxiv: '1609.07898'
   authors: "Bottaro, Ban\xE1\u0161, \u0160poner, Bussi"
   doi: 10.1021/acs.jpclett.6b01905
@@ -1035,13 +1042,13 @@
   title: RNA folding pathways in stop motion
   volume: '44'
   year: '2016'
-- authors: Pinamonti
-  handle: 20.500.11767/4905
+- authors: Perez Villa
+  handle: 20.500.11767/4862
   journal: PHD THESIS
   publication_type: PhD thesis
-  title: Studying the dynamical properties of small RNA molecules with computational
-    techniques
-  year: '2016'
+  title: 'Translocation of NS3 from Hepatitis C Virus on RNA: Insights from Atomistic
+    Molecular Simulations'
+  year: '2015'
 - arxiv: '1412.3916'
   authors: "Ferrarotti, Bottaro, P\xE9rez-Villa, Bussi"
   doi: 10.1021/ct5007086
@@ -1144,13 +1151,6 @@
   title: Towards de novo RNA 3D Structure Prediction
   volume: '2'
   year: '2015'
-- authors: Perez Villa
-  handle: 20.500.11767/4862
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: 'Translocation of NS3 from Hepatitis C Virus on RNA: Insights from Atomistic
-    Molecular Simulations'
-  year: '2015'
 - authors: Di Palma, Colizzi, Bussi
   doi: 10.1016/bs.mie.2014.10.055
   handle: 20.500.11767/15196
@@ -1164,6 +1164,12 @@
     in riboswitches
   volume: '553'
   year: '2015'
+- authors: Di Palma
+  handle: 20.500.11767/3889
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Conformational changes  in the adenine riboswitch
+  year: '2014'
 - authors: "Jaafar, Pignedoli, Bussi, A\xEFt-Mansour, Groening, Amaya, Hirao, Fasel,\
     \ Ruffieux"
   doi: 10.1021/ja504126z
@@ -1173,12 +1179,6 @@
   page: '13666'
   title: Bowl inversion of surface-adsorbed sumanene
   volume: '136'
-  year: '2014'
-- authors: Di Palma
-  handle: 20.500.11767/3889
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Conformational changes  in the adenine riboswitch
   year: '2014'
 - arxiv: '1401.0387'
   authors: Abrams, Bussi
@@ -1281,6 +1281,13 @@
     DNA duplexes. Clues from atomistic simulations
   volume: '53'
   year: '2013'
+- authors: Do
+  handle: 20.500.11767/4787
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: 'Investigating Peptide/RNA binding in Anti-HIV research by molecular simulations:
+    electrostatic recognition and accelerated sampling'
+  year: '2012'
 - arxiv: '1205.3282'
   authors: Ferretti, Mallia, Martin-Samos, Bussi, Ruini, Montanari, Harrison
   doi: 10.1103/PhysRevB.85.235105
@@ -1291,13 +1298,6 @@
   title: 'Ab initio complex band structure of conjugated polymers: Effects of hydrid
     density functional theory and GW schemes'
   volume: '85'
-  year: '2012'
-- authors: Do
-  handle: 20.500.11767/4787
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: 'Investigating Peptide/RNA binding in Anti-HIV research by molecular simulations:
-    electrostatic recognition and accelerated sampling'
   year: '2012'
 - arxiv: '1205.4300'
   authors: Branduardi, Bussi, Parrinello

@@ -111,6 +111,7 @@ def thesis_record_from_iris(record):
         "title": title,
         "journal": "PHD THESIS",
         "year": year_match.group(0),
+        "submission_date": issued,
         "publication_type": "PhD thesis",
         "handle": record["handle"],
     }
