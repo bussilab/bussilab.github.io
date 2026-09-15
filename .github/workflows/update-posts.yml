@@ -32,6 +32,26 @@ jobs:
       # Run your update script
       - name: Run update_publications script
         run: python3 update_publications.py
+        env:
+          ARXIV_CACHE_MARKER: ${{ runner.temp }}/arxiv-cache-used.txt
+
+      - name: Notify cached arXiv metadata use
+        if: ${{ always() }}
+        run: |
+          if test -f "$RUNNER_TEMP/arxiv-cache-used.txt"; then
+            if test -n "$BUSSILAB_NOTIFY_TOKEN" && test -n "$BUSSILAB_NOTIFY_CHANNEL"; then
+              bussilab notify \
+                -c "$BUSSILAB_NOTIFY_CHANNEL" \
+                --token "$BUSSILAB_NOTIFY_TOKEN" \
+                --screenlog "$RUNNER_TEMP/arxiv-cache-used.txt" \
+                -m "Publication update used cached arXiv metadata"
+            else
+              echo "Cached arXiv metadata was used, but Slack notification credentials are unavailable."
+            fi
+          fi
+        env:
+          BUSSILAB_NOTIFY_TOKEN: ${{ secrets.BUSSILAB_NOTIFY_TOKEN }}
+          BUSSILAB_NOTIFY_CHANNEL: ${{ secrets.BUSSILAB_NOTIFY_CHANNEL }}
 
       # Configure Git for commit
       - name: Configure Git

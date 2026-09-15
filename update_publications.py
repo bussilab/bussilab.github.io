@@ -1,6 +1,7 @@
 
 
 import csv
+import os
 import yaml
 import requests
 import re
@@ -339,33 +340,98 @@ def get_arxiv_ids_from_author_page(orcid):
         return []
 
 
-def fetch_arxiv_metadata(arxiv_id):
+def fetch_arxiv_metadata(arxiv_ids):
     # Base URL for arXiv API
     base_url = "http://export.arxiv.org/api/query"
-    
-    # Construct the query
-    query_url = f"{base_url}?id_list={arxiv_id}"
+
+    # Request all IDs in a single API call.
+    arxiv_ids = list(dict.fromkeys(arxiv_ids))
+    if not arxiv_ids:
+        return {}
     
     # Make the GET request
-    response = requests.get(query_url)
+    response = requests.get(base_url, params={
+        "id_list": ",".join(arxiv_ids),
+        "max_results": len(arxiv_ids),
+    }, timeout=30)
     if response.status_code != 200:
-        raise RuntimeError(f"Error: Unable to fetch data for arXiv ID {arxiv_id}")
+        raise RuntimeError(f"Error: Unable to fetch data for arXiv IDs {', '.join(arxiv_ids)}")
     
     # Parse the XML response
     root = ElementTree.fromstring(response.content)
     
-    # Extract title and authors
+    # Extract title and authors, mapping each entry back to its requested ID.
     ns = {'atom': 'http://www.w3.org/2005/Atom'}  # Namespace for Atom feed
-    title = root.find('atom:entry/atom:title', ns).text.strip()
-    authors = [
-        author.find('atom:name', ns).text.strip().split()[-1]  # Extract only the surname
-        for author in root.findall('atom:entry/atom:author', ns)
-    ]
-    
-    return {
-        "title": title,
-        "authors": authors
+    requested_ids = {
+        re.sub(r"v\d+$", "", arxiv_id): arxiv_id
+        for arxiv_id in arxiv_ids
     }
+    metadata = {}
+    for entry in root.findall('atom:entry', ns):
+        entry_id = entry.find('atom:id', ns).text.strip()
+        entry_id = re.sub(r"^https?://arxiv\.org/abs/", "", entry_id)
+        requested_id = requested_ids.get(re.sub(r"v\d+$", "", entry_id))
+        if requested_id is None:
+            continue
+
+        title = entry.find('atom:title', ns).text.strip()
+        authors = [
+            author.find('atom:name', ns).text.strip().split()[-1]
+            for author in entry.findall('atom:author', ns)
+        ]
+        metadata[requested_id] = {
+            "title": title,
+            "authors": authors,
+        }
+
+    missing_ids = [arxiv_id for arxiv_id in arxiv_ids if arxiv_id not in metadata]
+    if missing_ids:
+        raise RuntimeError(f"Missing metadata for arXiv IDs {', '.join(missing_ids)}")
+
+    return metadata
+
+def fetch_arxiv_metadata_with_cache(arxiv_ids, cache_path="_data/publications.yml"):
+    """Fetch an arXiv batch, falling back to the current publication data."""
+    try:
+        return fetch_arxiv_metadata(arxiv_ids)
+    except (requests.RequestException, RuntimeError, ElementTree.ParseError) as error:
+        try:
+            with open(cache_path) as f:
+                publications = yaml.safe_load(f) or []
+        except FileNotFoundError:
+            raise RuntimeError(
+                f"arXiv request failed and cache file {cache_path} was not found"
+            ) from error
+
+        cached_metadata = {
+            publication["arxiv"]: {
+                "title": publication["title"],
+                "authors": publication["authors"],
+            }
+            for publication in publications
+            if publication.get("arxiv") in arxiv_ids
+            and publication.get("title")
+            and publication.get("authors")
+        }
+        missing_ids = [
+            arxiv_id for arxiv_id in arxiv_ids
+            if arxiv_id not in cached_metadata
+        ]
+        if missing_ids:
+            raise RuntimeError(
+                "arXiv request failed and cached metadata is missing for "
+                + ", ".join(missing_ids)
+            ) from error
+
+        warning = f"arXiv request failed ({error}); using cached metadata"
+        print(f"Warning: {warning}")
+
+        cache_marker = os.environ.get("ARXIV_CACHE_MARKER")
+        if cache_marker:
+            with open(cache_marker, "w") as f:
+                print(warning, file=f)
+
+        return cached_metadata
 import requests
 
 def fetch_biorxiv_metadata(doi):
@@ -566,9 +632,15 @@ if __name__ == "__main__":
             if not item["biorxiv"] in [item["biorxiv"] for item in database if "biorxiv" in item]:
                 database = [item] + database
     
+    arxiv_ids = [
+        item["arxiv"] for item in database
+        if "arxiv" in item and "handle" not in item
+    ]
+    arxiv_metadata = fetch_arxiv_metadata_with_cache(arxiv_ids)
+
     for item in tqdm.tqdm(database):
-        if "arxiv" in item and not "handle" in item:
-            item |= fetch_arxiv_metadata(item["arxiv"])
+        if "arxiv" in item and "handle" not in item:
+            item |= arxiv_metadata[item["arxiv"]]
         ## temporarily disabled:
         # if "biorxiv" in item and not "handle" in item:
         #    item |= fetch_biorxiv_metadata(item["biorxiv"])
