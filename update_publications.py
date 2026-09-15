@@ -84,6 +84,36 @@ def extract_list(raw_data,names):
         fields.extend([item[1] for item in raw_data if item[0] == name])
     return fields
 
+def thesis_record_from_iris(record):
+    """Build the minimal publication record needed for a PhD thesis."""
+    raw_data = record["iris_raw"]
+    authors = extract_authors(raw_data)
+    title = extract_scalar(raw_data, ["dc.title"])
+    issued = extract_scalar(raw_data, ["dc.date.issued"])
+    year_match = re.search(r"\b\d{4}\b", issued)
+
+    if not authors:
+        raise RuntimeError(f"Missing thesis author for {record['handle']}")
+    if not title:
+        raise RuntimeError(f"Missing thesis title for {record['handle']}")
+    if not year_match:
+        raise RuntimeError(f"Missing thesis publication year for {record['handle']}")
+
+    # Older IRIS records use normal capitalization while newer ones sometimes
+    # store the entire name in uppercase.
+    surname = authors[0]
+    if surname.isupper():
+        surname = surname.title()
+
+    return {
+        "authors": [surname],
+        "title": title,
+        "journal": "PHD THESIS",
+        "year": year_match.group(0),
+        "publication_type": "PhD thesis",
+        "handle": record["handle"],
+    }
+
 def extract_issn(raw_data):
     """Extract the print ISSN without falling back to electronic ISSN fields."""
     field_groups = (
@@ -423,7 +453,7 @@ def citation_to_yaml(record):
 
     # Keep bibliographic fields separate. The website assembles their visual
     # representation, while the individual values remain available for search.
-    for field in ("journal", "volume", "page", "year", "issn"):
+    for field in ("journal", "volume", "page", "year", "publication_type", "issn"):
         if field in record:
             output[field]=record[field]
         
@@ -502,6 +532,12 @@ if __name__ == "__main__":
     except FileNotFoundError:
         publication_extras=[]
 
+    with open("_data/people.yml") as f:
+        people=yaml.safe_load(f)
+
+    thesis_handles = [person["thesis"] for person in people if "thesis" in person]
+    thesis_handle_set = set(thesis_handles)
+
     preprints = [p for p in publication_extras if "arxiv" in p or "biorxiv" in p]
 
     orcid_arxiv_ids = get_arxiv_ids_from_author_page("0000-0001-9216-5782")
@@ -512,10 +548,15 @@ if __name__ == "__main__":
 
     add_handles = [p["handle"] for p in publication_extras if "handle" in p]
     handles += [h for h in add_handles if h not in handles]
+    handles += [h for h in thesis_handles if h not in handles]
 
     database=[]
     for handle in tqdm.tqdm(handles):
-        database.append(iris_get(handle,raw=True,grants=grants))
+        if handle in thesis_handle_set:
+            record = iris_get(handle,raw=True,parsed=False)
+            database.append(thesis_record_from_iris(record))
+        else:
+            database.append(iris_get(handle,raw=True,grants=grants))
         
     for item in preprints:
         if "arxiv" in item:
