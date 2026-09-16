@@ -16,15 +16,19 @@ title: Publications
 <!-- Posts List -->
 <div id="posts-container" style="display: none;">
   {% for post in site.data.publications %}
+    {% assign publication_authors = post.authors | split: ", " %}
+    {% capture searchable_authors %}{% for author in publication_authors %}{{ author }}{% if post.corresponding_author_positions contains forloop.index %}*{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+    {% capture corresponding_authors %}{% for author in publication_authors %}{% if post.corresponding_author_positions contains forloop.index %}{{ author }}|{% endif %}{% endfor %}{% endcapture %}
     <div class="post-data"
-         data-text="{{ post.authors | escape }} {{ post.title | escape }} {{ post.journal | escape }} {{ post.volume }} {{ post.page }} {{ post.year }} {{ post.doi }} {{ post.handle }} {{ post.arxiv }} {{ post.biorxiv }} {{ post.tags | escape }}"
-         data-author="{{ post.authors | escape }}"
+         data-text="{{ searchable_authors | strip | escape }} {{ post.title | escape }} {{ post.journal | escape }} {{ post.volume }} {{ post.page }} {{ post.year }} {{ post.doi }} {{ post.handle }} {{ post.arxiv }} {{ post.biorxiv }} {{ post.tags | escape }}"
+         data-author="{{ searchable_authors | strip | escape }}"
+         data-corresponding-author="{{ corresponding_authors | escape }}"
          data-title="{{ post.title | escape }}"
          data-journal="{{ post.journal | escape }}"
          data-year="{{ post.year }}">
       <!-- Authors, Title, and Citation -->
       <p class="publication-details">
-        <span class="publication-authors">{{ post.authors | safe }}</span>
+        <span class="publication-authors">{% for author in publication_authors %}{{ author | escape }}{% if post.corresponding_author_positions contains forloop.index %}<span title="Corresponding author" aria-label=" corresponding author">*</span>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
         <span class="publication-title"><strong>{{ post.title | safe }}</strong></span>
         <span class="publication-citation">
           {% if post.journal %}
@@ -188,12 +192,26 @@ function matchesSearchTerm(post, text, rawTerm) {
 
   const aliases = { authors: "author", journals: "journal" };
   const field = aliases[fieldSearch[1]] || fieldSearch[1];
-  const value = normalizeString(post.dataset[field].toLowerCase());
   let searchValue = fieldSearch[3];
 
   if (searchValue.startsWith('"') && searchValue.endsWith('"')) {
     searchValue = searchValue.slice(1, -1);
   }
+
+  if (field === "author" && searchValue.endsWith("*")) {
+    searchValue = searchValue.slice(0, -1);
+    const correspondingAuthors = normalizeString(
+      post.dataset.correspondingAuthor.toLowerCase()
+    ).split("|").filter(Boolean);
+
+    if (fieldSearch[2] === ":") {
+      return correspondingAuthors.some(author => author.includes(searchValue));
+    }
+
+    return correspondingAuthors.some(author => author === searchValue);
+  }
+
+  const value = normalizeString(post.dataset[field].toLowerCase());
 
   if (fieldSearch[2] === ":") {
     return value.includes(searchValue);

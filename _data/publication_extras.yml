@@ -21,3 +21,23 @@
 # This is to fix the page number in Amaro et al, Nature Methods (2025)
 - handle: "20.500.11767/145810"
   page: "641"
+
+# Fix corresponding author of Di Palma et al, book chapter (2015)
+- handle: "20.500.11767/15196"
+  corresponding_author_positions:
+  - 3
+
+# Fix corresponding author of Franco et al, JCIM (2013)
+- handle: "20.500.11767/11517"
+  corresponding_author_positions:
+  - 4
+
+# Fix corresponding author of Micheletti et al, JCP (2008)
+- handle: "20.500.11767/12507"
+  corresponding_author_positions:
+  - 3
+
+# Fix corresponding author of Bussi et al, PRL (2006)
+- handle: "20.500.11767/13652"
+  corresponding_author_positions:
+  - 1

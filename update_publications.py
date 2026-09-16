@@ -37,6 +37,25 @@ def infer_publication_type(record):
     return ""
 
 
+def format_authors_with_corresponding_markers(publication):
+    """Add a trailing * to corresponding authors in an exported author list."""
+    authors = publication.get("authors", "")
+    if not authors:
+        return authors
+
+    author_list = authors.split(", ")
+    positions = set(publication.get("corresponding_author_positions", []))
+    if positions and (min(positions) < 1 or max(positions) > len(author_list)):
+        raise RuntimeError(
+            f"Invalid corresponding-author position for {publication.get('handle', '')}"
+        )
+
+    return ", ".join(
+        author + ("*" if position in positions else "")
+        for position, author in enumerate(author_list, start=1)
+    )
+
+
 def write_publications_csv(publications, path="publications.csv"):
     """Write the website publication data as an Excel-friendly CSV file."""
     with open(path, "w", encoding="utf-8-sig", newline="") as csv_file:
@@ -48,6 +67,7 @@ def write_publications_csv(publications, path="publications.csv"):
         writer.writeheader()
         for publication in publications:
             row = {field: publication.get(field, "") for field in csv_fields}
+            row["authors"] = format_authors_with_corresponding_markers(publication)
             row["publication_type"] = (
                 publication.get("publication_type")
                 or infer_publication_type(publication)
@@ -68,6 +88,19 @@ def extract_authors(raw_data):
     if len(authors)!=0:
         return authors
     raise RuntimeError("Missing authors")
+
+
+def extract_corresponding_author_positions(soup):
+    """Return one-based positions of authors marked as corresponding in IRIS."""
+    positions = []
+    contributors = soup.select("span.contributor")
+    for position, contributor in enumerate(contributors, start=1):
+        marker = contributor.find(
+            attrs={"title": re.compile(r"^Corresponding author$", re.IGNORECASE)}
+        )
+        if marker is not None:
+            positions.append(position)
+    return positions
 
 def extract_scalar(raw_data,names):
     """Extract a scalar from IRIS raw data. Try a list of fallback names."""
@@ -91,6 +124,7 @@ def thesis_record_from_iris(record):
     authors = extract_authors(raw_data)
     title = extract_scalar(raw_data, ["dc.title"])
     issued = extract_scalar(raw_data, ["dc.date.issued"])
+    accession_date = extract_scalar(raw_data, ["dc.date.accessioned"])
     year_match = re.search(r"\b\d{4}\b", issued)
 
     if not authors:
@@ -111,7 +145,7 @@ def thesis_record_from_iris(record):
         "title": title,
         "journal": "PHD THESIS",
         "year": year_match.group(0),
-        "submission_date": issued,
+        "accession_date": accession_date,
         "publication_type": "PhD thesis",
         "handle": record["handle"],
     }
@@ -198,11 +232,14 @@ def parse_raw_iris_data(raw_data,grants=None):
     if title:
         record["title"]=title
         
-    submission_date=extract_scalar(raw_data,[
-        "dc.date.firstsubmission"
+    # IRIS rewrites dc.date.firstsubmission when an existing record is edited.
+    # dc.date.accessioned is stable, so metadata corrections do not reorder the
+    # publication list within a year.
+    accession_date=extract_scalar(raw_data,[
+        "dc.date.accessioned"
         ])
-    if submission_date:
-        record["submission_date"]=submission_date
+    if accession_date:
+        record["accession_date"]=accession_date
 
     year=extract_scalar(raw_data,[
         "scopus.date.issued",
@@ -332,6 +369,13 @@ def iris_get(handle,*,base_url="https://iris.sissa.it/handle/",raw=False,parsed=
     record={}
     if parsed:
         record=parse_raw_iris_data(raw_data,grants)
+        corresponding_author_positions = extract_corresponding_author_positions(soup)
+        if corresponding_author_positions:
+            if max(corresponding_author_positions) > len(record.get("authors", [])):
+                raise RuntimeError(
+                    f"Corresponding-author position exceeds author count for {handle}"
+                )
+            record["corresponding_author_positions"] = corresponding_author_positions
     if raw:
         record["iris_raw"]=raw_data
     record["handle"]=handle
@@ -564,6 +608,10 @@ def citation_to_yaml(record):
             output["authors"]=", ".join(record["authors"])
     if "title" in record:
         output["title"]=record["title"]
+    if "corresponding_author_positions" in record:
+        output["corresponding_author_positions"] = record[
+            "corresponding_author_positions"
+        ]
 
     # Keep bibliographic fields separate. The website assembles their visual
     # representation, while the individual values remain available for search.
@@ -608,7 +656,7 @@ def sort_database(biblio_list):
     Sort bibliography entries:
     1. Items without 'year' come first.
     2. Items with 'year' are sorted in decreasing year order.
-    3. Within each group, items are sorted by most recent submission_date.
+    3. Within each group, items are sorted by most recent accession_date.
     4. Finally, items are sorted alphabetically by 'title'
     """
 
@@ -616,10 +664,10 @@ def sort_database(biblio_list):
         # Check if 'year' exists; if not, assign a default high value (e.g., None comes before any year)
         year = item.get("year")
         title = item.get("title", "")
-        submission_date = item.get("submission_date", "").strip()
+        accession_date = item.get("accession_date", "").strip()
 
         try:
-            date_obj = parser.parse(submission_date)
+            date_obj = parser.parse(accession_date)
             timestamp = -date_obj.timestamp()
         except Exception:
             timestamp = float('inf')
@@ -712,6 +760,6 @@ if __name__ == "__main__":
             publications.append(citation)
         
     with open("_data/publications.yml","w") as f:
-        print(yaml.safe_dump(publications),file=f)
+        yaml.safe_dump(publications, f)
 
     write_publications_csv(publications)
