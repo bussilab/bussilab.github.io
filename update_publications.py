@@ -14,7 +14,7 @@ user_agent="IRIS metadata fetch (contact: bussi@sissa.it)"
 
 csv_fields = (
     "authors", "title", "journal", "volume", "page", "year",
-    "publication_type", "issn", "doi", "handle", "arxiv",
+    "publication_type", "issn", "isbn", "doi", "handle", "arxiv",
     "biorxiv", "tags"
 )
 
@@ -148,6 +148,30 @@ def extract_issn(raw_data):
                 return match.group(1).upper()
     return ""
 
+
+def extract_isbn(raw_data):
+    """Extract all distinct ISBNs, preferring the curated DC metadata."""
+    for field_names in (
+        ("dc.identifier.isbn",),
+        ("scopus.identifier.isbn", "isi.identifier.isbn"),
+    ):
+        values = extract_list(raw_data, field_names)
+        if not values:
+            continue
+
+        # IRIS can contain the same ISBN both with and without hyphens.
+        unique_values = []
+        normalized_values = set()
+        for value in values:
+            value = value.strip()
+            normalized = re.sub(r"[-\s]", "", value).upper()
+            if value and normalized not in normalized_values:
+                unique_values.append(value)
+                normalized_values.add(normalized)
+        return "; ".join(unique_values)
+
+    return ""
+
 def parse_raw_iris_data(raw_data,grants=None):
     """Parse IRIS raw data, returning a canonical dictionary."""
 
@@ -198,6 +222,10 @@ def parse_raw_iris_data(raw_data,grants=None):
     issn=extract_issn(raw_data)
     if issn:
         record["issn"]=issn
+
+    isbn=extract_isbn(raw_data)
+    if isbn:
+        record["isbn"]=isbn
 
     
     volume=extract_scalar(raw_data,[
@@ -539,7 +567,10 @@ def citation_to_yaml(record):
 
     # Keep bibliographic fields separate. The website assembles their visual
     # representation, while the individual values remain available for search.
-    for field in ("journal", "volume", "page", "year", "publication_type", "issn"):
+    for field in (
+        "journal", "volume", "page", "year", "publication_type", "issn",
+        "isbn",
+    ):
         if field in record:
             output[field]=record[field]
         

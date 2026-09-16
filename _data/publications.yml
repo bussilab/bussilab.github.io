@@ -353,6 +353,7 @@
   authors: Piomponi, Bernetti, Bussi
   doi: 10.1007/978-3-031-36390-0_26
   handle: 20.500.11767/134910
+  isbn: 978-3-031-36389-4
   journal: RNA Structure and Function. RNA Technologies
   page: '595'
   tags:
@@ -621,6 +622,7 @@
 - authors: Bussi, Laio, Tiwary
   doi: 10.1007/978-3-319-44677-6_49
   handle: 20.500.11767/110357
+  isbn: 978-3-319-44676-9; 978-3-319-44677-6
   journal: Handbook of Materials Modeling
   page: '565'
   tags:
@@ -673,6 +675,7 @@
   authors: Bussi, Tribello
   doi: 10.1007/978-1-4939-9608-7_21
   handle: 20.500.11767/102399
+  isbn: 978-1-4939-9607-0; 978-1-4939-9608-7
   journal: 'BIOMOLECULAR SIMULATIONS: METHODS AND PROTOCOLS'
   page: '529'
   tags:
@@ -1104,6 +1107,7 @@
 - authors: Bussi, Branduardi
   doi: 10.1002/9781118889886.ch1
   handle: 20.500.11767/15176
+  isbn: '9781118407776'
   journal: REVIEWS IN COMPUTATIONAL CHEMISTRY, VOL 28
   page: '1'
   tags:
@@ -1154,6 +1158,7 @@
 - authors: Di Palma, Colizzi, Bussi
   doi: 10.1016/bs.mie.2014.10.055
   handle: 20.500.11767/15196
+  isbn: 978-0-12-801429-5
   journal: COMPUTATIONAL METHODS FOR UNDERSTANDING RIBOSWITCHES
   page: '139'
   tags:
@@ -1222,6 +1227,7 @@
 - authors: Colizzi, Lamontagne, Lafontaine, Bussi
   doi: 10.1007/978-1-62703-730-3_11
   handle: 20.500.11767/15102
+  isbn: 978-1-62703-729-7; 978-1-62703-730-3
   journal: METHODS IN MOLECULAR BIOLOGY
   page: '141'
   tags:
@@ -1560,6 +1566,7 @@
   year: '2006'
 - authors: Bussi, Gervasio, Laio, Parrinello
   handle: 20.500.11767/15218
+  isbn: 978-88-86037-19-8
   journal: High Performance Computing in Science and Engineering,
   page: '587'
   tags:
@@ -1569,6 +1576,7 @@
 - authors: Bussi, Chang, Ruini, Molinari
   doi: 10.1063/1.1994460
   handle: 20.500.11767/15206
+  isbn: '9780735402577'
   journal: PHYSICS OF SEMICONDUCTORS, PTS A AND B
   page: '1025'
   tags:
@@ -1598,6 +1606,7 @@
 - authors: Caldas, Bussi, Ruini, Molinari
   doi: 10.1063/1.1994489
   handle: 20.500.11767/15152
+  isbn: '9780735402577'
   journal: PHYSICS OF SEMICONDUCTORS, PTS A AND B
   page: '1085'
   tags:
@@ -1669,6 +1678,7 @@
 - authors: Bussi, Ferretti, Ruini, Caldas, Molinari
   doi: 10.1007/978-3-540-44838-9_22
   handle: 20.500.11767/15177
+  isbn: 978-3-540-40150-6; 978-3-540-44838-9
   journal: ADVANCES IN SOLID STATE PHYSICS 43
   page: '313'
   tags:
@@ -1699,6 +1709,7 @@
   year: '2002'
 - authors: Ruini, Caldas, Bussi, Ferretti, Silva, Goldoni, Molinari
   handle: 20.500.11767/15080
+  isbn: 88-7438-004-6
   journal: Radiation-Matter interaction in confined systems
   page: '155'
   tags:
@@ -1706,4 +1717,3 @@
   title: 'Optical properties of organic materials: from single molecules to solid
     state'
   year: '2002'
-
