@@ -888,6 +888,54 @@
     Binding and RNA Flexibility
   volume: '9'
   year: '2018'
+- arxiv: '1612.08550'
+  authors: Cunha, Bussi
+  doi: 10.1261/rna.060079.116
+  handle: 20.500.11767/11944
+  issn: 1355-8382
+  journal: RNA
+  page: '628'
+  tags:
+  - '#erc2012'
+  title: Unraveling Mg2+-RNA binding with atomistic molecular dynamics
+  volume: '23'
+  year: '2017'
+- arxiv: '1612.07470'
+  authors: "Pinamonti, Zhao, Condon, Paul, No\xE8, Turner, Bussi"
+  doi: 10.1021/acs.jctc.6b00982
+  handle: 20.500.11767/17423
+  issn: 1549-9618
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  page: '926'
+  tags:
+  - '#erc2012'
+  title: Predicting the Kinetics of RNA Oligonucleotides Using Markov State Models
+  volume: '13'
+  year: '2017'
+- arxiv: '1612.05882'
+  authors: "\u0160poner, Bussi, Stadlbauer, K\xFChrov\xE1, Ban\xE1\u0161, Islam, Haider,\
+    \ Neidle, Otyepka"
+  doi: 10.1016/j.bbagen.2016.12.008
+  handle: 20.500.11767/14883
+  issn: 0304-4165
+  journal: BIOCHIMICA ET BIOPHYSICA ACTA-GENERAL SUBJECTS
+  page: '1246'
+  tags:
+  - '#erc2012'
+  title: "Folding of guanine quadruplex molecules\u2013funnel-like mechanism or kinetic\
+    \ partitioning? An overview from MD simulation studies"
+  volume: '1861'
+  year: '2017'
+- authors: Bellucci, Bussi, Di Felice, Corni
+  doi: 10.1039/C6NR06010B
+  handle: 20.500.11767/11943
+  issn: 2040-3364
+  journal: NANOSCALE
+  page: '2279'
+  title: "Fibrillation-prone conformations of the amyloid-\u03B2-42 peptide at the\
+    \ gold/water interface"
+  volume: '9'
+  year: '2017'
 - authors: Andre Cunha
   handle: 20.500.11767/59219
   journal: PHD THESIS
@@ -920,78 +968,28 @@
     RNA nucleotides
   volume: '23'
   year: '2017'
-- authors: Bellucci, Bussi, Di Felice, Corni
-  doi: 10.1039/C6NR06010B
-  handle: 20.500.11767/11943
-  issn: 2040-3364
-  journal: NANOSCALE
-  page: '2279'
-  title: "Fibrillation-prone conformations of the amyloid-\u03B2-42 peptide at the\
-    \ gold/water interface"
-  volume: '9'
-  year: '2017'
-- arxiv: '1612.05882'
-  authors: "\u0160poner, Bussi, Stadlbauer, K\xFChrov\xE1, Ban\xE1\u0161, Islam, Haider,\
-    \ Neidle, Otyepka"
-  doi: 10.1016/j.bbagen.2016.12.008
-  handle: 20.500.11767/14883
-  issn: 0304-4165
-  journal: BIOCHIMICA ET BIOPHYSICA ACTA-GENERAL SUBJECTS
-  page: '1246'
+- arxiv: '1603.08952'
+  authors: Bottaro, Gil-Ley, Bussi
+  doi: 10.1093/nar/gkw239
+  handle: 20.500.11767/11768
+  issn: 0305-1048
+  journal: NUCLEIC ACIDS RESEARCH
+  page: '5883'
   tags:
   - '#erc2012'
-  title: "Folding of guanine quadruplex molecules\u2013funnel-like mechanism or kinetic\
-    \ partitioning? An overview from MD simulation studies"
-  volume: '1861'
-  year: '2017'
-- arxiv: '1612.07470'
-  authors: "Pinamonti, Zhao, Condon, Paul, No\xE8, Turner, Bussi"
-  doi: 10.1021/acs.jctc.6b00982
-  handle: 20.500.11767/17423
+  title: RNA folding pathways in stop motion
+  volume: '44'
+  year: '2016'
+- arxiv: '1605.00934'
+  authors: Gil-Ley, Bottaro, Bussi
+  doi: 10.1021/acs.jctc.6b00299
+  handle: 20.500.11767/11774
   issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
-  page: '926'
+  page: '2790'
   tags:
   - '#erc2012'
-  title: Predicting the Kinetics of RNA Oligonucleotides Using Markov State Models
-  volume: '13'
-  year: '2017'
-- arxiv: '1612.08550'
-  authors: Cunha, Bussi
-  doi: 10.1261/rna.060079.116
-  handle: 20.500.11767/11944
-  issn: 1355-8382
-  journal: RNA
-  page: '628'
-  tags:
-  - '#erc2012'
-  title: Unraveling Mg2+-RNA binding with atomistic molecular dynamics
-  volume: '23'
-  year: '2017'
-- authors: Gil Ley
-  handle: 20.500.11767/4628
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Enhanced sampling and force field corrections for RNA oligomers
-  year: '2016'
-- authors: Pinamonti
-  handle: 20.500.11767/4905
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Studying the dynamical properties of small RNA molecules with computational
-    techniques
-  year: '2016'
-- arxiv: '1611.06156'
-  authors: Cesari, Gil-Ley, Bussi
-  doi: 10.1021/acs.jctc.6b00944
-  handle: 20.500.11767/17367
-  issn: 1549-9618
-  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
-  page: '6192'
-  tags:
-  - '#erc2012'
-  title: Combining Simulations and Solution Experiments as a Paradigm for RNA Force
-    Field Refinement
+  title: Empirical Corrections to the Amber RNA Force Field with Target Metadynamics
   volume: '12'
   year: '2016'
 - arxiv: '1609.08276'
@@ -1006,17 +1004,31 @@
   title: 'Computer Folding of RNA Tetraloops: Identification of Key Force Field Deficiencies'
   volume: '12'
   year: '2016'
-- arxiv: '1605.00934'
-  authors: Gil-Ley, Bottaro, Bussi
-  doi: 10.1021/acs.jctc.6b00299
-  handle: 20.500.11767/11774
+- arxiv: '1611.06156'
+  authors: Cesari, Gil-Ley, Bussi
+  doi: 10.1021/acs.jctc.6b00944
+  handle: 20.500.11767/17367
   issn: 1549-9618
   journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
-  page: '2790'
+  page: '6192'
   tags:
   - '#erc2012'
-  title: Empirical Corrections to the Amber RNA Force Field with Target Metadynamics
+  title: Combining Simulations and Solution Experiments as a Paradigm for RNA Force
+    Field Refinement
   volume: '12'
+  year: '2016'
+- authors: Gil Ley
+  handle: 20.500.11767/4628
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Enhanced sampling and force field corrections for RNA oligomers
+  year: '2016'
+- authors: Pinamonti
+  handle: 20.500.11767/4905
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Studying the dynamical properties of small RNA molecules with computational
+    techniques
   year: '2016'
 - arxiv: '1609.07898'
   authors: "Bottaro, Ban\xE1\u0161, \u0160poner, Bussi"
@@ -1030,25 +1042,6 @@
   title: Free Energy Landscape of GAGA and UUCG RNA Tetraloops
   volume: '7'
   year: '2016'
-- arxiv: '1603.08952'
-  authors: Bottaro, Gil-Ley, Bussi
-  doi: 10.1093/nar/gkw239
-  handle: 20.500.11767/11768
-  issn: 0305-1048
-  journal: NUCLEIC ACIDS RESEARCH
-  page: '5883'
-  tags:
-  - '#erc2012'
-  title: RNA folding pathways in stop motion
-  volume: '44'
-  year: '2016'
-- authors: Perez Villa
-  handle: 20.500.11767/4862
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: 'Translocation of NS3 from Hepatitis C Virus on RNA: Insights from Atomistic
-    Molecular Simulations'
-  year: '2015'
 - arxiv: '1412.3916'
   authors: "Ferrarotti, Bottaro, P\xE9rez-Villa, Bussi"
   doi: 10.1021/ct5007086
@@ -1060,6 +1053,13 @@
   - '#erc2012'
   title: Accurate multiple time step in biased molecular simulations
   volume: '11'
+  year: '2015'
+- authors: Perez Villa
+  handle: 20.500.11767/4862
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: 'Translocation of NS3 from Hepatitis C Virus on RNA: Insights from Atomistic
+    Molecular Simulations'
   year: '2015'
 - arxiv: '1508.05199'
   authors: "P\xE9rez-Villa, Darvas, Bussi"
@@ -1164,11 +1164,18 @@
     in riboswitches
   volume: '553'
   year: '2015'
-- authors: Di Palma
-  handle: 20.500.11767/3889
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: Conformational changes  in the adenine riboswitch
+- arxiv: '1310.0980'
+  authors: Tribello, Bonomi, Branduardi, Camilloni, Bussi
+  doi: 10.1016/j.cpc.2013.09.018
+  handle: 20.500.11767/11534
+  issn: 0010-4655
+  journal: COMPUTER PHYSICS COMMUNICATIONS
+  page: '604'
+  tags:
+  - '#firb2012'
+  - '#erc2012'
+  title: 'PLUMED 2: New feathers for an old bird'
+  volume: '185'
   year: '2014'
 - authors: "Jaafar, Pignedoli, Bussi, A\xEFt-Mansour, Groening, Amaya, Hirao, Fasel,\
     \ Ruffieux"
@@ -1179,6 +1186,12 @@
   page: '13666'
   title: Bowl inversion of surface-adsorbed sumanene
   volume: '136'
+  year: '2014'
+- authors: Di Palma
+  handle: 20.500.11767/3889
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: Conformational changes  in the adenine riboswitch
   year: '2014'
 - arxiv: '1401.0387'
   authors: Abrams, Bussi
@@ -1206,19 +1219,6 @@
   title: 'Hamiltonian replica exchange in GROMACS: A flexible implementation'
   volume: '112'
   year: '2014'
-- arxiv: '1310.0980'
-  authors: Tribello, Bonomi, Branduardi, Camilloni, Bussi
-  doi: 10.1016/j.cpc.2013.09.018
-  handle: 20.500.11767/11534
-  issn: 0010-4655
-  journal: COMPUTER PHYSICS COMMUNICATIONS
-  page: '604'
-  tags:
-  - '#firb2012'
-  - '#erc2012'
-  title: 'PLUMED 2: New feathers for an old bird'
-  volume: '185'
-  year: '2014'
 - authors: Colizzi, Lamontagne, Lafontaine, Bussi
   doi: 10.1007/978-1-62703-730-3_11
   handle: 20.500.11767/15102
@@ -1243,20 +1243,6 @@
   title: The role of nucleobase interactions in RNA structure and dynamics
   volume: '42'
   year: '2014'
-- arxiv: '1309.5717'
-  authors: Di Palma, Colizzi, Bussi
-  doi: 10.1261/rna.040493.113
-  handle: 20.500.11767/11521
-  issn: 1355-8382
-  journal: RNA
-  page: '1517'
-  tags:
-  - '#erc2012'
-  - '#iscrab2012a'
-  title: Ligand-induced stabilization of the aptamer terminal helix in the add adenine
-    riboswitch
-  volume: '19'
-  year: '2013'
 - arxiv: '1307.5565'
   authors: Do, Carloni, Varani, Bussi
   doi: 10.1021/ct3009914
@@ -1271,6 +1257,20 @@
     pulling simulations
   volume: '9'
   year: '2013'
+- arxiv: '1309.5717'
+  authors: Di Palma, Colizzi, Bussi
+  doi: 10.1261/rna.040493.113
+  handle: 20.500.11767/11521
+  issn: 1355-8382
+  journal: RNA
+  page: '1517'
+  tags:
+  - '#erc2012'
+  - '#iscrab2012a'
+  title: Ligand-induced stabilization of the aptamer terminal helix in the add adenine
+    riboswitch
+  volume: '19'
+  year: '2013'
 - authors: Franco, Sgrignani, Bussi, Magistrato
   doi: 10.1021/ci4001647
   handle: 20.500.11767/11517
@@ -1281,24 +1281,6 @@
     DNA duplexes. Clues from atomistic simulations
   volume: '53'
   year: '2013'
-- authors: Do
-  handle: 20.500.11767/4787
-  journal: PHD THESIS
-  publication_type: PhD thesis
-  title: 'Investigating Peptide/RNA binding in Anti-HIV research by molecular simulations:
-    electrostatic recognition and accelerated sampling'
-  year: '2012'
-- arxiv: '1205.3282'
-  authors: Ferretti, Mallia, Martin-Samos, Bussi, Ruini, Montanari, Harrison
-  doi: 10.1103/PhysRevB.85.235105
-  handle: 20.500.11767/12390
-  issn: 2469-9950
-  journal: PHYSICAL REVIEW B
-  page: '235105'
-  title: 'Ab initio complex band structure of conjugated polymers: Effects of hydrid
-    density functional theory and GW schemes'
-  volume: '85'
-  year: '2012'
 - arxiv: '1205.4300'
   authors: Branduardi, Bussi, Parrinello
   doi: 10.1021/ct3002464
@@ -1310,6 +1292,17 @@
   - '#firb2012'
   title: Metadynamics with adaptive gaussians
   volume: '8'
+  year: '2012'
+- arxiv: '1205.3282'
+  authors: Ferretti, Mallia, Martin-Samos, Bussi, Ruini, Montanari, Harrison
+  doi: 10.1103/PhysRevB.85.235105
+  handle: 20.500.11767/12390
+  issn: 2469-9950
+  journal: PHYSICAL REVIEW B
+  page: '235105'
+  title: 'Ab initio complex band structure of conjugated polymers: Effects of hydrid
+    density functional theory and GW schemes'
+  volume: '85'
   year: '2012'
 - arxiv: '1203.5866'
   authors: Colizzi, Bussi
@@ -1334,6 +1327,13 @@
   title: 'Role of the subunit interactions in the conformational transitions in adult
     human hemoglobin: An explicit solvent molecular dynamics study'
   volume: '116'
+  year: '2012'
+- authors: Do
+  handle: 20.500.11767/4787
+  journal: PHD THESIS
+  publication_type: PhD thesis
+  title: 'Investigating Peptide/RNA binding in Anti-HIV research by molecular simulations:
+    electrostatic recognition and accelerated sampling'
   year: '2012'
 - authors: Benedetti, Micheletti, Bussi, Sekatskii, Dietler
   doi: 10.1016/j.bpj.2011.07.047
