@@ -11,6 +11,19 @@ title: Publications
   </span>
   <a id="download-csv" href="{{ '/publications.csv' | relative_url }}" download>Download CSV</a>
 </div>
+<details id="search-tips">
+  <summary>Search tips</summary>
+  <div id="search-tip-content">
+    <div id="search-tip-intro">
+      <span>Frequent matches — click a suggestion to refine the current search</span>
+      <label id="suggestion-weighting" title="Uncheck to use only a 1% yearly recency preference">
+        (<input type="checkbox" id="favor-recent" checked>
+        favor recent publications)
+      </label>
+    </div>
+    <div id="search-tip-facets"></div>
+  </div>
+</details>
 
 <!-- Posts List -->
 <!-- Posts List -->
@@ -19,12 +32,14 @@ title: Publications
     {% assign publication_authors = post.authors | split: ", " %}
     {% capture searchable_authors %}{% for author in publication_authors %}{{ author }}{% if post.corresponding_author_positions contains forloop.index %}*{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
     {% capture corresponding_authors %}{% for author in publication_authors %}{% if post.corresponding_author_positions contains forloop.index %}{{ author }}|{% endif %}{% endfor %}{% endcapture %}
+    {% capture publication_tags %}{% for tag in post.tags %}#{{ tag | remove_first: '#' }}|{% endfor %}{% endcapture %}
     <div class="post-data"
          data-text="{{ searchable_authors | strip | escape }} {{ post.title | escape }} {{ post.journal | escape }} {{ post.volume }} {{ post.page }} {{ post.year }} {{ post.doi }} {{ post.handle }} {{ post.arxiv }} {{ post.biorxiv }} {{ post.tags | escape }}"
          data-author="{{ searchable_authors | strip | escape }}"
          data-corresponding-author="{{ corresponding_authors | escape }}"
          data-title="{{ post.title | escape }}"
          data-journal="{{ post.journal | escape }}"
+         data-tags="{{ publication_tags | escape }}"
          data-year="{{ post.year }}">
       <!-- Authors, Title, and Citation -->
       <p class="publication-details">
@@ -105,6 +120,11 @@ title: Publications
 let maxPosts = 10; // Default posts per page
 let skipPosts = 0; // Default start at the first post
 let filteredPosts = []; // Store filtered posts after search
+const facetDecaySettings = {
+  all: 0.99,
+  recent: 0.8
+};
+let selectedFacetDecay = "recent";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Fetch all posts from the hidden container
@@ -118,6 +138,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("search-box").value = query;
   document.getElementById("posts-per-page").value = maxPosts;
+
+  selectedFacetDecay = loadFacetDecaySetting();
+  updateFacetDecayControls();
+  document.getElementById("favor-recent").addEventListener("change", event => {
+    setFacetDecaySetting(event.target.checked ? "recent" : "all");
+  });
 
   // Attach the input listener to the search box
   document.getElementById("search-box").addEventListener("input", () => {
@@ -156,8 +182,160 @@ function filterPosts(allPosts) {
     });
   });
 
+  updateSearchTips();
+
   // Immediately render posts after filtering
   renderPosts();
+}
+
+function addFacetValue(facetMap, label, weight) {
+  const cleanedLabel = label.trim();
+  if (!cleanedLabel) return;
+
+  const key = normalizeString(cleanedLabel.toLowerCase());
+  const existing = facetMap.get(key);
+  if (existing) {
+    existing.count += 1;
+    existing.score += weight;
+  } else {
+    facetMap.set(key, {
+      label: cleanedLabel,
+      count: 1,
+      score: weight
+    });
+  }
+}
+
+function topFacetValues(facetMap, limit) {
+  return Array.from(facetMap.values())
+    .sort((a, b) =>
+      b.score - a.score ||
+      a.label.localeCompare(b.label)
+    )
+    .slice(0, limit);
+}
+
+function loadFacetDecaySetting() {
+  try {
+    const savedSetting = localStorage.getItem("publicationSuggestionWeighting");
+    if (Object.prototype.hasOwnProperty.call(facetDecaySettings, savedSetting)) return savedSetting;
+  } catch (error) {
+    // Suggestions still work when browser storage is unavailable.
+  }
+  return "recent";
+}
+
+function updateFacetDecayControls() {
+  document.getElementById("favor-recent").checked = selectedFacetDecay === "recent";
+}
+
+function setFacetDecaySetting(setting) {
+  if (!Object.prototype.hasOwnProperty.call(facetDecaySettings, setting)) return;
+
+  selectedFacetDecay = setting;
+  updateFacetDecayControls();
+  try {
+    localStorage.setItem("publicationSuggestionWeighting", setting);
+  } catch (error) {
+    // Keep the setting for this page view when browser storage is unavailable.
+  }
+  updateSearchTips();
+}
+
+function facetWeightForPublication(post) {
+  const publicationYear = Number.parseInt(post.dataset.year, 10);
+  const currentYear = new Date().getFullYear();
+  const age = Number.isFinite(publicationYear)
+    ? Math.max(0, currentYear - publicationYear)
+    : 0;
+  return facetDecaySettings[selectedFacetDecay] ** age;
+}
+
+function quotedSearchValue(value) {
+  return `"${value.replace(/"/g, "")}"`;
+}
+
+function appendSearchTerm(term) {
+  const searchBox = document.getElementById("search-box");
+  const currentQuery = searchBox.value.trim();
+  searchBox.value = currentQuery ? `${currentQuery}&${term}` : term;
+  searchBox.dispatchEvent(new Event("input", { bubbles: true }));
+  searchBox.focus();
+}
+
+function addSearchTipRow(container, heading, values, termForValue) {
+  if (values.length === 0) return;
+
+  const row = document.createElement("div");
+  row.className = "search-tip-row";
+
+  const label = document.createElement("span");
+  label.className = "search-tip-label";
+  label.textContent = `${heading}:`;
+  row.appendChild(label);
+
+  values.forEach(value => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "search-tip";
+    button.textContent = `${value.label} (${value.count})`;
+    button.addEventListener("click", () => appendSearchTerm(termForValue(value)));
+    row.appendChild(button);
+  });
+
+  container.appendChild(row);
+}
+
+function updateSearchTips() {
+  const facets = document.getElementById("search-tip-facets");
+  facets.replaceChildren();
+
+  const journals = new Map();
+  const authors = new Map();
+  const tags = new Map();
+  let thesisCount = 0;
+
+  filteredPosts.forEach(post => {
+    const weight = facetWeightForPublication(post);
+    const journal = post.dataset.journal.trim();
+    if (normalizeString(journal.toLowerCase()) === "phd thesis") {
+      thesisCount += 1;
+    } else {
+      addFacetValue(journals, journal, weight);
+    }
+
+    // A trailing star marks corresponding authorship, which is deliberately
+    // ignored when building general author suggestions.
+    const postAuthors = new Set(
+      post.dataset.author.split(",")
+        .map(author => author.trim().replace(/\*$/, ""))
+        .filter(Boolean)
+    );
+    postAuthors.forEach(author => addFacetValue(authors, author, weight));
+
+    const postTags = new Set(post.dataset.tags.split("|").filter(Boolean));
+    postTags.forEach(tag => addFacetValue(tags, tag, weight));
+  });
+
+  addSearchTipRow(facets, "Journals", topFacetValues(journals, 3), value =>
+    `journal:=${quotedSearchValue(value.label)}`
+  );
+
+  if (thesisCount > 0) {
+    addSearchTipRow(facets, "Type", [{
+      label: "PHD THESIS",
+      count: thesisCount
+    }], value => `journal:=${quotedSearchValue(value.label)}`);
+  }
+
+  addSearchTipRow(facets, "Authors", topFacetValues(authors, 4), value =>
+    `author:${quotedSearchValue(value.label)}`
+  );
+  addSearchTipRow(facets, "Tags", topFacetValues(tags, 4), value => value.label);
+
+  if (!facets.hasChildNodes()) {
+    facets.textContent = "No refinements are available for this selection.";
+  }
 }
 
 function splitSearchExpression(expression, separator) {
@@ -348,7 +526,88 @@ function updateMaxPosts() {
   gap: 1rem;
   justify-content: space-between;
   margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+#search-tips {
+  color: #888;
+  font-size: 0.82rem;
   margin-bottom: 20px;
+}
+
+#search-tips summary {
+  color: #999;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+}
+
+#search-tips summary::-webkit-details-marker {
+  display: none;
+}
+
+#search-tips summary::before {
+  content: "\25b8\00a0";
+}
+
+#search-tips[open] summary::before {
+  content: "\25be\00a0";
+}
+
+#search-tip-content {
+  border-left: 2px solid #eee;
+  margin-top: 0.4rem;
+  padding: 0.15rem 0 0.15rem 0.75rem;
+}
+
+.search-tip-row {
+  margin: 0.25rem 0;
+}
+
+#search-tip-intro {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0.25rem 0 0.45rem;
+}
+
+#suggestion-weighting {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 0.35rem;
+  margin: 0;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+#favor-recent {
+  margin: 0;
+}
+
+.search-tip-label {
+  font-weight: 600;
+  margin-right: 0.4rem;
+}
+
+.search-tip {
+  appearance: none;
+  background: none;
+  border: 0;
+  color: #777;
+  cursor: pointer;
+  font: inherit;
+  margin: 0 0.65rem 0.15rem 0;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: #bbb;
+  text-underline-offset: 2px;
+}
+
+.search-tip:hover,
+.search-tip:focus-visible {
+  color: #1e6bb8;
 }
 
 #download-csv {
