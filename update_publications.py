@@ -77,14 +77,20 @@ def write_publications_csv(publications, path="publications.csv"):
 
 def extract_authors(raw_data):
     """Extract list of authors from IRIS raw data."""
-    authors = [item[1] for item in raw_data if item[0] == "scopus.contributor.surname"]
+    def surname_only(value):
+        # A few IRIS surname fields include trailing initials (for example,
+        # "Bonomi M." or "Tribello G. A.").  Remove only final one-letter
+        # initials so author searches remain consistent across records.
+        return re.sub(r"(?:\s+[^\W\d_]\.)+$", "", value.strip())
+
+    authors = [surname_only(item[1]) for item in raw_data if item[0] == "scopus.contributor.surname"]
     if len(authors)!=0:
         return authors
-    authors = [item[1] for item in raw_data if item[0] == "isi.contributor.surname"]
+    authors = [surname_only(item[1]) for item in raw_data if item[0] == "isi.contributor.surname"]
     if len(authors)!=0:
         return authors
     #authors = [item[1].split()[0].rstrip(",") for item in raw_data if item[0] == "dc.authority.people"]
-    authors = [item[1].split(",")[0] for item in raw_data if item[0] == "dc.authority.people"]
+    authors = [surname_only(item[1].split(",")[0]) for item in raw_data if item[0] == "dc.authority.people"]
     if len(authors)!=0:
         return authors
     raise RuntimeError("Missing authors")

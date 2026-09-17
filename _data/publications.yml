@@ -816,18 +816,15 @@
   title: Analyzing and Biasing Simulations with PLUMED
   volume: '2022'
   year: '2019'
-- authors: Bonomi M., Bussi G., Camilloni C., Tribello G. A., Banas P., Barducci A.,
-    Bernetti, Bolhuis P. G., Bottaro S., Branduardi D., Capelli R., Carloni P., Ceriotti
-    M., Cesari A., Chen H., Chen W., Colizzi F., De S., De La Pierre M., Donadio D.,
-    Drobot V., Ensing B., Ferguson A. L., Filizola M., Fraser J. S., Fu H., Gasparotto
-    P., Gervasio F. L., Giberti F., Gil-Ley A., Giorgino T., Heller G. T., Hocky G.
-    M., Iannuzzi M., Invernizzi M., Jelfs K. E., Jussupow A., Kirilin E., Laio A.,
-    Limongelli V., Lindorff-Larsen K., Lohr T., Marinelli F., Martin-Samos L., Masetti
-    M., Meyer R., Michaelides A., Molteni C., Morishita T., Nava M., Paissoni C.,
-    Papaleo E., Parrinello M., Pfaendtner J., Piaggi P., Piccini G. M., Pietropaolo
-    A., Pietrucci F., Pipolo S., Provasi D., Quigley D., Raiteri P., Raniolo S., Rydzewski
-    J., Salvalaglio M., Sosso G. C., Spiwok V., Sponer J., Swenson D. W. H., Tiwary
-    P., Valsson O., Vendruscolo M., Voth G. A., White A.
+- authors: Bonomi, Bussi, Camilloni, Tribello, Banas, Barducci, Bernetti, Bolhuis,
+    Bottaro, Branduardi, Capelli, Carloni, Ceriotti, Cesari, Chen, Chen, Colizzi, De,
+    De La Pierre, Donadio, Drobot, Ensing, Ferguson, Filizola, Fraser, Fu, Gasparotto,
+    Gervasio, Giberti, Gil-Ley, Giorgino, Heller, Hocky, Iannuzzi, Invernizzi, Jelfs,
+    Jussupow, Kirilin, Laio, Limongelli, Lindorff-Larsen, Lohr, Marinelli, Martin-Samos,
+    Masetti, Meyer, Michaelides, Molteni, Morishita, Nava, Paissoni, Papaleo, Parrinello,
+    Pfaendtner, Piaggi, Piccini, Pietropaolo, Pietrucci, Pipolo, Provasi, Quigley,
+    Raiteri, Raniolo, Rydzewski, Salvalaglio, Sosso, Spiwok, Sponer, Swenson, Tiwary,
+    Valsson, Vendruscolo, Voth, White
   corresponding_author_positions:
   - 1
   - 2
