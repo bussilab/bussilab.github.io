@@ -26,12 +26,6 @@
   tags:
   - '#preprint'
   title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
-- arxiv: '2512.20581'
-  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
-  tags:
-  - '#preprint'
-  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
-    with chemical probing'
 - authors: Palmer, Chauvier, Silva, Ontiveros, Bussi, Walter, Mishanina
   biorxiv: 10.64898/2026.02.18.706685
   tags:
@@ -134,6 +128,21 @@
   - '#eurohpc2024'
   title: Blind Prediction of Complex Water and Ion Ensembles Around RNA in CASP16
   volume: '94'
+  year: '2026'
+- arxiv: '2512.20581'
+  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
+  corresponding_author_positions:
+  - 5
+  doi: 10.1093/nar/gkag917
+  handle: 20.500.11767/153690
+  issn: 0305-1048
+  journal: NUCLEIC ACIDS RESEARCH
+  page: gkag917
+  tags:
+  - '#rnascale'
+  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
+    with chemical probing'
+  volume: '54'
   year: '2026'
 - authors: Posani
   handle: 20.500.11767/148091
