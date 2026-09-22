@@ -663,6 +663,7 @@ def sort_database(biblio_list):
     1. Items without 'year' come first.
     2. Items with 'year' are sorted in decreasing year order.
     3. Within each group, items are sorted by most recent accession_date.
+       These without accession_date are placed first
     4. Finally, items are sorted alphabetically by 'title'
     """
 
@@ -670,7 +671,7 @@ def sort_database(biblio_list):
         # Check if 'year' exists; if not, assign a default high value (e.g., None comes before any year)
         year = item.get("year")
         title = item.get("title", "")
-        accession_date = item.get("accession_date", "").strip()
+        accession_date = item.get("accession_date", "3000/01/01").strip()
 
         try:
             date_obj = parser.parse(accession_date)

@@ -26,6 +26,39 @@
   tags:
   - '#preprint'
   title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
+- arxiv: '2512.20581'
+  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
+  corresponding_author_positions:
+  - 5
+  doi: 10.1093/nar/gkag917
+  handle: 20.500.11767/153690
+  issn: 0305-1048
+  journal: NUCLEIC ACIDS RESEARCH
+  page: gkag917
+  tags:
+  - '#rnascale'
+  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
+    with chemical probing'
+  volume: '54'
+  year: '2026'
+- authors: Palmer, Chauvier, Silva, Ontiveros, Bussi, Walter, Mishanina
+  biorxiv: 10.64898/2026.02.18.706685
+  corresponding_author_positions:
+  - 6
+  - 7
+  doi: 10.1093/nar/gkag905
+  handle: 20.500.11767/153691
+  issn: 0305-1048
+  journal: NUCLEIC ACIDS RESEARCH
+  page: gkag905
+  tags:
+  - '#prin2022'
+  - '#pnrr2022'
+  - '#embo2022'
+  title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline
+    activation to metal sensing
+  volume: '54'
+  year: '2026'
 - authors: Mlynsky, Kuhrova, Bussi, Otyepka, Sponer, Banas
   biorxiv: 10.64898/2026.03.20.713292
   corresponding_author_positions:
@@ -122,39 +155,6 @@
   - '#eurohpc2024'
   title: Blind Prediction of Complex Water and Ion Ensembles Around RNA in CASP16
   volume: '94'
-  year: '2026'
-- arxiv: '2512.20581'
-  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
-  corresponding_author_positions:
-  - 5
-  doi: 10.1093/nar/gkag917
-  handle: 20.500.11767/153690
-  issn: 0305-1048
-  journal: NUCLEIC ACIDS RESEARCH
-  page: gkag917
-  tags:
-  - '#rnascale'
-  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
-    with chemical probing'
-  volume: '54'
-  year: '2026'
-- authors: Palmer, Chauvier, Silva, Ontiveros, Bussi, Walter, Mishanina
-  biorxiv: 10.64898/2026.02.18.706685
-  corresponding_author_positions:
-  - 6
-  - 7
-  doi: 10.1093/nar/gkag905
-  handle: 20.500.11767/153691
-  issn: 0305-1048
-  journal: NUCLEIC ACIDS RESEARCH
-  page: gkag905
-  tags:
-  - '#prin2022'
-  - '#pnrr2022'
-  - '#embo2022'
-  title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline
-    activation to metal sensing
-  volume: '54'
   year: '2026'
 - authors: Posani
   handle: 20.500.11767/148091
