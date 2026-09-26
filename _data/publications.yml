@@ -4,12 +4,6 @@
   - '#preprint'
   title: 'Bayesian Sampling of Structural Ensembles: The Role of Ensemble-Counting
     Measures'
-- arxiv: '2604.19622'
-  authors: Lin, Dasgupta, Yang, Malosso, Sormani, Egan, Bussi, Hassanali, Cremer
-  tags:
-  - '#preprint'
-  title: 'Beyond the Virial Expansion: Microscopic Origins of Partial Molar Volumes
-    in LiCl Solutions'
 - arxiv: '2507.14413'
   authors: "Colizzi, Bl\xE1zquez-S\xE1nchez, Bussi, Andr\xE9, Ballabio, Bayer, Bertocchini,\
     \ Butensch\xF6n, Carosati, Piero, Pede-Mattatelli, Faggian, Favaro, Fernandes,\
@@ -26,6 +20,18 @@
   tags:
   - '#preprint'
   title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
+- arxiv: '2604.19622'
+  authors: Lin, Dasgupta, Yang, Malosso, Sormani, Egan, Bussi, Hassanali, Cremer
+  corresponding_author_positions:
+  - 8
+  - 9
+  doi: 10.1021/jacs.6c08519
+  handle: 20.500.11767/153911
+  issn: 0002-7863
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  title: 'Beyond the Virial Expansion: Microscopic Origins of Partial Molar Volumes
+    in LiCl Solutions'
+  year: '2026'
 - arxiv: '2512.20581'
   authors: Sacco, Li, Smyth, Sanguinetti, Bussi
   corresponding_author_positions:
