@@ -20,33 +20,6 @@
   tags:
   - '#preprint'
   title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
-- arxiv: '2604.19622'
-  authors: Lin, Dasgupta, Yang, Malosso, Sormani, Egan, Bussi, Hassanali, Cremer
-  corresponding_author_positions:
-  - 8
-  - 9
-  doi: 10.1021/jacs.6c08519
-  handle: 20.500.11767/153911
-  issn: 0002-7863
-  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
-  title: 'Beyond the Virial Expansion: Microscopic Origins of Partial Molar Volumes
-    in LiCl Solutions'
-  year: '2026'
-- arxiv: '2512.20581'
-  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
-  corresponding_author_positions:
-  - 5
-  doi: 10.1093/nar/gkag917
-  handle: 20.500.11767/153690
-  issn: 0305-1048
-  journal: NUCLEIC ACIDS RESEARCH
-  page: gkag917
-  tags:
-  - '#rnascale'
-  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
-    with chemical probing'
-  volume: '54'
-  year: '2026'
 - authors: Palmer, Chauvier, Silva, Ontiveros, Bussi, Walter, Mishanina
   biorxiv: 10.64898/2026.02.18.706685
   corresponding_author_positions:
@@ -64,6 +37,33 @@
   title: pH-dependent allosteric remodeling of a bacterial riboswitch couples alkaline
     activation to metal sensing
   volume: '54'
+  year: '2026'
+- arxiv: '2512.20581'
+  authors: Sacco, Li, Smyth, Sanguinetti, Bussi
+  corresponding_author_positions:
+  - 5
+  doi: 10.1093/nar/gkag917
+  handle: 20.500.11767/153690
+  issn: 0305-1048
+  journal: NUCLEIC ACIDS RESEARCH
+  page: gkag917
+  tags:
+  - '#rnascale'
+  title: 'MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles
+    with chemical probing'
+  volume: '54'
+  year: '2026'
+- arxiv: '2604.19622'
+  authors: Lin, Dasgupta, Yang, Malosso, Sormani, Egan, Bussi, Hassanali, Cremer
+  corresponding_author_positions:
+  - 8
+  - 9
+  doi: 10.1021/jacs.6c08519
+  handle: 20.500.11767/153911
+  issn: 0002-7863
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  title: 'Beyond the Virial Expansion: Microscopic Origins of Partial Molar Volumes
+    in LiCl Solutions'
   year: '2026'
 - authors: Mlynsky, Kuhrova, Bussi, Otyepka, Sponer, Banas
   biorxiv: 10.64898/2026.03.20.713292
