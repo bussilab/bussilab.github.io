@@ -79,7 +79,7 @@
   title: 'Beyond the Virial Expansion: Microscopic Origins of Partial Molar Volumes
     in LiCl Solutions'
   year: '2026'
-- authors: Mlynsky, Kuhrova, Bussi, Otyepka, Sponer, Banas
+- authors: "Ml\xFDnsk\xFD, K\xFChrov\xE1, Bussi, Otyepka, \u0160poner, Ban\xE1\u0161"
   biorxiv: 10.64898/2026.03.20.713292
   corresponding_author_positions:
   - 6
@@ -92,6 +92,7 @@
   - '#pnrr2022'
   title: 'From gHBfix to NBfix: Reweighting-Driven Refinement of Hydrogen-Bond Interactions
     in RNA Force Fields'
+  volume: '22'
   year: '2026'
 - arxiv: '2507.08474'
   authors: "Languin-Catto\xEBn, Bussi"
