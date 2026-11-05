@@ -1,9 +1,3 @@
-- arxiv: '2606.18495'
-  authors: Gilardoni, Bussi
-  tags:
-  - '#preprint'
-  title: 'Bayesian Sampling of Structural Ensembles: The Role of Ensemble-Counting
-    Measures'
 - arxiv: '2507.14413'
   authors: "Colizzi, Bl\xE1zquez-S\xE1nchez, Bussi, Andr\xE9, Ballabio, Bayer, Bertocchini,\
     \ Butensch\xF6n, Carosati, Piero, Pede-Mattatelli, Faggian, Favaro, Fernandes,\
@@ -20,6 +14,21 @@
   tags:
   - '#preprint'
   title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
+- arxiv: '2606.18495'
+  authors: Gilardoni, Bussi
+  corresponding_author_positions:
+  - 2
+  doi: 10.1063/5.0349150
+  handle: 20.500.11767/154410
+  issn: 0021-9606
+  journal: THE JOURNAL OF CHEMICAL PHYSICS
+  page: '174117'
+  tags:
+  - '#rnascale'
+  title: 'Bayesian sampling of structural ensembles: The role of ensemble-counting
+    measures'
+  volume: '165'
+  year: '2026'
 - authors: Sacco
   handle: 20.500.11767/153850
   journal: PHD THESIS
