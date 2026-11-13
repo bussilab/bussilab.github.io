@@ -1,3 +1,11 @@
+- date: '2026-11-13'
+  text: "\U0001F9EC New #preprint! Silscore: predicting #siRNA potency from thermodynamics\
+    \ and sequence. Led by Giuseppe Sacco, with Guido Sanguinetti, Giovanni Bussi\
+    \ and collaborators at Silthera and Univ. of L\u2019Aquila. An interpretable model\
+    \ with strong predictive performance!\n\n<a href=\"https://arxiv.org/abs/2611.15812\"\
+    \ target=\"_blank\">arxiv.org/abs/2611.15812</a>"
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3n26js75wk22w
+  url: https://bsky.app/profile/bussilab.org/post/3n26js75wk22w
 - date: '2026-11-11'
   text: "Our manuscript on counting molecular ensembles in #Bayesian ensemble refinement\
     \ has been published in the Journal of Chemical Physics @aip-publishing.bsky.social\

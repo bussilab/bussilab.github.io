@@ -14,6 +14,12 @@
   tags:
   - '#preprint'
   title: Enhanced sampling and cryo-EM data resolve magnesium binding to RNA
+- arxiv: '2611.15812'
+  authors: Sacco, Baldini, Paone, Capulli, Sanguinetti, Bussi
+  tags:
+  - '#preprint'
+  title: 'Silscore: modelling siRNA potency with positional thermodynamics and data-selected
+    nucleotide-identity terms'
 - arxiv: '2606.18495'
   authors: Gilardoni, Bussi
   corresponding_author_positions:
