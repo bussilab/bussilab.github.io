@@ -1,3 +1,10 @@
+- date: '2026-11-25'
+  text: "Together with Francisco Carrazcosa (Pozna\u0144 University of Technology)\
+    \ and @sdimarco.bsky.social , we combined RNAComposer homology modeling and solute-tempering\
+    \ MD to predict RNA structures. We missed the #CASP17 deadline, but deposited\
+    \ predictions on zenodo for comparison with official results!"
+  uri: at://did:plc:bfw2iehmbpwq3wjhzya2m2ck/app.bsky.feed.post/3n356tej5bk2g
+  url: https://bsky.app/profile/bussilab.org/post/3n356tej5bk2g
 - date: '2026-11-16'
   text: 'Our research presented at the @cecamevents.bsky.social meeting on #RNA modifications
     at the Crossroads of simulations, chemistry and biology in Paris <a href="https://www.cecam.org/workshop-details/rna-modifications-at-the-crossroads-of-simulations-chemistry-and-biology-1532"
